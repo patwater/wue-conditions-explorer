@@ -1,0 +1,41 @@
+stage,check,n_seeds,n_pass,n_skip,overall
+01_geography,"block group average household size within [2, 4]",20,20,0,TRUE
+01_geography,"block group median income within [25,000, 250,000]",20,20,0,TRUE
+01_geography,"block group median year built within [1940, 2010]",20,20,0,TRUE
+01_geography,zip and block group counts,20,20,0,TRUE
+02_accounts,"account year built within [1900, 2009]",20,20,0,TRUE
+02_accounts,class shares within 1 percentage point of configuration,20,20,0,TRUE
+02_accounts,inland and valley median irrigable area exceeds Surf City,20,20,0,TRUE
+02_accounts,"irrigation account area within [5,000, 200,000]",20,20,0,TRUE
+02_accounts,"single family irrigable area within [500, 40,000]",20,20,0,TRUE
+03_occupancy,closures are rare,20,20,0,TRUE
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,20,20,0,TRUE
+03_occupancy,new construction rate near 1 percent of accounts per year,20,20,0,TRUE
+03_occupancy,new construction year built equals first billing year,20,20,0,TRUE
+03_occupancy,realized single family turnover rate per year,20,20,0,TRUE
+03_occupancy,vacancy gaps between 0 and 3 months,20,20,0,TRUE
+04_climate,drought water years drier than baseline in every retailer,20,18,0,TRUE
+04_climate,drought water years slightly higher in ET0 than baseline,20,20,0,TRUE
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,20,20,0,TRUE
+04_climate,precipitation concentrated November through March,20,20,0,TRUE
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,20,20,0,TRUE
+05_usage,median single family usage June-December 2015 vs same months of 2013,20,20,0,TRUE
+05_usage,occupied single family account-months between 0 and 100 CCF,20,20,0,TRUE
+05_usage,outdoor share larger inland and in the valley than in Surf City,20,20,0,TRUE
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,20,20,0,TRUE
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,20,20,0,TRUE
+05_usage,prior predictive: share of draws meeting both thresholds,20,20,0,TRUE
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,20,20,0,TRUE
+05_usage,single family annual totals between 100 and 600 CCF,20,20,0,TRUE
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,20,20,0,TRUE
+06_treatment,feasibility: treated usage never below indoor demand,20,20,0,TRUE
+06_treatment,logistic regression recovers the selection coefficient signs,20,20,0,TRUE
+06_treatment,planted January-March monthly mean,20,20,0,TRUE
+06_treatment,planted July-September monthly mean,20,20,0,TRUE
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",20,20,0,TRUE
+06_treatment,planted mean exceeds planted median,20,20,0,TRUE
+06_treatment,planted quartiles (reported),20,20,0,TRUE
+06_treatment,planted share above 60 gal/sqft/yr,20,20,0,TRUE
+06_treatment,planted share at or below zero,20,20,0,TRUE
+06_treatment,share of treated household-months where the cap binds (reported),20,20,0,TRUE
+06_treatment,treated share of single family candidates,20,20,0,TRUE

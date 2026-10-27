@@ -1,0 +1,3 @@
+model,estimate,se,n_blocks
+stacked_did_fixest,17.389671899911,7.01904863683309,175
+metafor_rma_household,15.8255460023444,5.02560276462981,175

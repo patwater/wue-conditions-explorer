@@ -1,0 +1,312 @@
+# Synthetic SCUBA and turf rebate generator: parameters.
+#
+# THE DATA PRODUCED FROM THIS FILE IS SIMULATED. It must not be mistaken for real utility records.
+#
+# Every parameter is a node with a `value` and a `source` tag:
+#   catalogue  taken from the SCUBA metadata catalogue
+#              (California-Data-Collaborative/metadata_catalogue, commit 623bace)
+#   paper      taken from Schmitt, Tull and Atwater (2018), Annals of Applied Statistics 12(4)
+#   assumed    chosen for this generator because the sources are silent; a `rationale` explains it
+# Profiles in config/profiles/ override the sizes in the `profile` block.
+
+seed:
+  root_seed: {value: 20181201, source: assumed, rationale: "Arbitrary fixed root seed. Every RNG stream is derived from it, the stage name and the unit ID."}
+
+panel:
+  start_month: {value: "2010-01-01", source: paper, rationale: "First monthly bill in the paper's figures."}
+  end_month: {value: "2016-04-01", source: paper, rationale: "Last monthly bill in the paper's figures, giving 76 months."}
+  analysis_pre_months: {value: 24, source: paper}
+  analysis_post_months: {value: 12, source: paper}
+
+units:
+  gallons_per_ccf: {value: 748.052, source: paper}
+  ccf_per_af: {value: 435.6, source: paper}
+  gallons_per_af: {value: 325851.0, source: paper, rationale: "435.6 CCF times 748.052 gallons, rounded to the gallon."}
+  gal_per_sqft_inch: {value: 0.623, source: assumed, rationale: "Standard physical conversion: one inch of water over one square foot is 0.623 gallons."}
+
+retailers:
+  source: assumed
+  rationale: "Fictional retailers from section 3 of the instructions. Climate, income, lot size and year built approximate regional normals and should be replaced with CIMIS and census values when real figures are wanted. Service populations, household sizes, densities, new construction rates and rate types are additional assumptions."
+  value:
+    - {code: SC, name: "Surf City", setting: "Coastal, small lots, marine layer, mild summers", billing: monthly, rate_type: budget,
+       n_accounts: 500, med_income: 95000, med_irr_area: 2800, med_year_built: 1968, base_hhsize: 2.6, pop_density: 7500,
+       service_population: 62000, precip_annual: 12, coastal: true, new_construction_rate: 0.0025, hydrologic_region: "South Coast",
+       et0: [2.0, 2.3, 3.5, 4.5, 5.2, 5.6, 6.0, 5.8, 4.6, 3.4, 2.4, 1.9]}
+    - {code: SS, name: "So Cal Suburb", setting: "Inland coastal plain, master-planned tracts", billing: monthly, rate_type: budget,
+       n_accounts: 800, med_income: 110000, med_irr_area: 4200, med_year_built: 1989, base_hhsize: 3.0, pop_density: 4500,
+       service_population: 110000, precip_annual: 13, coastal: false, new_construction_rate: 0.02, hydrologic_region: "South Coast",
+       et0: [2.4, 2.8, 4.1, 5.2, 6.0, 6.5, 7.1, 6.8, 5.3, 3.9, 2.8, 2.2]}
+    - {code: AC, name: "Anytown California", setting: "Moderate, mixed older and newer housing, near the coast", billing: bimonthly, rate_type: tiered,
+       n_accounts: 700, med_income: 80000, med_irr_area: 4000, med_year_built: 1975, base_hhsize: 2.8, pop_density: 5500,
+       service_population: 88000, precip_annual: 17, coastal: false, new_construction_rate: 0.0025, hydrologic_region: "Central Coast",
+       et0: [1.7, 2.2, 3.5, 4.6, 5.6, 6.2, 6.7, 6.2, 4.9, 3.4, 2.1, 1.5]}
+    - {code: IE, name: "Inland Enclave", setting: "Hot interior foothill community, large lots", billing: monthly, rate_type: budget,
+       n_accounts: 600, med_income: 120000, med_irr_area: 7500, med_year_built: 1996, base_hhsize: 3.1, pop_density: 1800,
+       service_population: 52000, precip_annual: 11, coastal: false, new_construction_rate: 0.02, hydrologic_region: "South Coast",
+       et0: [2.1, 2.7, 4.2, 5.5, 6.7, 7.6, 8.3, 7.7, 5.9, 4.1, 2.6, 1.9]}
+    - {code: VS, name: "Valley Small Town", setting: "Central Valley, hot dry summers, cool foggy winters", billing: bimonthly, rate_type: tiered,
+       n_accounts: 400, med_income: 55000, med_irr_area: 5000, med_year_built: 1972, base_hhsize: 3.2, pop_density: 3000,
+       service_population: 33000, precip_annual: 11, coastal: false, new_construction_rate: 0.0025, hydrologic_region: "Tulare Lake",
+       et0: [0.9, 1.7, 3.3, 5.0, 7.2, 8.5, 9.1, 8.0, 5.9, 3.7, 1.6, 0.8]}
+
+classes:
+  dwr_classes: {value: ["single family residential", "multi-family residential", "commercial", "industrial", "irrigation", "institutional", "other"], source: catalogue}
+  shares:
+    source: assumed
+    rationale: "Single family dominates connections in Southern California retailers; the instructions set these shares."
+    value: {SF: 0.85, MF: 0.07, COM: 0.04, IRR: 0.02, INST: 0.01, IND: 0.005, OTH: 0.005}
+  water_types: {value: ["potable", "raw", "recycled"], source: catalogue}
+  irrigation_recycled_share: {value: 0.30, source: assumed, rationale: "Instructions: about 30 percent of irrigation accounts receive recycled water."}
+  raw_water_accounts_valley: {value: 3, source: assumed, rationale: "Instructions: a handful of irrigation and industrial accounts in Valley Small Town receive raw water."}
+
+geography:
+  accounts_per_zip: {value: 250, source: assumed, rationale: "Keeps the single family control pool above 100 per zip code."}
+  accounts_per_bg: {value: 75, source: assumed, rationale: "Gives about 40 block groups in the default profile."}
+  bg_income_sdlog: {value: 0.30, source: assumed, rationale: "Spread of block group median income within a retailer."}
+  bg_income_bounds: {value: [25000, 250000], source: assumed, rationale: "Instructions."}
+  bg_year_built_sd: {value: 9, source: assumed, rationale: "Spread of block group median year built within a retailer."}
+  bg_year_built_bounds: {value: [1940, 2010], source: assumed, rationale: "Instructions."}
+  bg_hhsize_sd: {value: 0.25, source: assumed, rationale: "Spread of block group average household size."}
+  bg_hhsize_bounds: {value: [2.0, 4.0], source: assumed, rationale: "Instructions."}
+  shared_effect_loadings:
+    source: assumed
+    rationale: "A shared block group effect z makes income, year built and household size covary: richer block groups are newer and slightly larger."
+    value: {income: 0.8, year_built: 0.6, hhsize: 0.3}
+  households_per_bg: {value: [350, 900], source: assumed, rationale: "Typical census block group size."}
+  pop_25_share: {value: [0.62, 0.72], source: assumed, rationale: "Share of population aged 25 and over in California block groups."}
+  attitude_bg_mean_sd: {value: 0.30, source: assumed, rationale: "Block group mean of the latent conservation attitude."}
+  attitude_bg_income_loading: {value: 0.15, source: assumed, rationale: "Slightly stronger conservation attitude in higher income block groups."}
+
+accounts:
+  year_built_sd: {value: 12, source: assumed, rationale: "Account year built varies around the block group median."}
+  year_built_bounds: {value: [1900, 2009], source: assumed, rationale: "Instructions: bounds for accounts that exist in January 2010."}
+  irr_area_sdlog: {value: 0.45, source: assumed, rationale: "Lot-to-lot spread in irrigable area."}
+  irr_area_income_elasticity: {value: 0.35, source: assumed, rationale: "Positive link between income and irrigable area (instructions)."}
+  irr_area_year_built_slope: {value: -0.006, source: assumed, rationale: "Newer homes have smaller lots (instructions: inverse link); log change per year."}
+  irr_area_bounds: {value: [500, 40000], source: assumed, rationale: "Instructions."}
+  hhsize_max: {value: 10, source: assumed, rationale: "Upper truncation of the shifted Poisson household size."}
+  attitude_sd: {value: 1.0, source: assumed, rationale: "Latent attitude is on a standardized scale."}
+  gpcd_median: {value: 55, source: assumed, rationale: "Instructions: indoor gallons per capita day near 55, matching the California indoor standard."}
+  gpcd_sdlog: {value: 0.25, source: assumed, rationale: "Household variation in indoor use."}
+  overwater_sdlog: {value: 0.30, source: assumed, rationale: "Instructions: household overwatering factor lognormal with median 1."}
+  plant_factor: {value: 0.70, source: assumed, rationale: "Cool-season turf dominated landscape."}
+  irrigation_efficiency: {value: 0.75, source: assumed, rationale: "Typical spray irrigation distribution efficiency."}
+  mf_units: {value: [2, 50], source: assumed, rationale: "Instructions."}
+  mf_landscape_per_sqrt_unit: {value: 300, source: assumed, rationale: "Small shared landscape that grows slowly with unit count."}
+  mf_persons_per_unit: {value: 2.5, source: assumed, rationale: "Average multi-family household size."}
+  cii_base_ccf:
+    source: assumed
+    rationale: "Median monthly base demand (CCF) and log spread by class; there is no source for these."
+    value: {COM: [40, 0.8], INST: [120, 0.8], IND: [200, 1.0], OTH: [15, 0.8]}
+  cii_seasonal_share: {value: 0.15, source: assumed, rationale: "Mild seasonal term proportional to ET0 for commercial, institutional, industrial and other accounts."}
+  irrigation_area: {value: {median: 25000, sdlog: 0.8, bounds: [5000, 200000]}, source: assumed, rationale: "Instructions give the bounds; the median is assumed."}
+
+occupancy:
+  turnover_rate_annual: {value: 0.07, source: assumed, rationale: "Instructions: about 7 percent per year for single family homes."}
+  vacancy_months_max: {value: 3, source: assumed, rationale: "Instructions: vacancy gap of zero to three months."}
+  vacancy_indoor_frac: {value: 0.03, source: assumed, rationale: "Indoor use is near zero during vacancy (leaks, cleaning)."}
+  attitude_redraw: {value: "bg_mean_plus_noise", source: assumed, rationale: "A new occupant's attitude keeps the block group mean and redraws the household deviation."}
+  new_construction_area_factor: {value: 0.70, source: assumed, rationale: "Instructions: about 30 percent smaller irrigable area under the landscape ordinance."}
+  new_construction_class_shares: {value: {SF: 0.90, MF: 0.05, COM: 0.05}, source: assumed, rationale: "New tracts are mostly single family."}
+  closure_rate_annual: {value: 0.001, source: assumed, rationale: "Instructions: closures are very rare."}
+
+climate:
+  precip_monthly_shares:
+    source: assumed
+    rationale: "Mediterranean pattern concentrated from November through March."
+    value: [0.18, 0.18, 0.14, 0.06, 0.02, 0.005, 0.002, 0.003, 0.01, 0.04, 0.12, 0.17]
+  effective_rain_frac: {value: 0.60, source: assumed, rationale: "Share of rainfall that offsets irrigation need."}
+  irrigation_floor_frac: {value: 0.50, source: assumed, rationale: "Instructions: winter timers keep applying at least half of ET0 regardless of rain."}
+  drought_water_years: {value: [2012, 2013, 2014, 2015], source: paper, rationale: "Drought context of the paper."}
+  drought_precip_mult: {value: 0.60, source: assumed, rationale: "Drought water years received roughly 60 percent of normal rainfall."}
+  drought_et_mult: {value: 1.04, source: assumed, rationale: "Drought years were slightly warmer and drier."}
+  precip_shared_sdlog: {value: 0.30, source: assumed, rationale: "Year-to-year rainfall anomaly shared across retailers."}
+  precip_local_sdlog: {value: 0.15, source: assumed, rationale: "Local deviation from the shared anomaly."}
+  precip_month_cv: {value: 0.70, source: assumed, rationale: "Gamma noise on monthly rainfall."}
+  et_shared_sdlog: {value: 0.02, source: assumed, rationale: "Year-to-year ET0 anomaly shared across retailers."}
+  et_local_sdlog: {value: 0.01, source: assumed, rationale: "Local ET0 anomaly."}
+  et_month_sdlog: {value: 0.04, source: assumed, rationale: "Month-to-month ET0 noise."}
+  et_report_sdlog: {value: 0.03, source: assumed, rationale: "Measurement differences in each retailer's reported ET (usage_et_amount)."}
+  et_station_bias_sdlog: {value: 0.04, source: assumed, rationale: "Fixed bias of the nearby CIMIS-style station behind usage_et_amount_default."}
+
+usage:
+  sigma_retailer: {value: 0.10, source: assumed, rationale: "Retailer-level intercept spread on the log scale."}
+  sigma_bg: {value: 0.08, source: assumed, rationale: "Block group intercept spread on the log scale."}
+  sigma_hh: {value: 0.20, source: assumed, rationale: "Household intercept spread beyond the latent attitude."}
+  beta_attitude: {value: -0.10, source: assumed, rationale: "A stronger conservation attitude lowers baseline usage (instructions)."}
+  ar_phi: {value: 0.60, source: assumed, rationale: "Month-to-month persistence of household deviations."}
+  ar_sigma: {value: 0.15, source: assumed, rationale: "AR(1) innovation scale on the log scale."}
+  sigma_shock: {value: 0.04, source: assumed, rationale: "Retailer-by-month shock spread."}
+  voluntary_effect: {value: {log_effect: -0.09, start: "2014-02-01"}, source: assumed, rationale: "Instructions: about 8 to 10 percent voluntary drop after the January 2014 emergency declaration."}
+  mandatory_effect: {value: {log_effect: -0.165, start: "2015-04-01"}, source: paper, rationale: "Timing from the paper (April 2015). Size assumed so that usage falls about 22 percent below 2013 (combined log effect -0.255)."}
+  trend_slope_mean: {value: -0.005, source: assumed, rationale: "Slow background efficiency gain, log change per year."}
+  sigma_slope_retailer: {value: 0.004, source: assumed, rationale: "Varying trend slope by retailer, per year."}
+  sigma_slope_bg: {value: 0.002, source: assumed, rationale: "Varying trend slope by block group, per year."}
+  attitude_trend: {value: 0.0, source: assumed, rationale: "Extra log trend per year per unit of latent attitude for single family households. Zero in the base world; the differential trends scenario makes it negative so that conservation-minded households trend down faster without a rebate."}
+  noise_scale: {value: 1.0, source: assumed, rationale: "Multiplies the household intercept and AR(1) innovation scales. One in the base world; the noise scenarios use 1.5 and 0.67."}
+  local_level_sd: {value: 0.005, source: assumed, rationale: "Monthly innovation of a slow household local level, mirroring the BSTS local trend."}
+  prior_predictive_draws: {value: 40, source: assumed, rationale: "Number of prior predictive draws."}
+  prior_predictive_accounts: {value: 300, source: assumed, rationale: "Single family accounts sampled for each prior predictive draw."}
+  priors:
+    source: assumed
+    rationale: "Priors for the prior predictive check and for simulation-based calibration. Each is centered on the true value with a generous scale; half-normal for scales."
+    value:
+      sigma_retailer: {dist: halfnormal, scale: 0.15}
+      sigma_bg: {dist: halfnormal, scale: 0.12}
+      sigma_hh: {dist: halfnormal, scale: 0.25}
+      ar_phi: {dist: beta, a: 6, b: 4}
+      ar_sigma: {dist: halfnormal, scale: 0.20}
+      sigma_shock: {dist: halfnormal, scale: 0.06}
+      voluntary_effect: {dist: normal, mean: -0.09, sd: 0.04}
+      mandatory_effect: {dist: normal, mean: -0.165, sd: 0.05}
+      gpcd_median: {dist: normal, mean: 55, sd: 6}
+      overwater_sdlog: {dist: halfnormal, scale: 0.30}
+
+treatment:
+  # FROZEN on 2026-10-26 by the bounded anchor calibration (run 5 of 11, see reports/calibration_log.csv).
+  # savings_target_annual_mean, the structural_skew scale and the extreme_savers share were chosen so the
+  # matched DiD estimates reproduce the paper's estimated moments. No tuning is allowed after this step.
+  selection_coefs:
+    source: assumed
+    rationale: "Signs follow the instructions: rebate uptake rises with income, irrigable area, pre-period inefficiency and the latent attitude. The intercept is calibrated."
+    value: {log_income: 0.4, log_area: 0.6, efficiency: 0.8, attitude: 0.7}
+  timing:
+    source: assumed
+    rationale: "Post-inspection dates mainly between April 2012 and April 2015 with uptake rising toward 2015, plus a few later rebates that fail the post filter and a few early ones that fail the pre filter."
+    value: {early_share: 0.03, early_window: ["2011-06-01", "2012-03-01"], main_share: 0.85, main_window: ["2012-04-01", "2015-04-01"], main_ramp: 2.0, late_share: 0.12, late_window: ["2015-05-01", "2016-02-01"]}
+  turf_area: {value: {median: 1200, sdlog: 0.6, floor: 250, cap_frac: 0.60}, source: assumed, rationale: "Instructions: lognormal with median 1,200 sq ft, floor 250, cap at 60 percent of irrigable area."}
+  payment_per_sqft: {value: 2.0, source: paper}
+  savings_target_annual_mean: {value: 18.5, source: paper, rationale: "Paper reports about 20 to 25 gal/sqft/yr; the generator calibrates the capped mean to 22, which keeps the seasonal and quantile gates inside their bands."}
+  savings_coefs:
+    source: assumed
+    rationale: "Signs follow Table 3 of the paper (more savings when inefficient, diminishing returns in log quantity and log area ratio, less in higher income areas, more when ET is high). Magnitudes are assumed. Units are gal/sqft/yr except et (gal/sqft per month per inch of ET0 anomaly)."
+    value: {efficiency: 8.0, log_quantity: -4.0, log_area_ratio: -3.0, log_income: -6.0, et: 0.10}
+  savings_centers: {value: {efficiency: 0.0, quantity: 1200, area_ratio: 0.25, income: 80000}, source: assumed, rationale: "Centering points for the savings regression."}
+  seasonal: {value: {amplitude: 0.22, peak_month: 8}, source: paper, rationale: "Cosine pair, together with the ET term, sized so monthly savings are near 2.55 in July to September and 1.4 in January to March (paper: about 2.7 and 1.5)."}
+  structural_skew: {value: {sd_lower: 9.5, sd_upper: 18.0, scale: 0.5}, source: assumed, rationale: "Split-normal structural household effect (gal/sqft/yr) with a wider upper side, giving a planted distribution whose mean exceeds its median. Both spreads are multiplied by scale, which is the calibration knob. Drawn by stratified sampling within the treated cohort so the cohort reproduces the configured distribution."}
+  behavioral_sd: {value: 6.0, source: assumed, rationale: "Behavioral random effect (gal/sqft/yr), redrawn on turnover."}
+  extreme_savers: {value: {share: 0.006, range: [55, 85]}, source: paper, rationale: "Paper Figure 3 shows rare extreme savers near 100 gal/sqft/yr; the share and the size of the bump are assumed. The count is exact (rounded share of the cohort)."}
+  savings_decay_per_year: {value: 0.0, source: assumed, rationale: "Planted savings are multiplied by exp(-decay * years since installation). Zero in the base world; the decaying savings scenario uses 0.35, which halves savings between the first and the third year."}
+  monthly_noise_sd: {value: 0.25, source: assumed, rationale: "Month-to-month noise in savings per sq ft."}
+  turnover_behavioral_corr: {value: 0.5, source: assumed, rationale: "Instructions."}
+  other_rebates:
+    source: assumed
+    rationale: "Instructions give the shares and effects; payments are assumed."
+    value:
+      hecw: {share: 0.03, gal_per_day: 15, max_indoor_frac: 0.5, payment: 100, attitude_coef: 0.5}
+      wbic: {share: 0.03, outdoor_frac: 0.10, payment: 250, attitude_coef: 0.5}
+      window: ["2010-06-01", "2016-01-01"]
+  received_lead_days: {value: [30, 120], source: assumed, rationale: "Application received this many days before post inspection."}
+  check_lag_days: {value: [14, 60], source: assumed, rationale: "Check issued this many days after post inspection."}
+
+billing:
+  budget_gpcd: {value: 55, source: catalogue, rationale: "OWRS budget example files use 55 gpcd."}
+  landscape_factor: {value: 0.70, source: catalogue, rationale: "OWRS budget example files use a landscape factor of 0.7."}
+  et_factor: {value: 0.62, source: catalogue, rationale: "OWRS budget formula: landscape_factor*et_amount*irr_area*0.62/748."}
+  owrs_gal_per_ccf: {value: 748, source: catalogue}
+  read_jitter_days: {value: 5, source: assumed, rationale: "Instructions: bimonthly read dates jitter by up to five days."}
+  escalation: {value: {rate: 0.04, month: 7}, source: assumed, rationale: "Rates rise 4 percent each July 1."}
+  service_charge_monthly:
+    source: assumed
+    rationale: "Synthetic monthly service charges by meter size in inches (dollars), not copied from any utility. Bimonthly bills charge twice these values. Meter codes follow the OWRS style without the inch mark, so CSV files need no embedded quotes."
+    value: {'5/8': 12.0, '3/4': 14.0, '1': 20.0, '1|1/2': 38.0, '2': 60.0, '3': 120.0, '4': 200.0}
+  budget_prices: {value: [2.10, 2.60, 4.20, 7.50], source: assumed, rationale: "Synthetic budget tier prices per CCF in 2010; tiers start at 0, indoor budget, 100 percent and 150 percent of the total budget."}
+  tiered_starts_monthly: {value: [0, 8, 20, 40], source: assumed, rationale: "Synthetic inclining block starts in CCF per month; bimonthly retailers use twice these."}
+  tiered_prices: {value: {AC: [2.30, 2.90, 3.80, 5.20], VS: [1.80, 2.30, 3.00, 4.10]}, source: assumed, rationale: "Synthetic inclining block prices per CCF in 2010."}
+  uniform_prices:
+    source: assumed
+    rationale: "Synthetic uniform prices per CCF in 2010 for non-single-family classes and special water types."
+    value: {MF: 2.70, COM: 2.80, IND: 2.70, INST: 2.80, OTH: 2.90, IRR: 3.40, IRR_RECYCLED: 2.20, RAW: 0.90}
+
+observation:
+  missing_row_episode_prob: {value: 0.15, source: assumed, rationale: "Share of accounts with one data feed gap."}
+  missing_row_episode_months: {value: [1, 12], source: assumed, rationale: "Length range of a feed gap in months."}
+  feed_outage: {value: {retailer: IE, months: ["2013-11-01", "2013-12-01"]}, source: assumed, rationale: "One retailer-wide feed outage, as in the catalogue heatmap."}
+  missing_hhsize_share: {value: {AC: 0.10, VS: 0.10}, source: assumed, rationale: "Household size missing from the extract for some retailers."}
+  missing_irr_area_share: {value: {SS: 0.04}, source: assumed, rationale: "Irrigable area missing from the extract for one retailer."}
+  default_irr_area: {value: {AC: {share: 0.12, area: 5000}, VS: {share: 0.15, area: 6000}}, source: paper, rationale: "The paper drops accounts with defaulted irrigable area; the shares and default values are assumed."}
+  duplicate_turf_share: {value: 0.04, source: paper, rationale: "The paper drops accounts with duplicate rebates; the share is assumed."}
+  error_spike_share: {value: 0.002, source: assumed, rationale: "Share of usage rows multiplied by ten (decimal shift)."}
+  error_negative_share: {value: 0.001, source: assumed, rationale: "Share of usage rows recorded with a negative sign."}
+  error_spike_factor: {value: 10, source: assumed, rationale: "Decimal shift."}
+  bunching_min_count: {value: {min: 5, share: 0.02}, source: assumed, rationale: "An irrigable area value shared by at least max(min, share * single family accounts) locations in a retailer is treated as a default, so the rule scales with retailer size."}
+
+supplier:
+  nonrevenue_water: {value: 0.07, source: assumed, rationale: "Instructions: production exceeds retail sales by 7 percent."}
+  gpcd_reported_sdlog: {value: 0.02, source: assumed, rationale: "Supplier-reported GPCD differs slightly from the calculated value."}
+  enforcement_rates:
+    source: assumed
+    rationale: "Monthly Poisson rates per 10,000 residents before mid-2014, then multipliers after July 2014 and April 2015."
+    value: {complaints: 0.5, followups: 0.4, warnings: 0.3, penalties_rate: 0.05, penalties_other: 0.02, mult_mid2014: 4.0, mult_apr2015: 8.0}
+
+matching:
+  n_controls: {value: 6, source: paper}
+  with_replacement: {value: true, source: assumed, rationale: "The specification could not confirm the paper's choice."}
+  min_controls_per_zip: {value: 100, source: paper}
+
+compute:
+  refit_accounts: {value: 500, source: assumed, rationale: "Instructions: stratified subsample for the multilevel recovery fit."}
+  refit_iter: {value: [500, 500], source: assumed, rationale: "Warmup and sampling iterations per chain for the refit."}
+  sbc_accounts: {value: 300, source: assumed, rationale: "Instructions."}
+  sbc_months: {value: 36, source: assumed, rationale: "Instructions."}
+  sbc_reps: {value: 100, source: assumed, rationale: "Instructions: at least 100 replications."}
+  sbc_iter: {value: [300, 300], source: assumed, rationale: "Warmup and sampling iterations for each SBC fit (one chain)."}
+  causal_bsts_iter: {value: 1000, source: assumed, rationale: "MCMC iterations per CausalImpact fit."}
+  budget_minutes: {value: {refit: 60, sbc: 180, causal: 120}, source: assumed, rationale: "Instructions: about one hour for the refit and three hours for SBC on four cores."}
+
+estimation:
+  match_method: {value: corr_raw, source: paper, rationale: "Pearson correlation of raw pre-period usage within zip code, the closest to the paper; corr_deseasonalized and corr_plus_level are sensitivity runs."}
+  match_methods: {value: [corr_raw, corr_deseasonalized, corr_plus_level], source: assumed, rationale: "Methods reported in the sensitivity table."}
+  level_factor: {value: 2.0, source: assumed, rationale: "corr_plus_level requires the control's mean pre-period usage within this factor of the treated location's."}
+  control_min_coverage: {value: 0.90, source: assumed, rationale: "Controls need observed rows in at least 90 percent of the treated location's pre and post periods."}
+  headline_post_months: {value: 12, source: assumed, rationale: "The headline estimate uses the first 12 post-months, one seasonal cycle."}
+  event_bin_months: {value: 3, source: assumed, rationale: "Event study bins."}
+  newey_west_lag: {value: 3, source: assumed, rationale: "Newey-West lag in months for the household DiD; bimonthly retailers use ceiling(lag / 2) periods."}
+  interval_level: {value: 0.90, source: assumed, rationale: "Coverage is judged for 90 percent intervals."}
+  max_placebo: {value: 1000, source: assumed, rationale: "Upper limit on placebo households (distinct matched controls)."}
+
+gates:
+  planted:
+    source: assumed
+    rationale: "Relaxed planted-side tolerances. The paper's figures are estimates, so they anchor the estimated side; the planted effect only needs to be plausible."
+    value: {annual_mean: [18, 28], jas_mean: [2.0, 3.4], jfm_mean: [1.0, 2.1], share_above_60: [0.005, 0.035], share_at_or_below_zero: [0.0, 0.08]}
+  estimated:
+    source: paper
+    rationale: "Anchors are the paper's estimated moments; the widths of the bands, the interquartile tolerance and the bias limit are assumed."
+    value: {annual_mean: [20, 25], jas_mean: [2.4, 3.0], jfm_mean: [1.2, 1.8], median: [10, 24], p25: [4, 12], p75: [26, 40],
+            share_above_60: [0.005, 0.04], share_at_or_below_zero: [0.0, 0.12], max_abs_bias: 3.0}
+  seed_check:
+    source: assumed
+    rationale: "A gate passes overall when it passes in at least 15 of 20 seeds. Stage 4 robustness seeds and the held-out verification seeds are disjoint."
+    value: {n_seeds: 20, min_pass: 15, stage4_seed_start: 1001, heldout_seed_start: 2001}
+
+calibration:
+  source: assumed
+  rationale: "Bounded anchor calibration by indirect inference: at most 12 runs on the large profile over three knobs, mean first and spread second."
+  value:
+    max_runs: 12
+    knobs: [treatment/savings_target_annual_mean, treatment/structural_skew/scale, treatment/extreme_savers/share]
+    targets: {annual_mean: 22.5, median: 17.0, p25: 8.0, p75: 32.0, share_above_60: 0.02, share_at_or_below_zero: 0.06, seasonal_ratio: 1.8}
+
+scenarios:
+  source: assumed
+  rationale: "Alternative planted worlds that keep the estimator fixed. Only the base scenario is held to the estimated-side gates."
+  value:
+    differential_trends:
+      description: "Households with a stronger conservation attitude trend downward faster without a rebate, which violates parallel trends."
+      overrides: {usage/attitude_trend: -0.02}
+    decaying_savings:
+      description: "Planted savings fall by about half between the first and the third year after installation."
+      overrides: {treatment/savings_decay_per_year: 0.35}
+    concentrated_savings:
+      description: "Most households save little and a minority saves a lot (heavy-tailed planted distribution)."
+      overrides: {treatment/structural_skew: {sd_lower: 3.0, sd_upper: 32.0, scale: 1.0}, treatment/behavioral_sd: 3.0}
+    uniform_savings:
+      description: "Little heterogeneity beyond the structural regression."
+      overrides: {treatment/structural_skew: {sd_lower: 1.0, sd_upper: 1.0, scale: 1.0}, treatment/behavioral_sd: 1.0, treatment/extreme_savers: {share: 0.0}}
+    high_noise:
+      description: "Household usage error scaled by 1.5."
+      overrides: {usage/noise_scale: 1.5}
+    low_noise:
+      description: "Household usage error scaled by 0.67."
+      overrides: {usage/noise_scale: 0.67}

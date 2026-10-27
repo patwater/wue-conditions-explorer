@@ -1,0 +1,9 @@
+# Large profile for future use: 12,000 accounts, zip codes scaled to keep about 250 accounts each.
+name: large
+accounts_scale: 4.0
+accounts_per_retailer: null
+accounts_per_zip: 250
+accounts_per_bg: 75
+cohort_target: 545           # the paper's analysis cohort
+cohort_range: [470, 620]
+check_absolute_counts: true

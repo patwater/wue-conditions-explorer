@@ -1,0 +1,109 @@
+table,field,name_source
+usage.parquet,cust_id_from_utility,catalogue
+usage.parquet,cust_loc_id,catalogue
+usage.parquet,location_id_from_utility,catalogue (rebate table); used here for linkage
+usage.parquet,utility_name,catalogue (QC code); used here for linkage
+usage.parquet,cust_loc_class_from_utility,catalogue
+usage.parquet,usage_start_date,catalogue
+usage.parquet,usage_end_date,catalogue
+usage.parquet,usage_month,catalogue
+usage.parquet,usage_year,catalogue
+usage.parquet,usage_ccf,catalogue
+usage.parquet,usage_et_amount,catalogue
+usage.parquet,usage_et_amount_default,catalogue
+usage.parquet,usage_indoor_budget_ccf,catalogue
+usage.parquet,usage_outdoor_budget_ccf,catalogue
+usage.parquet,usage_total_bill,catalogue
+usage.parquet,is_synthetic,inferred
+customers.csv,cust_id_from_utility,catalogue
+customers.csv,cust_loc_id,catalogue
+customers.csv,location_id_from_utility,catalogue (rebate table); used here for linkage
+customers.csv,utility_name,catalogue (QC code); used here for linkage
+customers.csv,cust_loc_class_from_utility,catalogue
+customers.csv,cust_loc_class,catalogue
+customers.csv,cust_loc_hhsize,catalogue
+customers.csv,cust_loc_water_type,catalogue
+customers.csv,cust_loc_is_master_meter,catalogue
+customers.csv,cust_loc_irr_area_sf,catalogue
+customers.csv,cust_loc_apn,catalogue
+customers.csv,cust_loc_street_num,catalogue
+customers.csv,cust_loc_street_name,catalogue
+customers.csv,cust_loc_city,catalogue
+customers.csv,cust_loc_zip,catalogue
+customers.csv,cust_loc_info_start_date,catalogue
+customers.csv,cust_loc_info_end_date,catalogue
+customers.csv,et_zone_from_utility,catalogue
+customers.csv,cust_loc_latitude,catalogue
+customers.csv,cust_loc_longitude,catalogue
+customers.csv,cust_loc_meter_size,catalogue
+customers.csv,cust_loc_pressure_zone,catalogue
+customers.csv,block_group_id,inferred
+customers.csv,cust_loc_unit_count,inferred
+customers.csv,cust_loc_year_built,inferred
+customers.csv,is_synthetic,inferred
+rebates.csv,rebate_instance_id,inferred
+rebates.csv,rebate_instance_type,catalogue
+rebates.csv,rebate_instance_payment,catalogue
+rebates.csv,rebate_instance_quantity,catalogue
+rebates.csv,rebate_instance_received_date,catalogue
+rebates.csv,rebate_instance_post_date,catalogue
+rebates.csv,rebate_instance_check_date,catalogue
+rebates.csv,cust_id_from_utility,catalogue
+rebates.csv,location_id_from_utility,catalogue
+rebates.csv,is_synthetic,inferred
+acs_block_groups.csv,block_group_id,inferred
+acs_block_groups.csv,utility_name,catalogue (QC code); used here for linkage
+acs_block_groups.csv,pop_density_acs_2015,catalogue
+acs_block_groups.csv,total_population,catalogue
+acs_block_groups.csv,total_households,catalogue
+acs_block_groups.csv,avg_hhsize,catalogue
+acs_block_groups.csv,pop_25_and_over,catalogue
+acs_block_groups.csv,edu_less_than_high_school,inferred (catalogue lists education counts without field names)
+acs_block_groups.csv,edu_high_school,inferred (catalogue lists education counts without field names)
+acs_block_groups.csv,edu_some_college,inferred (catalogue lists education counts without field names)
+acs_block_groups.csv,edu_bachelors,inferred (catalogue lists education counts without field names)
+acs_block_groups.csv,edu_graduate,inferred (catalogue lists education counts without field names)
+acs_block_groups.csv,median_hh_income,catalogue
+acs_block_groups.csv,median_year_structure_built,catalogue
+acs_block_groups.csv,is_synthetic,inferred
+supplier_report.csv,report_id,catalogue
+supplier_report.csv,utility_id,catalogue
+supplier_report.csv,report_agency_name,catalogue
+supplier_report.csv,report_pwsid,catalogue
+supplier_report.csv,report_hydrologic_region,catalogue
+supplier_report.csv,report_month,inferred
+supplier_report.csv,year,inferred
+supplier_report.csv,month,inferred
+supplier_report.csv,report_has_restrictions,catalogue
+supplier_report.csv,report_actions_implemented,catalogue
+supplier_report.csv,report_total_production_af,catalogue
+supplier_report.csv,report_total_production_af_2013,catalogue
+supplier_report.csv,report_cii_production_af,catalogue
+supplier_report.csv,report_ag_production_af,catalogue
+supplier_report.csv,report_ag_production_af_2013,catalogue
+supplier_report.csv,report_recycled_production_af,catalogue
+supplier_report.csv,report_population,catalogue
+supplier_report.csv,report_percent_residential,catalogue
+supplier_report.csv,report_gpcd_reported,catalogue
+supplier_report.csv,report_gpcd_calculated,catalogue
+supplier_report.csv,report_ag_cert,catalogue
+supplier_report.csv,report_production_calculated,catalogue
+supplier_report.csv,report_production_calculated_2013,catalogue
+supplier_report.csv,report_percent_reduction,catalogue
+supplier_report.csv,report_complaints,catalogue
+supplier_report.csv,report_followups,catalogue
+supplier_report.csv,report_warnings,catalogue
+supplier_report.csv,report_penalties_rate,catalogue
+supplier_report.csv,report_penalties_other,catalogue
+supplier_report.csv,report_irr_area_sf,catalogue
+supplier_report.csv,report_eto,catalogue
+supplier_report.csv,is_synthetic,inferred
+climate_et_precip.csv,utility_name,catalogue (QC code); used here for linkage
+climate_et_precip.csv,et_zone_from_utility,catalogue
+climate_et_precip.csv,year,inferred
+climate_et_precip.csv,month,inferred
+climate_et_precip.csv,usage_et_amount,catalogue
+climate_et_precip.csv,usage_et_amount_default,catalogue
+climate_et_precip.csv,cimis_eto_in,inferred
+climate_et_precip.csv,precip_in,inferred
+climate_et_precip.csv,is_synthetic,inferred

@@ -1,0 +1,6 @@
+stage,check,value,threshold,pass,blocking
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE
+02_accounts,"account year built within [1900, 2009]","1928, 2009",all inside,TRUE,TRUE
+02_accounts,"single family irrigable area within [500, 40,000]","634, 29430",all inside,TRUE,TRUE
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 91050",all inside,TRUE,TRUE
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2788, 4031, 4076, 7760, 4904",IE and VS > SC,TRUE,TRUE

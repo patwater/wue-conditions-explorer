@@ -1,0 +1,10 @@
+case,count
+vacancy rows present in observed usage,1716
+missing rows during occupancy (feed gaps),3669
+vacancy rows also missing,43
+turf rebates failing the 24-month pre filter (short history),9
+turf rebates failing the 12-month post filter (late rebates),21
+treated households in bimonthly retailers,49
+turf locations dropped for defaulted area,8
+duplicate turf rebates dropped,9
+treated households with turnover within 6 months of the rebate,24

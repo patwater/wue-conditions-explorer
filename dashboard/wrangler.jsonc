@@ -1,0 +1,14 @@
+// Cloudflare Workers static assets: the dashboard is an assets-only Worker served at
+// https://wue-conditions-explorer.<your-subdomain>.workers.dev. Deploy with `npx wrangler deploy` from this folder,
+// or let .github/workflows/dashboard.yml deploy it after the tests pass.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "wue-conditions-explorer",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./app",
+    "not_found_handling": "404-page"
+  }
+}

@@ -1,0 +1,6 @@
+check,ran
+matched DiD (default),TRUE
+--refit,FALSE
+--sbc,FALSE
+--causal (BSTS),FALSE
+--scenarios,TRUE

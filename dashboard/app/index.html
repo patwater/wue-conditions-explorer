@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WUE Conditions Explorer</title>
+  <meta name="description" content="Explore simulated water use efficiency conditions and turf rebate savings across five fictional retailers. All data is synthetic.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3c5 7 9 12 9 17a9 9 0 0 1-18 0c0-5 4-10 9-17z' fill='%232a78d6'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <p class="banner" role="note"><strong>All data on this site is simulated.</strong> It must not be mistaken for real utility records. The five retailers are fictional, and the planted effects are assumptions written into a generator, not knowledge about real households.</p>
+    <div class="titlebar">
+      <h1>WUE Conditions Explorer</h1>
+      <div class="theme">
+        <label for="theme-select">Theme</label>
+        <select id="theme-select">
+          <option value="auto">Match system</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
+    </div>
+    <nav class="tabs" aria-label="Views">
+      <a href="#overview" data-view="overview">Overview</a>
+      <a href="#usage" data-view="usage">Usage and climate</a>
+      <a href="#savings" data-view="savings">Rebates and savings</a>
+      <a href="#quality" data-view="quality">Data quality</a>
+      <a href="#about" data-view="about">About</a>
+    </nav>
+    <div class="filters" role="group" aria-label="Filters">
+      <label class="field">Retailer
+        <select id="retailer-select"><option value="All retailers">All retailers</option></select>
+      </label>
+      <label class="switch">
+        <input type="checkbox" id="answer-key">
+        <span>Answer key (planted effects)</span>
+      </label>
+    </div>
+    <p class="answer-key-notice" id="answer-key-notice" hidden role="status">Answer key mode is on. Orange marks show the effects the generator planted. They exist only because this data is simulated; real households have no answer key.</p>
+  </header>
+
+  <main id="main">
+    <section id="view-overview" class="view" data-view="overview" aria-labelledby="h-overview">
+      <h2 id="h-overview">Overview</h2>
+      <p class="lede">Three questions guide this dashboard. Why does residential water use differ across the five retailers? What did turf rebates save, and how sure can we be? How did the 2014 and 2015 conservation show up in the data?</p>
+      <div class="tiles" id="overview-tiles"></div>
+      <h3>The five fictional retailers</h3>
+      <div class="cards" id="retailer-cards"></div>
+      <div class="chart-card" id="chart-area"></div>
+    </section>
+
+    <section id="view-usage" class="view" data-view="usage" aria-labelledby="h-usage" hidden>
+      <h2 id="h-usage">Usage and climate</h2>
+      <p class="lede">Median single family use per 30 days, the seasonal pattern behind it, and the climate and supplier context. Shaded periods mark the voluntary conservation call (February 2014) and the mandatory restrictions (April 2015).</p>
+      <div class="chart-card" id="chart-usage"></div>
+      <div class="chart-card" id="chart-vs2013"></div>
+      <div class="grid-2">
+        <div class="chart-card" id="chart-seasonal"></div>
+        <div class="chart-card" id="chart-et0"></div>
+      </div>
+      <div class="chart-card" id="chart-gpcd"></div>
+    </section>
+
+    <section id="view-savings" class="view" data-view="savings" aria-labelledby="h-savings" hidden>
+      <h2 id="h-savings">Rebates and savings</h2>
+      <p class="lede">Savings are estimated with matched difference-in-differences: each treated household is compared with six similar households in its zip code over the first 12 months after inspection. Pooled estimates are fairly precise. Individual household estimates are very noisy, which the placebo test makes visible.</p>
+      <div class="tiles" id="savings-tiles"></div>
+      <p class="scope-note" id="savings-scope"></p>
+      <div class="chart-card" id="chart-uptake"></div>
+      <div class="chart-card" id="chart-distribution"></div>
+      <div class="chart-card" id="chart-estimators"></div>
+      <div class="grid-2">
+        <div class="chart-card" id="chart-season-savings"></div>
+        <div class="chart-card" id="chart-event"></div>
+      </div>
+      <div class="chart-card" id="chart-by-retailer"></div>
+      <div class="chart-card" id="chart-other"></div>
+      <div class="answer-key-only" hidden>
+        <h3>Answer key</h3>
+        <div class="chart-card" id="chart-calibration"></div>
+        <div class="chart-card" id="chart-scenarios"></div>
+      </div>
+    </section>
+
+    <section id="view-quality" class="view" data-view="quality" aria-labelledby="h-quality" hidden>
+      <h2 id="h-quality">Data quality</h2>
+      <p class="lede">The observation layer adds the problems real utility data carries: feed gaps, a retailer-wide outage, defaulted irrigable areas, missing household sizes, duplicate rebates and a few corrupted reads. Turnover and vacancy are real events, not missing data.</p>
+      <div class="chart-card" id="chart-coverage"></div>
+      <div class="chart-card" id="chart-quality-table"></div>
+    </section>
+
+    <section id="view-about" class="view" data-view="about" aria-labelledby="h-about" hidden>
+      <h2 id="h-about">About this dashboard</h2>
+      <div class="prose" id="about-text">
+        <p>Every number here comes from a reproducible generator of synthetic water utility data, shaped like the California Data Collaborative SCUBA catalogue and the turf rebate data in Schmitt, Tull and Atwater (2018). The generator, its configuration and its validation report live in the <code>synthetic_scuba/</code> folder of the <a href="https://github.com/patwater/wue-conditions-explorer">wue-conditions-explorer repository</a>.</p>
+        <p>Nobody knows the true savings of real households, because their counterfactual usage is never observed. The generator knows each synthetic household's savings only because it planted them. The answer key mode compares the matched difference-in-differences estimates with those planted effects, which shows how well the method recovers an effect we chose, in a world with turnover, vacancy, missing rows, drought and selection on conservation attitude.</p>
+        <p>To model the privacy habits a real-data version would need, no value shown here is built from fewer than 10 accounts or households, and no individual account is ever displayed.</p>
+        <h3>How to read the savings results</h3>
+        <ul>
+          <li>The pooled estimates (about 16 to 17 gallons per square foot per year) are close to the planted mean of about 18.</li>
+          <li>Household estimates are noisy. Placebo households that never removed turf have a standard deviation of about 80 gallons per square foot per year, so a single household's estimate says little.</li>
+          <li>Naive before-and-after comparisons overstate savings by about 30, because they credit the drought drop to the rebate.</li>
+          <li>Matched comparisons depend on parallel trends. In a scenario where conservation-minded households trend down faster on their own, the bias rises to about 8.</li>
+        </ul>
+        <p id="about-meta"></p>
+      </div>
+    </section>
+  </main>
+  <div class="tooltip-layer" id="tooltip" role="tooltip" hidden></div>
+  <script src="vendor/d3.min.js"></script>
+  <script src="vendor/plot.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

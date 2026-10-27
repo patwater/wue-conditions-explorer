@@ -1,0 +1,7 @@
+stage,check,value,threshold,pass,blocking
+03_occupancy,realized single family turnover rate per year,0.07416,between 0.06 and 0.08,TRUE,TRUE
+03_occupancy,new construction year built equals first billing year,188,all,TRUE,TRUE
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8511,share > 0.6,TRUE,TRUE
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01003,between 0.006 and 0.016,TRUE,TRUE
+03_occupancy,closures are rare,0.006901,share of locations closed < 0.02,TRUE,TRUE
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE

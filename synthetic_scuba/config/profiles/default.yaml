@@ -1,0 +1,9 @@
+# Default profile: 3,000 accounts active in January 2010 across five retailers and 12 zip codes.
+name: default
+accounts_scale: 1.0          # multiplies each retailer's n_accounts
+accounts_per_retailer: null  # if set, overrides n_accounts for every retailer
+accounts_per_zip: 250
+accounts_per_bg: 75
+cohort_target: 175           # treated households that pass the analysis filters
+cohort_range: [150, 200]
+check_absolute_counts: true

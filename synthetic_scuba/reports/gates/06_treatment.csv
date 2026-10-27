@@ -1,0 +1,13 @@
+stage,check,value,threshold,pass,blocking
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5100, 0.6433, 0.2380, 0.5476",all signs as configured,TRUE,TRUE
+06_treatment,treated share of single family candidates,0.08704,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE
+06_treatment,planted July-September monthly mean,2.093,2 to 3.4,TRUE,TRUE
+06_treatment,planted January-March monthly mean,1.042,1 to 2.1,TRUE,TRUE
+06_treatment,planted mean exceeds planted median,"18.50, 17.72",mean > median,TRUE,TRUE
+06_treatment,planted quartiles (reported),"10.11, 17.72, 25.78",report only,TRUE,TRUE
+06_treatment,planted share above 60 gal/sqft/yr,"0.0050000, 0.0001266, 0.0275400","band [0.005, 0.035] overlaps 95% binomial interval (n = 200)",TRUE,TRUE
+06_treatment,planted share at or below zero,"0.05500, 0.02777, 0.09628","band [0, 0.08] overlaps 95% binomial interval (n = 200)",TRUE,TRUE
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE
+06_treatment,share of treated household-months where the cap binds (reported),0.05444,report only,TRUE,TRUE

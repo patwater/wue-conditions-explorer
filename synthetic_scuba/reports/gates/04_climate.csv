@@ -1,0 +1,5 @@
+stage,check,value,threshold,pass,blocking
+04_climate,drought water years drier than baseline in every retailer,"0.8533, 0.6032, 0.7601, 0.7283, 0.5580",ratio < 1,TRUE,TRUE
+04_climate,drought water years slightly higher in ET0 than baseline,"1.063, 1.056, 1.041, 1.037, 1.039",1 < ratio < 1.1,TRUE,TRUE
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.976, 4.059, 3.080, 3.043, 10.520",IE and VS > SC,TRUE,TRUE
+04_climate,precipitation concentrated November through March,"0.8651, 0.8380, 0.8203, 0.8856, 0.8850",share > 0.7,TRUE,TRUE

@@ -1,0 +1,11 @@
+stage,check,value,threshold,pass,blocking
+09_estimate_savings,estimated annual mean (gal/sqft/yr),16.52,20 to 25,FALSE,FALSE
+09_estimate_savings,estimated July-September mean (gal/sqft/month),1.578,2.4 to 3,FALSE,FALSE
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.277,1.2 to 1.8,TRUE,FALSE
+09_estimate_savings,estimated median,19.09,10 to 24,TRUE,FALSE
+09_estimate_savings,estimated 25th percentile,-13.19,4 to 12,FALSE,FALSE
+09_estimate_savings,estimated 75th percentile,46.88,26 to 40,FALSE,FALSE
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.1886, 0.1335, 0.2545","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE
+09_estimate_savings,estimated share at or below zero,"0.3543, 0.2836, 0.4300","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE
+09_estimate_savings,placebo estimates centered on zero,"-0.266, 80.700, 730.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE

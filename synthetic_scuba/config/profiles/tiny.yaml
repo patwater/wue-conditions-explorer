@@ -1,0 +1,10 @@
+# Tiny development profile: 100 accounts per retailer and one zip code per retailer.
+# Gates on cohort sizes and control pool counts are skipped; proportions are still checked.
+name: tiny
+accounts_scale: 1.0
+accounts_per_retailer: 100
+accounts_per_zip: 100
+accounts_per_bg: 34
+cohort_target: 30
+cohort_range: [20, 40]
+check_absolute_counts: false

@@ -1,0 +1,152 @@
+metadata:
+  effective_date: 07/01/2015
+  utility_name: Anytown California
+  bill_frequency: Bimonthly
+  bill_unit: ccf
+  note: SYNTHETIC rate structure for simulated data; not any real utility's rates.
+rate_structure:
+  RESIDENTIAL_SINGLE:
+    service_charge:
+      depends_on:
+      - meter_size
+      values:
+        5/8: 30.37
+        3/4: 35.43
+        '1': 50.61
+        1|1/2: 96.16
+        '2': 151.84
+        '3': 303.68
+        '4': 506.13
+    commodity_charge: Tiered
+    tier_starts_commodity:
+    - 0.0
+    - 16.0
+    - 40.0
+    - 80.0
+    tier_prices_commodity:
+    - 2.91
+    - 3.67
+    - 4.81
+    - 6.58
+    bill: service_charge+commodity_charge
+  RESIDENTIAL_MULTI:
+    service_charge:
+      depends_on:
+      - meter_size
+      values:
+        5/8: 30.37
+        3/4: 35.43
+        '1': 50.61
+        1|1/2: 96.16
+        '2': 151.84
+        '3': 303.68
+        '4': 506.13
+    commodity_charge: Uniform
+    price_commodity: 3.42
+    bill: service_charge+commodity_charge
+  COMMERCIAL:
+    service_charge:
+      depends_on:
+      - meter_size
+      values:
+        5/8: 30.37
+        3/4: 35.43
+        '1': 50.61
+        1|1/2: 96.16
+        '2': 151.84
+        '3': 303.68
+        '4': 506.13
+    commodity_charge: Uniform
+    price_commodity: 3.54
+    bill: service_charge+commodity_charge
+  INDUSTRIAL:
+    service_charge:
+      depends_on:
+      - meter_size
+      values:
+        5/8: 30.37
+        3/4: 35.43
+        '1': 50.61
+        1|1/2: 96.16
+        '2': 151.84
+        '3': 303.68
+        '4': 506.13
+    commodity_charge: Uniform
+    price_commodity: 3.42
+    bill: service_charge+commodity_charge
+  INSTITUTIONAL:
+    service_charge:
+      depends_on:
+      - meter_size
+      values:
+        5/8: 30.37
+        3/4: 35.43
+        '1': 50.61
+        1|1/2: 96.16
+        '2': 151.84
+        '3': 303.68
+        '4': 506.13
+    commodity_charge: Uniform
+    price_commodity: 3.54
+    bill: service_charge+commodity_charge
+  OTHER:
+    service_charge:
+      depends_on:
+      - meter_size
+      values:
+        5/8: 30.37
+        3/4: 35.43
+        '1': 50.61
+        1|1/2: 96.16
+        '2': 151.84
+        '3': 303.68
+        '4': 506.13
+    commodity_charge: Uniform
+    price_commodity: 3.67
+    bill: service_charge+commodity_charge
+  IRRIGATION:
+    service_charge:
+      depends_on:
+      - meter_size
+      values:
+        5/8: 30.37
+        3/4: 35.43
+        '1': 50.61
+        1|1/2: 96.16
+        '2': 151.84
+        '3': 303.68
+        '4': 506.13
+    commodity_charge: Uniform
+    price_commodity: 4.3
+    bill: service_charge+commodity_charge
+  IRRIGATION_RECYCLED:
+    service_charge:
+      depends_on:
+      - meter_size
+      values:
+        5/8: 30.37
+        3/4: 35.43
+        '1': 50.61
+        1|1/2: 96.16
+        '2': 151.84
+        '3': 303.68
+        '4': 506.13
+    commodity_charge: Uniform
+    price_commodity: 2.78
+    bill: service_charge+commodity_charge
+  RAW:
+    service_charge:
+      depends_on:
+      - meter_size
+      values:
+        5/8: 30.37
+        3/4: 35.43
+        '1': 50.61
+        1|1/2: 96.16
+        '2': 151.84
+        '3': 303.68
+        '4': 506.13
+    commodity_charge: Uniform
+    price_commodity: 1.14
+    bill: service_charge+commodity_charge
+

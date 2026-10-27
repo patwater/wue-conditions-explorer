@@ -1,0 +1,14 @@
+stage,check,value,threshold,pass,blocking
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE
+08_observation,single family control candidates in every zip code,163,>= 100 in every zip,TRUE,TRUE
+08_observation,share of locations with a feed gap (configured 0.150),"0.1499, 0.1377, 0.1628","band [0.12, 0.18] overlaps 95% binomial interval (n = 3188)",TRUE,TRUE
+08_observation,"missing household size, AC (configured 0.100)","0.11510, 0.09491, 0.13780","band [0.08, 0.12] overlaps 95% binomial interval (n = 895)",TRUE,TRUE
+08_observation,"missing household size, VS (configured 0.100)","0.09381, 0.06975, 0.12280","band [0.08, 0.12] overlaps 95% binomial interval (n = 501)",TRUE,TRUE
+08_observation,"missing irrigable area, SS (configured 0.040)","0.03816, 0.02570, 0.05434","band [0.032, 0.048] overlaps 95% binomial interval (n = 760)",TRUE,TRUE
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.09720, 0.07482, 0.12360","band [0.096, 0.144] overlaps 95% binomial interval (n = 607)",TRUE,TRUE
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1519, 0.1159, 0.1939","band [0.12, 0.18] overlaps 95% binomial interval (n = 349)",TRUE,TRUE
+08_observation,duplicate turf rebates (configured 0.040),"0.04072, 0.01879, 0.07590","band [0.032, 0.048] overlaps 95% binomial interval (n = 221)",TRUE,TRUE
+08_observation,spike errors in usage rows (configured 0.002),"0.002024, 0.001827, 0.002237","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 189684)",TRUE,TRUE
+08_observation,negative errors in usage rows (configured 0.001),"0.0009015, 0.0007715, 0.0010470","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 189684)",TRUE,TRUE
+08_observation,share of billing rows missing (reported),0.01919,report only,TRUE,TRUE
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","113, 0, 1","detected, missed, false positives",TRUE,TRUE

@@ -1,0 +1,1361 @@
+stage,check,value,threshold,pass,blocking,seed
+01_geography,"block group average household size within [2, 4]","2.31, 3.55",all inside,TRUE,TRUE,2001
+01_geography,"block group average household size within [2, 4]","2.26, 3.46",all inside,TRUE,TRUE,2002
+01_geography,"block group average household size within [2, 4]","2.42, 3.58",all inside,TRUE,TRUE,2003
+01_geography,"block group average household size within [2, 4]","2.28, 3.48",all inside,TRUE,TRUE,2004
+01_geography,"block group average household size within [2, 4]","2.37, 3.67",all inside,TRUE,TRUE,2005
+01_geography,"block group average household size within [2, 4]","2.45, 3.47",all inside,TRUE,TRUE,2006
+01_geography,"block group average household size within [2, 4]","2.16, 3.68",all inside,TRUE,TRUE,2007
+01_geography,"block group average household size within [2, 4]","2.21, 3.56",all inside,TRUE,TRUE,2008
+01_geography,"block group average household size within [2, 4]","2.00, 3.61",all inside,TRUE,TRUE,2009
+01_geography,"block group average household size within [2, 4]","2.35, 3.52",all inside,TRUE,TRUE,2010
+01_geography,"block group average household size within [2, 4]","2.40, 3.53",all inside,TRUE,TRUE,2011
+01_geography,"block group average household size within [2, 4]","2.17, 3.80",all inside,TRUE,TRUE,2012
+01_geography,"block group average household size within [2, 4]","2.40, 3.67",all inside,TRUE,TRUE,2013
+01_geography,"block group average household size within [2, 4]","2.40, 3.57",all inside,TRUE,TRUE,2014
+01_geography,"block group average household size within [2, 4]","2.31, 3.51",all inside,TRUE,TRUE,2015
+01_geography,"block group average household size within [2, 4]","2.37, 3.63",all inside,TRUE,TRUE,2016
+01_geography,"block group average household size within [2, 4]","2.26, 3.57",all inside,TRUE,TRUE,2017
+01_geography,"block group average household size within [2, 4]","2.48, 3.56",all inside,TRUE,TRUE,2018
+01_geography,"block group average household size within [2, 4]","2.31, 3.53",all inside,TRUE,TRUE,2019
+01_geography,"block group average household size within [2, 4]","2.23, 3.49",all inside,TRUE,TRUE,2020
+01_geography,"block group median income within [25,000, 250,000]","35500, 250000",all inside,TRUE,TRUE,2001
+01_geography,"block group median income within [25,000, 250,000]","25000, 193600",all inside,TRUE,TRUE,2002
+01_geography,"block group median income within [25,000, 250,000]","42800, 177900",all inside,TRUE,TRUE,2003
+01_geography,"block group median income within [25,000, 250,000]","30500, 250000",all inside,TRUE,TRUE,2004
+01_geography,"block group median income within [25,000, 250,000]","36800, 152200",all inside,TRUE,TRUE,2005
+01_geography,"block group median income within [25,000, 250,000]","31500, 197000",all inside,TRUE,TRUE,2006
+01_geography,"block group median income within [25,000, 250,000]","48700, 201200",all inside,TRUE,TRUE,2007
+01_geography,"block group median income within [25,000, 250,000]","46600, 192300",all inside,TRUE,TRUE,2008
+01_geography,"block group median income within [25,000, 250,000]","40500, 171900",all inside,TRUE,TRUE,2009
+01_geography,"block group median income within [25,000, 250,000]","45500, 201100",all inside,TRUE,TRUE,2010
+01_geography,"block group median income within [25,000, 250,000]","41600, 206500",all inside,TRUE,TRUE,2011
+01_geography,"block group median income within [25,000, 250,000]","37600, 242100",all inside,TRUE,TRUE,2012
+01_geography,"block group median income within [25,000, 250,000]","27900, 187600",all inside,TRUE,TRUE,2013
+01_geography,"block group median income within [25,000, 250,000]","38200, 158200",all inside,TRUE,TRUE,2014
+01_geography,"block group median income within [25,000, 250,000]","36000, 162400",all inside,TRUE,TRUE,2015
+01_geography,"block group median income within [25,000, 250,000]","37700, 195600",all inside,TRUE,TRUE,2016
+01_geography,"block group median income within [25,000, 250,000]","26600, 183000",all inside,TRUE,TRUE,2017
+01_geography,"block group median income within [25,000, 250,000]","34700, 189500",all inside,TRUE,TRUE,2018
+01_geography,"block group median income within [25,000, 250,000]","42700, 250000",all inside,TRUE,TRUE,2019
+01_geography,"block group median income within [25,000, 250,000]","40700, 178600",all inside,TRUE,TRUE,2020
+01_geography,"block group median year built within [1940, 2010]","1949, 2010",all inside,TRUE,TRUE,2001
+01_geography,"block group median year built within [1940, 2010]","1951, 2010",all inside,TRUE,TRUE,2002
+01_geography,"block group median year built within [1940, 2010]","1950, 2003",all inside,TRUE,TRUE,2003
+01_geography,"block group median year built within [1940, 2010]","1958, 2010",all inside,TRUE,TRUE,2004
+01_geography,"block group median year built within [1940, 2010]","1956, 2009",all inside,TRUE,TRUE,2005
+01_geography,"block group median year built within [1940, 2010]","1957, 2010",all inside,TRUE,TRUE,2006
+01_geography,"block group median year built within [1940, 2010]","1951, 2010",all inside,TRUE,TRUE,2007
+01_geography,"block group median year built within [1940, 2010]","1942, 2010",all inside,TRUE,TRUE,2008
+01_geography,"block group median year built within [1940, 2010]","1959, 2006",all inside,TRUE,TRUE,2009
+01_geography,"block group median year built within [1940, 2010]","1955, 2009",all inside,TRUE,TRUE,2010
+01_geography,"block group median year built within [1940, 2010]","1948, 2010",all inside,TRUE,TRUE,2011
+01_geography,"block group median year built within [1940, 2010]","1957, 2008",all inside,TRUE,TRUE,2012
+01_geography,"block group median year built within [1940, 2010]","1949, 2010",all inside,TRUE,TRUE,2013
+01_geography,"block group median year built within [1940, 2010]","1961, 2007",all inside,TRUE,TRUE,2014
+01_geography,"block group median year built within [1940, 2010]","1955, 1999",all inside,TRUE,TRUE,2015
+01_geography,"block group median year built within [1940, 2010]","1952, 2010",all inside,TRUE,TRUE,2016
+01_geography,"block group median year built within [1940, 2010]","1956, 2008",all inside,TRUE,TRUE,2017
+01_geography,"block group median year built within [1940, 2010]","1951, 2008",all inside,TRUE,TRUE,2018
+01_geography,"block group median year built within [1940, 2010]","1959, 2008",all inside,TRUE,TRUE,2019
+01_geography,"block group median year built within [1940, 2010]","1952, 2010",all inside,TRUE,TRUE,2020
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2001
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2002
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2003
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2004
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2005
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2006
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2007
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2008
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2009
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2010
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2011
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2012
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2013
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2014
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2015
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2016
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2017
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2018
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2019
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE,2020
+02_accounts,"account year built within [1900, 2009]","1913, 2009",all inside,TRUE,TRUE,2001
+02_accounts,"account year built within [1900, 2009]","1926, 2009",all inside,TRUE,TRUE,2002
+02_accounts,"account year built within [1900, 2009]","1913, 2009",all inside,TRUE,TRUE,2003
+02_accounts,"account year built within [1900, 2009]","1923, 2009",all inside,TRUE,TRUE,2004
+02_accounts,"account year built within [1900, 2009]","1921, 2009",all inside,TRUE,TRUE,2005
+02_accounts,"account year built within [1900, 2009]","1920, 2009",all inside,TRUE,TRUE,2006
+02_accounts,"account year built within [1900, 2009]","1920, 2009",all inside,TRUE,TRUE,2007
+02_accounts,"account year built within [1900, 2009]","1905, 2009",all inside,TRUE,TRUE,2008
+02_accounts,"account year built within [1900, 2009]","1927, 2009",all inside,TRUE,TRUE,2009
+02_accounts,"account year built within [1900, 2009]","1919, 2009",all inside,TRUE,TRUE,2010
+02_accounts,"account year built within [1900, 2009]","1916, 2009",all inside,TRUE,TRUE,2011
+02_accounts,"account year built within [1900, 2009]","1917, 2009",all inside,TRUE,TRUE,2012
+02_accounts,"account year built within [1900, 2009]","1921, 2009",all inside,TRUE,TRUE,2013
+02_accounts,"account year built within [1900, 2009]","1923, 2009",all inside,TRUE,TRUE,2014
+02_accounts,"account year built within [1900, 2009]","1924, 2009",all inside,TRUE,TRUE,2015
+02_accounts,"account year built within [1900, 2009]","1931, 2009",all inside,TRUE,TRUE,2016
+02_accounts,"account year built within [1900, 2009]","1921, 2009",all inside,TRUE,TRUE,2017
+02_accounts,"account year built within [1900, 2009]","1927, 2009",all inside,TRUE,TRUE,2018
+02_accounts,"account year built within [1900, 2009]","1921, 2009",all inside,TRUE,TRUE,2019
+02_accounts,"account year built within [1900, 2009]","1923, 2009",all inside,TRUE,TRUE,2020
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2001
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2002
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2003
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2004
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2005
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2006
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2007
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2008
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2009
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2010
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2011
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2012
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2013
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2014
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2015
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2016
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2017
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2018
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2019
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,TRUE,2020
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2826, 4076, 3793, 8124, 4501",IE and VS > SC,TRUE,TRUE,2001
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2649, 4104, 4082, 7800, 4521",IE and VS > SC,TRUE,TRUE,2002
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2648, 4342, 3944, 7522, 5126",IE and VS > SC,TRUE,TRUE,2003
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2947, 4286, 4113, 8271, 5260",IE and VS > SC,TRUE,TRUE,2004
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2773, 4144, 3981, 7403, 4648",IE and VS > SC,TRUE,TRUE,2005
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2692, 4459, 3921, 7352, 4980",IE and VS > SC,TRUE,TRUE,2006
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2402, 4256, 4064, 7262, 5608",IE and VS > SC,TRUE,TRUE,2007
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2797, 4490, 4305, 7938, 5022",IE and VS > SC,TRUE,TRUE,2008
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2725, 4350, 3895, 7576, 5109",IE and VS > SC,TRUE,TRUE,2009
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2759, 4090, 4152, 8049, 5211",IE and VS > SC,TRUE,TRUE,2010
+02_accounts,inland and valley median irrigable area exceeds Surf City,"3081, 4360, 3925, 7556, 4850",IE and VS > SC,TRUE,TRUE,2011
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2881, 4393, 4062, 8464, 5258",IE and VS > SC,TRUE,TRUE,2012
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2633, 4273, 3992, 7634, 4926",IE and VS > SC,TRUE,TRUE,2013
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2882, 4302, 3774, 7472, 5220",IE and VS > SC,TRUE,TRUE,2014
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2711, 4291, 4323, 7530, 5432",IE and VS > SC,TRUE,TRUE,2015
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2730, 4147, 4015, 7530, 5040",IE and VS > SC,TRUE,TRUE,2016
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2757, 4204, 3724, 7784, 4963",IE and VS > SC,TRUE,TRUE,2017
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2870, 4157, 4162, 8094, 5062",IE and VS > SC,TRUE,TRUE,2018
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2988, 4357, 4161, 7752, 5152",IE and VS > SC,TRUE,TRUE,2019
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2617, 4126, 3951, 7134, 4938",IE and VS > SC,TRUE,TRUE,2020
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 200000",all inside,TRUE,TRUE,2001
+02_accounts,"irrigation account area within [5,000, 200,000]","5659, 87890",all inside,TRUE,TRUE,2002
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 183800",all inside,TRUE,TRUE,2003
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 92620",all inside,TRUE,TRUE,2004
+02_accounts,"irrigation account area within [5,000, 200,000]","5872, 173000",all inside,TRUE,TRUE,2005
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 96000",all inside,TRUE,TRUE,2006
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 200000",all inside,TRUE,TRUE,2007
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 200000",all inside,TRUE,TRUE,2008
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 118100",all inside,TRUE,TRUE,2009
+02_accounts,"irrigation account area within [5,000, 200,000]","5639, 140200",all inside,TRUE,TRUE,2010
+02_accounts,"irrigation account area within [5,000, 200,000]","6598, 124700",all inside,TRUE,TRUE,2011
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 160500",all inside,TRUE,TRUE,2012
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 200000",all inside,TRUE,TRUE,2013
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 200000",all inside,TRUE,TRUE,2014
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 151000",all inside,TRUE,TRUE,2015
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 184200",all inside,TRUE,TRUE,2016
+02_accounts,"irrigation account area within [5,000, 200,000]","5367, 200000",all inside,TRUE,TRUE,2017
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 171700",all inside,TRUE,TRUE,2018
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 139500",all inside,TRUE,TRUE,2019
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 200000",all inside,TRUE,TRUE,2020
+02_accounts,"single family irrigable area within [500, 40,000]","568, 38640",all inside,TRUE,TRUE,2001
+02_accounts,"single family irrigable area within [500, 40,000]","613, 40000",all inside,TRUE,TRUE,2002
+02_accounts,"single family irrigable area within [500, 40,000]","749, 29890",all inside,TRUE,TRUE,2003
+02_accounts,"single family irrigable area within [500, 40,000]","685, 30610",all inside,TRUE,TRUE,2004
+02_accounts,"single family irrigable area within [500, 40,000]","682, 25430",all inside,TRUE,TRUE,2005
+02_accounts,"single family irrigable area within [500, 40,000]","556, 34470",all inside,TRUE,TRUE,2006
+02_accounts,"single family irrigable area within [500, 40,000]","647, 40000",all inside,TRUE,TRUE,2007
+02_accounts,"single family irrigable area within [500, 40,000]","663, 40000",all inside,TRUE,TRUE,2008
+02_accounts,"single family irrigable area within [500, 40,000]","754, 25930",all inside,TRUE,TRUE,2009
+02_accounts,"single family irrigable area within [500, 40,000]","784, 25380",all inside,TRUE,TRUE,2010
+02_accounts,"single family irrigable area within [500, 40,000]","714, 25390",all inside,TRUE,TRUE,2011
+02_accounts,"single family irrigable area within [500, 40,000]","674, 30300",all inside,TRUE,TRUE,2012
+02_accounts,"single family irrigable area within [500, 40,000]","830, 30960",all inside,TRUE,TRUE,2013
+02_accounts,"single family irrigable area within [500, 40,000]","749, 38610",all inside,TRUE,TRUE,2014
+02_accounts,"single family irrigable area within [500, 40,000]","614, 30940",all inside,TRUE,TRUE,2015
+02_accounts,"single family irrigable area within [500, 40,000]","882, 39450",all inside,TRUE,TRUE,2016
+02_accounts,"single family irrigable area within [500, 40,000]","644, 27800",all inside,TRUE,TRUE,2017
+02_accounts,"single family irrigable area within [500, 40,000]","817, 40000",all inside,TRUE,TRUE,2018
+02_accounts,"single family irrigable area within [500, 40,000]","788, 24200",all inside,TRUE,TRUE,2019
+02_accounts,"single family irrigable area within [500, 40,000]","797, 35240",all inside,TRUE,TRUE,2020
+03_occupancy,closures are rare,0.005938,share of locations closed < 0.02,TRUE,TRUE,2001
+03_occupancy,closures are rare,0.003739,share of locations closed < 0.02,TRUE,TRUE,2002
+03_occupancy,closures are rare,0.004078,share of locations closed < 0.02,TRUE,TRUE,2003
+03_occupancy,closures are rare,0.006516,share of locations closed < 0.02,TRUE,TRUE,2004
+03_occupancy,closures are rare,0.00468,share of locations closed < 0.02,TRUE,TRUE,2005
+03_occupancy,closures are rare,0.005616,share of locations closed < 0.02,TRUE,TRUE,2006
+03_occupancy,closures are rare,0.006502,share of locations closed < 0.02,TRUE,TRUE,2007
+03_occupancy,closures are rare,0.003124,share of locations closed < 0.02,TRUE,TRUE,2008
+03_occupancy,closures are rare,0.004966,share of locations closed < 0.02,TRUE,TRUE,2009
+03_occupancy,closures are rare,0.006579,share of locations closed < 0.02,TRUE,TRUE,2010
+03_occupancy,closures are rare,0.008731,share of locations closed < 0.02,TRUE,TRUE,2011
+03_occupancy,closures are rare,0.007246,share of locations closed < 0.02,TRUE,TRUE,2012
+03_occupancy,closures are rare,0.006899,share of locations closed < 0.02,TRUE,TRUE,2013
+03_occupancy,closures are rare,0.006562,share of locations closed < 0.02,TRUE,TRUE,2014
+03_occupancy,closures are rare,0.004983,share of locations closed < 0.02,TRUE,TRUE,2015
+03_occupancy,closures are rare,0.006591,share of locations closed < 0.02,TRUE,TRUE,2016
+03_occupancy,closures are rare,0.005664,share of locations closed < 0.02,TRUE,TRUE,2017
+03_occupancy,closures are rare,0.005339,share of locations closed < 0.02,TRUE,TRUE,2018
+03_occupancy,closures are rare,0.006864,share of locations closed < 0.02,TRUE,TRUE,2019
+03_occupancy,closures are rare,0.005871,share of locations closed < 0.02,TRUE,TRUE,2020
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.895,share > 0.6,TRUE,TRUE,2001
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.9234,share > 0.6,TRUE,TRUE,2002
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8404,share > 0.6,TRUE,TRUE,2003
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8744,share > 0.6,TRUE,TRUE,2004
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8439,share > 0.6,TRUE,TRUE,2005
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8146,share > 0.6,TRUE,TRUE,2006
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8217,share > 0.6,TRUE,TRUE,2007
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8507,share > 0.6,TRUE,TRUE,2008
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.9009,share > 0.6,TRUE,TRUE,2009
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8906,share > 0.6,TRUE,TRUE,2010
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8841,share > 0.6,TRUE,TRUE,2011
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8161,share > 0.6,TRUE,TRUE,2012
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8995,share > 0.6,TRUE,TRUE,2013
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.875,share > 0.6,TRUE,TRUE,2014
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8815,share > 0.6,TRUE,TRUE,2015
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8817,share > 0.6,TRUE,TRUE,2016
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.9045,share > 0.6,TRUE,TRUE,2017
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8859,share > 0.6,TRUE,TRUE,2018
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8829,share > 0.6,TRUE,TRUE,2019
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.9025,share > 0.6,TRUE,TRUE,2020
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01067,between 0.006 and 0.016,TRUE,TRUE,2001
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01115,between 0.006 and 0.016,TRUE,TRUE,2002
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01003,between 0.006 and 0.016,TRUE,TRUE,2003
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01189,between 0.006 and 0.016,TRUE,TRUE,2004
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01093,between 0.006 and 0.016,TRUE,TRUE,2005
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01093,between 0.006 and 0.016,TRUE,TRUE,2006
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01227,between 0.006 and 0.016,TRUE,TRUE,2007
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01072,between 0.006 and 0.016,TRUE,TRUE,2008
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01184,between 0.006 and 0.016,TRUE,TRUE,2009
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01024,between 0.006 and 0.016,TRUE,TRUE,2010
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01104,between 0.006 and 0.016,TRUE,TRUE,2011
+03_occupancy,new construction rate near 1 percent of accounts per year,0.00928,between 0.006 and 0.016,TRUE,TRUE,2012
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01008,between 0.006 and 0.016,TRUE,TRUE,2013
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01067,between 0.006 and 0.016,TRUE,TRUE,2014
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01125,between 0.006 and 0.016,TRUE,TRUE,2015
+03_occupancy,new construction rate near 1 percent of accounts per year,0.00992,between 0.006 and 0.016,TRUE,TRUE,2016
+03_occupancy,new construction rate near 1 percent of accounts per year,0.009493,between 0.006 and 0.016,TRUE,TRUE,2017
+03_occupancy,new construction rate near 1 percent of accounts per year,0.009813,between 0.006 and 0.016,TRUE,TRUE,2018
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01093,between 0.006 and 0.016,TRUE,TRUE,2019
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01259,between 0.006 and 0.016,TRUE,TRUE,2020
+03_occupancy,new construction year built equals first billing year,200,all,TRUE,TRUE,2001
+03_occupancy,new construction year built equals first billing year,209,all,TRUE,TRUE,2002
+03_occupancy,new construction year built equals first billing year,188,all,TRUE,TRUE,2003
+03_occupancy,new construction year built equals first billing year,223,all,TRUE,TRUE,2004
+03_occupancy,new construction year built equals first billing year,205,all,TRUE,TRUE,2005
+03_occupancy,new construction year built equals first billing year,205,all,TRUE,TRUE,2006
+03_occupancy,new construction year built equals first billing year,230,all,TRUE,TRUE,2007
+03_occupancy,new construction year built equals first billing year,201,all,TRUE,TRUE,2008
+03_occupancy,new construction year built equals first billing year,222,all,TRUE,TRUE,2009
+03_occupancy,new construction year built equals first billing year,192,all,TRUE,TRUE,2010
+03_occupancy,new construction year built equals first billing year,207,all,TRUE,TRUE,2011
+03_occupancy,new construction year built equals first billing year,174,all,TRUE,TRUE,2012
+03_occupancy,new construction year built equals first billing year,189,all,TRUE,TRUE,2013
+03_occupancy,new construction year built equals first billing year,200,all,TRUE,TRUE,2014
+03_occupancy,new construction year built equals first billing year,211,all,TRUE,TRUE,2015
+03_occupancy,new construction year built equals first billing year,186,all,TRUE,TRUE,2016
+03_occupancy,new construction year built equals first billing year,178,all,TRUE,TRUE,2017
+03_occupancy,new construction year built equals first billing year,184,all,TRUE,TRUE,2018
+03_occupancy,new construction year built equals first billing year,205,all,TRUE,TRUE,2019
+03_occupancy,new construction year built equals first billing year,236,all,TRUE,TRUE,2020
+03_occupancy,realized single family turnover rate per year,0.07218,between 0.06 and 0.08,TRUE,TRUE,2001
+03_occupancy,realized single family turnover rate per year,0.07303,between 0.06 and 0.08,TRUE,TRUE,2002
+03_occupancy,realized single family turnover rate per year,0.07001,between 0.06 and 0.08,TRUE,TRUE,2003
+03_occupancy,realized single family turnover rate per year,0.07393,between 0.06 and 0.08,TRUE,TRUE,2004
+03_occupancy,realized single family turnover rate per year,0.06948,between 0.06 and 0.08,TRUE,TRUE,2005
+03_occupancy,realized single family turnover rate per year,0.07476,between 0.06 and 0.08,TRUE,TRUE,2006
+03_occupancy,realized single family turnover rate per year,0.07054,between 0.06 and 0.08,TRUE,TRUE,2007
+03_occupancy,realized single family turnover rate per year,0.07053,between 0.06 and 0.08,TRUE,TRUE,2008
+03_occupancy,realized single family turnover rate per year,0.07063,between 0.06 and 0.08,TRUE,TRUE,2009
+03_occupancy,realized single family turnover rate per year,0.07222,between 0.06 and 0.08,TRUE,TRUE,2010
+03_occupancy,realized single family turnover rate per year,0.07409,between 0.06 and 0.08,TRUE,TRUE,2011
+03_occupancy,realized single family turnover rate per year,0.07283,between 0.06 and 0.08,TRUE,TRUE,2012
+03_occupancy,realized single family turnover rate per year,0.07222,between 0.06 and 0.08,TRUE,TRUE,2013
+03_occupancy,realized single family turnover rate per year,0.07291,between 0.06 and 0.08,TRUE,TRUE,2014
+03_occupancy,realized single family turnover rate per year,0.07482,between 0.06 and 0.08,TRUE,TRUE,2015
+03_occupancy,realized single family turnover rate per year,0.07332,between 0.06 and 0.08,TRUE,TRUE,2016
+03_occupancy,realized single family turnover rate per year,0.07181,between 0.06 and 0.08,TRUE,TRUE,2017
+03_occupancy,realized single family turnover rate per year,0.07391,between 0.06 and 0.08,TRUE,TRUE,2018
+03_occupancy,realized single family turnover rate per year,0.07435,between 0.06 and 0.08,TRUE,TRUE,2019
+03_occupancy,realized single family turnover rate per year,0.07335,between 0.06 and 0.08,TRUE,TRUE,2020
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2001
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2002
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2003
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2004
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2005
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2006
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2007
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2008
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2009
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2010
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2011
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2012
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2013
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2014
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2015
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2016
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2017
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2018
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2019
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,TRUE,2020
+04_climate,drought water years drier than baseline in every retailer,"0.6916, 0.7355, 0.5050, 0.6593, 0.6595",ratio < 1,TRUE,TRUE,2001
+04_climate,drought water years drier than baseline in every retailer,"0.9525, 0.8328, 0.7926, 0.7364, 0.7147",ratio < 1,TRUE,TRUE,2002
+04_climate,drought water years drier than baseline in every retailer,"0.7579, 0.7821, 0.6858, 0.7341, 0.7652",ratio < 1,TRUE,TRUE,2003
+04_climate,drought water years drier than baseline in every retailer,"0.4925, 0.7871, 0.7722, 0.8984, 0.7445",ratio < 1,TRUE,TRUE,2004
+04_climate,drought water years drier than baseline in every retailer,"0.5313, 0.4364, 0.5195, 0.4073, 0.4482",ratio < 1,TRUE,TRUE,2005
+04_climate,drought water years drier than baseline in every retailer,"0.5372, 0.5272, 0.5664, 0.6331, 0.5001",ratio < 1,TRUE,TRUE,2006
+04_climate,drought water years drier than baseline in every retailer,"0.7547, 0.9018, 0.7409, 0.7512, 1.0010",ratio < 1,FALSE,TRUE,2007
+04_climate,drought water years drier than baseline in every retailer,"0.7153, 0.8174, 0.8260, 0.9915, 0.6567",ratio < 1,TRUE,TRUE,2008
+04_climate,drought water years drier than baseline in every retailer,"0.7833, 0.6692, 0.5897, 0.7208, 0.6920",ratio < 1,TRUE,TRUE,2009
+04_climate,drought water years drier than baseline in every retailer,"0.5040, 0.6295, 0.5285, 0.6130, 0.5657",ratio < 1,TRUE,TRUE,2010
+04_climate,drought water years drier than baseline in every retailer,"0.5022, 0.5600, 0.7114, 0.4786, 0.5911",ratio < 1,TRUE,TRUE,2011
+04_climate,drought water years drier than baseline in every retailer,"0.5594, 0.4080, 0.5072, 0.5790, 0.5405",ratio < 1,TRUE,TRUE,2012
+04_climate,drought water years drier than baseline in every retailer,"0.7025, 0.7450, 0.6155, 0.5624, 0.5745",ratio < 1,TRUE,TRUE,2013
+04_climate,drought water years drier than baseline in every retailer,"0.5540, 0.5077, 0.5750, 0.4267, 0.7012",ratio < 1,TRUE,TRUE,2014
+04_climate,drought water years drier than baseline in every retailer,"0.8324, 0.7531, 0.5928, 0.6375, 1.0020",ratio < 1,FALSE,TRUE,2015
+04_climate,drought water years drier than baseline in every retailer,"0.7820, 0.8934, 0.7971, 0.8492, 0.8613",ratio < 1,TRUE,TRUE,2016
+04_climate,drought water years drier than baseline in every retailer,"0.5054, 0.6046, 0.5501, 0.4692, 0.5591",ratio < 1,TRUE,TRUE,2017
+04_climate,drought water years drier than baseline in every retailer,"0.5704, 0.7110, 0.6110, 0.4805, 0.5030",ratio < 1,TRUE,TRUE,2018
+04_climate,drought water years drier than baseline in every retailer,"0.8511, 0.6300, 0.4858, 0.7322, 0.5148",ratio < 1,TRUE,TRUE,2019
+04_climate,drought water years drier than baseline in every retailer,"0.6051, 0.3159, 0.4313, 0.6076, 0.5071",ratio < 1,TRUE,TRUE,2020
+04_climate,drought water years slightly higher in ET0 than baseline,"1.040, 1.046, 1.047, 1.038, 1.021",1 < ratio < 1.1,TRUE,TRUE,2001
+04_climate,drought water years slightly higher in ET0 than baseline,"1.029, 1.053, 1.056, 1.038, 1.043",1 < ratio < 1.1,TRUE,TRUE,2002
+04_climate,drought water years slightly higher in ET0 than baseline,"1.052, 1.032, 1.042, 1.040, 1.033",1 < ratio < 1.1,TRUE,TRUE,2003
+04_climate,drought water years slightly higher in ET0 than baseline,"1.031, 1.022, 1.022, 1.041, 1.026",1 < ratio < 1.1,TRUE,TRUE,2004
+04_climate,drought water years slightly higher in ET0 than baseline,"1.038, 1.048, 1.035, 1.061, 1.056",1 < ratio < 1.1,TRUE,TRUE,2005
+04_climate,drought water years slightly higher in ET0 than baseline,"1.042, 1.054, 1.041, 1.045, 1.040",1 < ratio < 1.1,TRUE,TRUE,2006
+04_climate,drought water years slightly higher in ET0 than baseline,"1.044, 1.029, 1.041, 1.040, 1.037",1 < ratio < 1.1,TRUE,TRUE,2007
+04_climate,drought water years slightly higher in ET0 than baseline,"1.044, 1.049, 1.052, 1.034, 1.046",1 < ratio < 1.1,TRUE,TRUE,2008
+04_climate,drought water years slightly higher in ET0 than baseline,"1.017, 1.021, 1.041, 1.013, 1.015",1 < ratio < 1.1,TRUE,TRUE,2009
+04_climate,drought water years slightly higher in ET0 than baseline,"1.041, 1.057, 1.048, 1.055, 1.053",1 < ratio < 1.1,TRUE,TRUE,2010
+04_climate,drought water years slightly higher in ET0 than baseline,"1.061, 1.077, 1.068, 1.064, 1.074",1 < ratio < 1.1,TRUE,TRUE,2011
+04_climate,drought water years slightly higher in ET0 than baseline,"1.058, 1.075, 1.070, 1.054, 1.069",1 < ratio < 1.1,TRUE,TRUE,2012
+04_climate,drought water years slightly higher in ET0 than baseline,"1.049, 1.031, 1.039, 1.058, 1.040",1 < ratio < 1.1,TRUE,TRUE,2013
+04_climate,drought water years slightly higher in ET0 than baseline,"1.058, 1.066, 1.058, 1.057, 1.037",1 < ratio < 1.1,TRUE,TRUE,2014
+04_climate,drought water years slightly higher in ET0 than baseline,"1.070, 1.057, 1.079, 1.049, 1.079",1 < ratio < 1.1,TRUE,TRUE,2015
+04_climate,drought water years slightly higher in ET0 than baseline,"1.031, 1.051, 1.031, 1.041, 1.038",1 < ratio < 1.1,TRUE,TRUE,2016
+04_climate,drought water years slightly higher in ET0 than baseline,"1.036, 1.047, 1.043, 1.049, 1.047",1 < ratio < 1.1,TRUE,TRUE,2017
+04_climate,drought water years slightly higher in ET0 than baseline,"1.032, 1.055, 1.048, 1.042, 1.039",1 < ratio < 1.1,TRUE,TRUE,2018
+04_climate,drought water years slightly higher in ET0 than baseline,"1.033, 1.058, 1.039, 1.036, 1.045",1 < ratio < 1.1,TRUE,TRUE,2019
+04_climate,drought water years slightly higher in ET0 than baseline,"1.058, 1.040, 1.036, 1.045, 1.038",1 < ratio < 1.1,TRUE,TRUE,2020
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.905, 3.950, 3.020, 3.071, 9.739",IE and VS > SC,TRUE,TRUE,2001
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.963, 3.990, 2.873, 2.813, 10.030",IE and VS > SC,TRUE,TRUE,2002
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.881, 3.943, 3.017, 2.954, 10.180",IE and VS > SC,TRUE,TRUE,2003
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.918, 3.837, 3.086, 2.990, 10.270",IE and VS > SC,TRUE,TRUE,2004
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.078, 4.011, 3.032, 3.074, 10.140",IE and VS > SC,TRUE,TRUE,2005
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.989, 3.925, 2.962, 3.019, 10.290",IE and VS > SC,TRUE,TRUE,2006
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.011, 3.978, 3.077, 2.963, 10.010",IE and VS > SC,TRUE,TRUE,2007
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.985, 4.121, 3.018, 2.952, 10.330",IE and VS > SC,TRUE,TRUE,2008
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.931, 4.004, 2.980, 2.976, 10.200",IE and VS > SC,TRUE,TRUE,2009
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.975, 4.114, 2.884, 3.013, 10.390",IE and VS > SC,TRUE,TRUE,2010
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.051, 3.958, 2.945, 3.050, 10.180",IE and VS > SC,TRUE,TRUE,2011
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.903, 4.100, 3.048, 2.960, 10.030",IE and VS > SC,TRUE,TRUE,2012
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.955, 3.912, 2.970, 2.950, 9.682",IE and VS > SC,TRUE,TRUE,2013
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.149, 4.111, 3.071, 2.953, 10.520",IE and VS > SC,TRUE,TRUE,2014
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.862, 3.942, 3.080, 3.094, 9.851",IE and VS > SC,TRUE,TRUE,2015
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.920, 3.806, 3.001, 3.044, 9.933",IE and VS > SC,TRUE,TRUE,2016
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.876, 3.819, 2.934, 2.887, 10.120",IE and VS > SC,TRUE,TRUE,2017
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.840, 3.967, 2.919, 2.977, 9.922",IE and VS > SC,TRUE,TRUE,2018
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.959, 4.018, 3.062, 2.979, 10.330",IE and VS > SC,TRUE,TRUE,2019
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.813, 4.013, 2.989, 3.007, 9.989",IE and VS > SC,TRUE,TRUE,2020
+04_climate,precipitation concentrated November through March,"0.8375, 0.8801, 0.8614, 0.8950, 0.8627",share > 0.7,TRUE,TRUE,2001
+04_climate,precipitation concentrated November through March,"0.8703, 0.8249, 0.8449, 0.8465, 0.7957",share > 0.7,TRUE,TRUE,2002
+04_climate,precipitation concentrated November through March,"0.8530, 0.8536, 0.8345, 0.8605, 0.8612",share > 0.7,TRUE,TRUE,2003
+04_climate,precipitation concentrated November through March,"0.8548, 0.8226, 0.8600, 0.8643, 0.8557",share > 0.7,TRUE,TRUE,2004
+04_climate,precipitation concentrated November through March,"0.8326, 0.8436, 0.8196, 0.8477, 0.8900",share > 0.7,TRUE,TRUE,2005
+04_climate,precipitation concentrated November through March,"0.7884, 0.8145, 0.8645, 0.8566, 0.8531",share > 0.7,TRUE,TRUE,2006
+04_climate,precipitation concentrated November through March,"0.8299, 0.8648, 0.8290, 0.8621, 0.8504",share > 0.7,TRUE,TRUE,2007
+04_climate,precipitation concentrated November through March,"0.8489, 0.8674, 0.8704, 0.8474, 0.8675",share > 0.7,TRUE,TRUE,2008
+04_climate,precipitation concentrated November through March,"0.8539, 0.8144, 0.8247, 0.9017, 0.8469",share > 0.7,TRUE,TRUE,2009
+04_climate,precipitation concentrated November through March,"0.7905, 0.8517, 0.8123, 0.8298, 0.8339",share > 0.7,TRUE,TRUE,2010
+04_climate,precipitation concentrated November through March,"0.8500, 0.8672, 0.8792, 0.8238, 0.8798",share > 0.7,TRUE,TRUE,2011
+04_climate,precipitation concentrated November through March,"0.8740, 0.8804, 0.8778, 0.8555, 0.8716",share > 0.7,TRUE,TRUE,2012
+04_climate,precipitation concentrated November through March,"0.8645, 0.8402, 0.8434, 0.8263, 0.8654",share > 0.7,TRUE,TRUE,2013
+04_climate,precipitation concentrated November through March,"0.8107, 0.8696, 0.8224, 0.8679, 0.8318",share > 0.7,TRUE,TRUE,2014
+04_climate,precipitation concentrated November through March,"0.9148, 0.8360, 0.8425, 0.8275, 0.8462",share > 0.7,TRUE,TRUE,2015
+04_climate,precipitation concentrated November through March,"0.8417, 0.8169, 0.8501, 0.8470, 0.8376",share > 0.7,TRUE,TRUE,2016
+04_climate,precipitation concentrated November through March,"0.8544, 0.8662, 0.7899, 0.8646, 0.8290",share > 0.7,TRUE,TRUE,2017
+04_climate,precipitation concentrated November through March,"0.8566, 0.8261, 0.8935, 0.8624, 0.8376",share > 0.7,TRUE,TRUE,2018
+04_climate,precipitation concentrated November through March,"0.8422, 0.8725, 0.8464, 0.8303, 0.8685",share > 0.7,TRUE,TRUE,2019
+04_climate,precipitation concentrated November through March,"0.8677, 0.8195, 0.8032, 0.8917, 0.7899",share > 0.7,TRUE,TRUE,2020
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.789, 3.806, 2.268, 2.372, 4.113",IE and VS > SC,TRUE,TRUE,2001
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"3.022, 3.691, 1.983, 2.565, 4.659",IE and VS > SC,TRUE,TRUE,2002
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.906, 3.515, 2.105, 2.480, 4.821",IE and VS > SC,TRUE,TRUE,2003
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.971, 3.238, 2.118, 2.532, 4.489",IE and VS > SC,TRUE,TRUE,2004
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.997, 3.557, 2.059, 2.219, 4.624",IE and VS > SC,TRUE,TRUE,2005
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.620, 3.231, 2.111, 2.260, 4.805",IE and VS > SC,TRUE,TRUE,2006
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"3.216, 3.611, 2.122, 2.472, 4.794",IE and VS > SC,TRUE,TRUE,2007
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"3.118, 3.895, 2.372, 2.736, 4.992",IE and VS > SC,TRUE,TRUE,2008
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.974, 3.526, 2.195, 2.637, 4.691",IE and VS > SC,TRUE,TRUE,2009
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.899, 3.840, 2.126, 2.442, 4.972",IE and VS > SC,TRUE,TRUE,2010
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.746, 3.372, 2.170, 2.240, 4.885",IE and VS > SC,TRUE,TRUE,2011
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.916, 3.563, 2.005, 2.488, 4.535",IE and VS > SC,TRUE,TRUE,2012
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.851, 3.650, 2.134, 2.410, 4.711",IE and VS > SC,TRUE,TRUE,2013
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.915, 3.268, 2.052, 2.384, 4.653",IE and VS > SC,TRUE,TRUE,2014
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.951, 3.563, 2.198, 2.420, 4.834",IE and VS > SC,TRUE,TRUE,2015
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.986, 3.730, 2.366, 2.662, 4.469",IE and VS > SC,TRUE,TRUE,2016
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.783, 2.989, 2.159, 2.403, 4.733",IE and VS > SC,TRUE,TRUE,2017
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.987, 3.658, 1.976, 2.351, 4.843",IE and VS > SC,TRUE,TRUE,2018
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.979, 3.798, 2.010, 2.588, 4.754",IE and VS > SC,TRUE,TRUE,2019
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"3.049, 3.289, 2.123, 2.465, 4.886",IE and VS > SC,TRUE,TRUE,2020
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2456,between -0.30 and -0.15,TRUE,TRUE,2001
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.218,between -0.30 and -0.15,TRUE,TRUE,2002
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2573,between -0.30 and -0.15,TRUE,TRUE,2003
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2484,between -0.30 and -0.15,TRUE,TRUE,2004
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2519,between -0.30 and -0.15,TRUE,TRUE,2005
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2362,between -0.30 and -0.15,TRUE,TRUE,2006
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2281,between -0.30 and -0.15,TRUE,TRUE,2007
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.259,between -0.30 and -0.15,TRUE,TRUE,2008
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2594,between -0.30 and -0.15,TRUE,TRUE,2009
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.1968,between -0.30 and -0.15,TRUE,TRUE,2010
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.261,between -0.30 and -0.15,TRUE,TRUE,2011
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2651,between -0.30 and -0.15,TRUE,TRUE,2012
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2641,between -0.30 and -0.15,TRUE,TRUE,2013
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2176,between -0.30 and -0.15,TRUE,TRUE,2014
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2505,between -0.30 and -0.15,TRUE,TRUE,2015
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2463,between -0.30 and -0.15,TRUE,TRUE,2016
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2731,between -0.30 and -0.15,TRUE,TRUE,2017
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2552,between -0.30 and -0.15,TRUE,TRUE,2018
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2335,between -0.30 and -0.15,TRUE,TRUE,2019
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2445,between -0.30 and -0.15,TRUE,TRUE,2020
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9826,>= 0.90,TRUE,TRUE,2001
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9856,>= 0.90,TRUE,TRUE,2002
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9865,>= 0.90,TRUE,TRUE,2003
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9832,>= 0.90,TRUE,TRUE,2004
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9858,>= 0.90,TRUE,TRUE,2005
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9922,>= 0.90,TRUE,TRUE,2006
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9849,>= 0.90,TRUE,TRUE,2007
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9823,>= 0.90,TRUE,TRUE,2008
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9913,>= 0.90,TRUE,TRUE,2009
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9828,>= 0.90,TRUE,TRUE,2010
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9832,>= 0.90,TRUE,TRUE,2011
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9882,>= 0.90,TRUE,TRUE,2012
+05_usage,occupied single family account-months between 0 and 100 CCF,0.988,>= 0.90,TRUE,TRUE,2013
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9788,>= 0.90,TRUE,TRUE,2014
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9859,>= 0.90,TRUE,TRUE,2015
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9909,>= 0.90,TRUE,TRUE,2016
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9874,>= 0.90,TRUE,TRUE,2017
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9819,>= 0.90,TRUE,TRUE,2018
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9855,>= 0.90,TRUE,TRUE,2019
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9863,>= 0.90,TRUE,TRUE,2020
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6586, 0.8244, 0.6047, 0.6757, 0.7092",IE and VS > SC,TRUE,TRUE,2001
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6975, 0.8216, 0.5941, 0.6860, 0.7219",IE and VS > SC,TRUE,TRUE,2002
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6581, 0.8128, 0.5790, 0.6984, 0.7221",IE and VS > SC,TRUE,TRUE,2003
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6830, 0.8260, 0.6021, 0.6945, 0.7201",IE and VS > SC,TRUE,TRUE,2004
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6727, 0.8133, 0.5911, 0.6904, 0.7159",IE and VS > SC,TRUE,TRUE,2005
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6716, 0.7962, 0.5960, 0.7038, 0.7250",IE and VS > SC,TRUE,TRUE,2006
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6791, 0.8059, 0.5893, 0.6956, 0.7351",IE and VS > SC,TRUE,TRUE,2007
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6787, 0.8233, 0.6092, 0.7010, 0.7194",IE and VS > SC,TRUE,TRUE,2008
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6740, 0.8178, 0.6071, 0.6859, 0.7272",IE and VS > SC,TRUE,TRUE,2009
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6677, 0.8190, 0.6017, 0.6811, 0.7434",IE and VS > SC,TRUE,TRUE,2010
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6778, 0.8275, 0.6138, 0.7053, 0.7286",IE and VS > SC,TRUE,TRUE,2011
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6630, 0.8265, 0.6118, 0.7057, 0.7357",IE and VS > SC,TRUE,TRUE,2012
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6726, 0.8070, 0.5756, 0.7083, 0.7432",IE and VS > SC,TRUE,TRUE,2013
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6765, 0.8095, 0.5863, 0.7233, 0.7171",IE and VS > SC,TRUE,TRUE,2014
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6965, 0.8200, 0.5891, 0.6859, 0.7255",IE and VS > SC,TRUE,TRUE,2015
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6636, 0.8225, 0.6039, 0.6951, 0.7009",IE and VS > SC,TRUE,TRUE,2016
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6419, 0.8023, 0.5979, 0.7036, 0.7351",IE and VS > SC,TRUE,TRUE,2017
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6778, 0.8206, 0.6011, 0.6894, 0.7437",IE and VS > SC,TRUE,TRUE,2018
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6851, 0.8158, 0.6173, 0.7051, 0.7311",IE and VS > SC,TRUE,TRUE,2019
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6800, 0.8143, 0.5797, 0.7039, 0.7356",IE and VS > SC,TRUE,TRUE,2020
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2259,between -0.30 and -0.15,TRUE,TRUE,2001
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2046,between -0.30 and -0.15,TRUE,TRUE,2002
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2665,between -0.30 and -0.15,TRUE,TRUE,2003
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2394,between -0.30 and -0.15,TRUE,TRUE,2004
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.257,between -0.30 and -0.15,TRUE,TRUE,2005
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2159,between -0.30 and -0.15,TRUE,TRUE,2006
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2227,between -0.30 and -0.15,TRUE,TRUE,2007
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2317,between -0.30 and -0.15,TRUE,TRUE,2008
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2534,between -0.30 and -0.15,TRUE,TRUE,2009
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.1635,between -0.30 and -0.15,TRUE,TRUE,2010
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2487,between -0.30 and -0.15,TRUE,TRUE,2011
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2722,between -0.30 and -0.15,TRUE,TRUE,2012
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2426,between -0.30 and -0.15,TRUE,TRUE,2013
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2281,between -0.30 and -0.15,TRUE,TRUE,2014
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2347,between -0.30 and -0.15,TRUE,TRUE,2015
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2234,between -0.30 and -0.15,TRUE,TRUE,2016
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2686,between -0.30 and -0.15,TRUE,TRUE,2017
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.235,between -0.30 and -0.15,TRUE,TRUE,2018
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2353,between -0.30 and -0.15,TRUE,TRUE,2019
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2446,between -0.30 and -0.15,TRUE,TRUE,2020
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9803, 0.8300",>= 0.90 and >= 0.80,TRUE,TRUE,2001
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9849, 0.8481",>= 0.90 and >= 0.80,TRUE,TRUE,2002
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9816, 0.8561",>= 0.90 and >= 0.80,TRUE,TRUE,2003
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9788, 0.8456",>= 0.90 and >= 0.80,TRUE,TRUE,2004
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.987, 0.875",>= 0.90 and >= 0.80,TRUE,TRUE,2005
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9883, 0.8769",>= 0.90 and >= 0.80,TRUE,TRUE,2006
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9858, 0.8547",>= 0.90 and >= 0.80,TRUE,TRUE,2007
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9784, 0.8325",>= 0.90 and >= 0.80,TRUE,TRUE,2008
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9843, 0.8408",>= 0.90 and >= 0.80,TRUE,TRUE,2009
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9840, 0.8364",>= 0.90 and >= 0.80,TRUE,TRUE,2010
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9826, 0.8586",>= 0.90 and >= 0.80,TRUE,TRUE,2011
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9747, 0.7861",>= 0.90 and >= 0.80,FALSE,TRUE,2012
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9795, 0.8550",>= 0.90 and >= 0.80,TRUE,TRUE,2013
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9868, 0.8531",>= 0.90 and >= 0.80,TRUE,TRUE,2014
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9786, 0.8344",>= 0.90 and >= 0.80,TRUE,TRUE,2015
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9832, 0.8447",>= 0.90 and >= 0.80,TRUE,TRUE,2016
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9798, 0.8481",>= 0.90 and >= 0.80,TRUE,TRUE,2017
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9839, 0.8486",>= 0.90 and >= 0.80,TRUE,TRUE,2018
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9844, 0.8489",>= 0.90 and >= 0.80,TRUE,TRUE,2019
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9834, 0.8672",>= 0.90 and >= 0.80,TRUE,TRUE,2020
+05_usage,prior predictive: share of draws meeting both thresholds,0.65,>= 0.5 of draws,TRUE,TRUE,2001
+05_usage,prior predictive: share of draws meeting both thresholds,0.725,>= 0.5 of draws,TRUE,TRUE,2002
+05_usage,prior predictive: share of draws meeting both thresholds,0.775,>= 0.5 of draws,TRUE,TRUE,2003
+05_usage,prior predictive: share of draws meeting both thresholds,0.725,>= 0.5 of draws,TRUE,TRUE,2004
+05_usage,prior predictive: share of draws meeting both thresholds,0.85,>= 0.5 of draws,TRUE,TRUE,2005
+05_usage,prior predictive: share of draws meeting both thresholds,0.85,>= 0.5 of draws,TRUE,TRUE,2006
+05_usage,prior predictive: share of draws meeting both thresholds,0.8,>= 0.5 of draws,TRUE,TRUE,2007
+05_usage,prior predictive: share of draws meeting both thresholds,0.7,>= 0.5 of draws,TRUE,TRUE,2008
+05_usage,prior predictive: share of draws meeting both thresholds,0.75,>= 0.5 of draws,TRUE,TRUE,2009
+05_usage,prior predictive: share of draws meeting both thresholds,0.6,>= 0.5 of draws,TRUE,TRUE,2010
+05_usage,prior predictive: share of draws meeting both thresholds,0.7,>= 0.5 of draws,TRUE,TRUE,2011
+05_usage,prior predictive: share of draws meeting both thresholds,0.45,>= 0.5 of draws,FALSE,TRUE,2012
+05_usage,prior predictive: share of draws meeting both thresholds,0.825,>= 0.5 of draws,TRUE,TRUE,2013
+05_usage,prior predictive: share of draws meeting both thresholds,0.7,>= 0.5 of draws,TRUE,TRUE,2014
+05_usage,prior predictive: share of draws meeting both thresholds,0.7,>= 0.5 of draws,TRUE,TRUE,2015
+05_usage,prior predictive: share of draws meeting both thresholds,0.9,>= 0.5 of draws,TRUE,TRUE,2016
+05_usage,prior predictive: share of draws meeting both thresholds,0.85,>= 0.5 of draws,TRUE,TRUE,2017
+05_usage,prior predictive: share of draws meeting both thresholds,0.675,>= 0.5 of draws,TRUE,TRUE,2018
+05_usage,prior predictive: share of draws meeting both thresholds,0.725,>= 0.5 of draws,TRUE,TRUE,2019
+05_usage,prior predictive: share of draws meeting both thresholds,0.825,>= 0.5 of draws,TRUE,TRUE,2020
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2001
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2002
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2003
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2004
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2005
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2006
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2007
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2008
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2009
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2010
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2011
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2012
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2013
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2014
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2015
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2016
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2017
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2018
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2019
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE,2020
+05_usage,single family annual totals between 100 and 600 CCF,0.8363,>= 0.80,TRUE,TRUE,2001
+05_usage,single family annual totals between 100 and 600 CCF,0.8652,>= 0.80,TRUE,TRUE,2002
+05_usage,single family annual totals between 100 and 600 CCF,0.8802,>= 0.80,TRUE,TRUE,2003
+05_usage,single family annual totals between 100 and 600 CCF,0.8591,>= 0.80,TRUE,TRUE,2004
+05_usage,single family annual totals between 100 and 600 CCF,0.8848,>= 0.80,TRUE,TRUE,2005
+05_usage,single family annual totals between 100 and 600 CCF,0.8755,>= 0.80,TRUE,TRUE,2006
+05_usage,single family annual totals between 100 and 600 CCF,0.8553,>= 0.80,TRUE,TRUE,2007
+05_usage,single family annual totals between 100 and 600 CCF,0.8548,>= 0.80,TRUE,TRUE,2008
+05_usage,single family annual totals between 100 and 600 CCF,0.8855,>= 0.80,TRUE,TRUE,2009
+05_usage,single family annual totals between 100 and 600 CCF,0.8685,>= 0.80,TRUE,TRUE,2010
+05_usage,single family annual totals between 100 and 600 CCF,0.8589,>= 0.80,TRUE,TRUE,2011
+05_usage,single family annual totals between 100 and 600 CCF,0.8764,>= 0.80,TRUE,TRUE,2012
+05_usage,single family annual totals between 100 and 600 CCF,0.8659,>= 0.80,TRUE,TRUE,2013
+05_usage,single family annual totals between 100 and 600 CCF,0.8535,>= 0.80,TRUE,TRUE,2014
+05_usage,single family annual totals between 100 and 600 CCF,0.8789,>= 0.80,TRUE,TRUE,2015
+05_usage,single family annual totals between 100 and 600 CCF,0.8428,>= 0.80,TRUE,TRUE,2016
+05_usage,single family annual totals between 100 and 600 CCF,0.8616,>= 0.80,TRUE,TRUE,2017
+05_usage,single family annual totals between 100 and 600 CCF,0.827,>= 0.80,TRUE,TRUE,2018
+05_usage,single family annual totals between 100 and 600 CCF,0.8571,>= 0.80,TRUE,TRUE,2019
+05_usage,single family annual totals between 100 and 600 CCF,0.8661,>= 0.80,TRUE,TRUE,2020
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2001
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2002
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2003
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2004
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2005
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2006
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2007
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2008
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2009
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2010
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2011
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2012
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2013
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2014
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2015
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2016
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2017
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2018
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2019
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,TRUE,2020
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2001
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2002
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2003
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2004
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2005
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2006
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2007
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2008
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2009
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2010
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2011
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2012
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2013
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2014
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2015
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2016
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2017
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2018
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2019
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,TRUE,2020
+06_treatment,logistic regression recovers the selection coefficient signs,"0.2141, 0.4676, 0.4781, 0.6177",all signs as configured,TRUE,TRUE,2001
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5999, 0.6745, 0.8660, 0.7576",all signs as configured,TRUE,TRUE,2002
+06_treatment,logistic regression recovers the selection coefficient signs,"0.02797, 0.49380, 0.46150, 0.71490",all signs as configured,TRUE,TRUE,2003
+06_treatment,logistic regression recovers the selection coefficient signs,"0.3504, 0.8542, 0.7534, 0.7140",all signs as configured,TRUE,TRUE,2004
+06_treatment,logistic regression recovers the selection coefficient signs,"0.2300, 0.7339, 0.6914, 0.6487",all signs as configured,TRUE,TRUE,2005
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5737, 0.5593, 1.0400, 0.6837",all signs as configured,TRUE,TRUE,2006
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5054, 0.6820, 0.7096, 0.7503",all signs as configured,TRUE,TRUE,2007
+06_treatment,logistic regression recovers the selection coefficient signs,"0.4388, 0.5832, 0.9735, 0.7152",all signs as configured,TRUE,TRUE,2008
+06_treatment,logistic regression recovers the selection coefficient signs,"0.3748, 0.6681, 1.0550, 0.8645",all signs as configured,TRUE,TRUE,2009
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5706, 0.5448, 0.3799, 0.7497",all signs as configured,TRUE,TRUE,2010
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5757, 0.6629, 0.7245, 0.7513",all signs as configured,TRUE,TRUE,2011
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5285, 0.6789, 0.6592, 0.7603",all signs as configured,TRUE,TRUE,2012
+06_treatment,logistic regression recovers the selection coefficient signs,"0.2179, 0.6404, 0.7670, 0.6762",all signs as configured,TRUE,TRUE,2013
+06_treatment,logistic regression recovers the selection coefficient signs,"0.3355, 0.6429, 1.0170, 0.7429",all signs as configured,TRUE,TRUE,2014
+06_treatment,logistic regression recovers the selection coefficient signs,"0.2862, 0.7992, 0.5032, 0.7191",all signs as configured,TRUE,TRUE,2015
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5453, 0.6516, 0.5666, 0.5846",all signs as configured,TRUE,TRUE,2016
+06_treatment,logistic regression recovers the selection coefficient signs,"0.3127, 0.5347, 0.4788, 0.6186",all signs as configured,TRUE,TRUE,2017
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5061, 0.6324, 0.4540, 0.5837",all signs as configured,TRUE,TRUE,2018
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5400, 0.3523, 0.6219, 0.6305",all signs as configured,TRUE,TRUE,2019
+06_treatment,logistic regression recovers the selection coefficient signs,"0.3605, 0.6678, 0.5048, 0.6637",all signs as configured,TRUE,TRUE,2020
+06_treatment,planted January-March monthly mean,1.024,1 to 2.1,TRUE,TRUE,2001
+06_treatment,planted January-March monthly mean,1.048,1 to 2.1,TRUE,TRUE,2002
+06_treatment,planted January-March monthly mean,1.02,1 to 2.1,TRUE,TRUE,2003
+06_treatment,planted January-March monthly mean,1.035,1 to 2.1,TRUE,TRUE,2004
+06_treatment,planted January-March monthly mean,1.035,1 to 2.1,TRUE,TRUE,2005
+06_treatment,planted January-March monthly mean,1.061,1 to 2.1,TRUE,TRUE,2006
+06_treatment,planted January-March monthly mean,1.032,1 to 2.1,TRUE,TRUE,2007
+06_treatment,planted January-March monthly mean,1.05,1 to 2.1,TRUE,TRUE,2008
+06_treatment,planted January-March monthly mean,1.015,1 to 2.1,TRUE,TRUE,2009
+06_treatment,planted January-March monthly mean,1.02,1 to 2.1,TRUE,TRUE,2010
+06_treatment,planted January-March monthly mean,1.042,1 to 2.1,TRUE,TRUE,2011
+06_treatment,planted January-March monthly mean,1.056,1 to 2.1,TRUE,TRUE,2012
+06_treatment,planted January-March monthly mean,1.037,1 to 2.1,TRUE,TRUE,2013
+06_treatment,planted January-March monthly mean,1.043,1 to 2.1,TRUE,TRUE,2014
+06_treatment,planted January-March monthly mean,1.028,1 to 2.1,TRUE,TRUE,2015
+06_treatment,planted January-March monthly mean,1.017,1 to 2.1,TRUE,TRUE,2016
+06_treatment,planted January-March monthly mean,1.029,1 to 2.1,TRUE,TRUE,2017
+06_treatment,planted January-March monthly mean,1.056,1 to 2.1,TRUE,TRUE,2018
+06_treatment,planted January-March monthly mean,1.042,1 to 2.1,TRUE,TRUE,2019
+06_treatment,planted January-March monthly mean,1.028,1 to 2.1,TRUE,TRUE,2020
+06_treatment,planted July-September monthly mean,2.099,2 to 3.4,TRUE,TRUE,2001
+06_treatment,planted July-September monthly mean,2.084,2 to 3.4,TRUE,TRUE,2002
+06_treatment,planted July-September monthly mean,2.099,2 to 3.4,TRUE,TRUE,2003
+06_treatment,planted July-September monthly mean,2.082,2 to 3.4,TRUE,TRUE,2004
+06_treatment,planted July-September monthly mean,2.099,2 to 3.4,TRUE,TRUE,2005
+06_treatment,planted July-September monthly mean,2.085,2 to 3.4,TRUE,TRUE,2006
+06_treatment,planted July-September monthly mean,2.112,2 to 3.4,TRUE,TRUE,2007
+06_treatment,planted July-September monthly mean,2.072,2 to 3.4,TRUE,TRUE,2008
+06_treatment,planted July-September monthly mean,2.113,2 to 3.4,TRUE,TRUE,2009
+06_treatment,planted July-September monthly mean,2.111,2 to 3.4,TRUE,TRUE,2010
+06_treatment,planted July-September monthly mean,2.084,2 to 3.4,TRUE,TRUE,2011
+06_treatment,planted July-September monthly mean,2.07,2 to 3.4,TRUE,TRUE,2012
+06_treatment,planted July-September monthly mean,2.114,2 to 3.4,TRUE,TRUE,2013
+06_treatment,planted July-September monthly mean,2.087,2 to 3.4,TRUE,TRUE,2014
+06_treatment,planted July-September monthly mean,2.101,2 to 3.4,TRUE,TRUE,2015
+06_treatment,planted July-September monthly mean,2.109,2 to 3.4,TRUE,TRUE,2016
+06_treatment,planted July-September monthly mean,2.103,2 to 3.4,TRUE,TRUE,2017
+06_treatment,planted July-September monthly mean,2.06,2 to 3.4,TRUE,TRUE,2018
+06_treatment,planted July-September monthly mean,2.092,2 to 3.4,TRUE,TRUE,2019
+06_treatment,planted July-September monthly mean,2.094,2 to 3.4,TRUE,TRUE,2020
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2001
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2002
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2003
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2004
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2005
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2006
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2007
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2008
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2009
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2010
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2011
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2012
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2013
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2014
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2015
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2016
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2017
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2018
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2019
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",18.5,18 to 28,TRUE,TRUE,2020
+06_treatment,planted mean exceeds planted median,"18.50, 17.96",mean > median,TRUE,TRUE,2001
+06_treatment,planted mean exceeds planted median,"18.50, 17.81",mean > median,TRUE,TRUE,2002
+06_treatment,planted mean exceeds planted median,"18.50, 18.38",mean > median,TRUE,TRUE,2003
+06_treatment,planted mean exceeds planted median,"18.50, 18.39",mean > median,TRUE,TRUE,2004
+06_treatment,planted mean exceeds planted median,"18.50, 18.56",mean > median,FALSE,TRUE,2005
+06_treatment,planted mean exceeds planted median,"18.50, 17.78",mean > median,TRUE,TRUE,2006
+06_treatment,planted mean exceeds planted median,"18.50, 18.11",mean > median,TRUE,TRUE,2007
+06_treatment,planted mean exceeds planted median,"18.50, 18.52",mean > median,FALSE,TRUE,2008
+06_treatment,planted mean exceeds planted median,"18.50, 17.79",mean > median,TRUE,TRUE,2009
+06_treatment,planted mean exceeds planted median,"18.5, 18.2",mean > median,TRUE,TRUE,2010
+06_treatment,planted mean exceeds planted median,"18.50, 17.58",mean > median,TRUE,TRUE,2011
+06_treatment,planted mean exceeds planted median,"18.50, 17.48",mean > median,TRUE,TRUE,2012
+06_treatment,planted mean exceeds planted median,"18.50, 18.04",mean > median,TRUE,TRUE,2013
+06_treatment,planted mean exceeds planted median,"18.50, 18.36",mean > median,TRUE,TRUE,2014
+06_treatment,planted mean exceeds planted median,"18.50, 19.23",mean > median,FALSE,TRUE,2015
+06_treatment,planted mean exceeds planted median,"18.50, 17.46",mean > median,TRUE,TRUE,2016
+06_treatment,planted mean exceeds planted median,"18.5, 18.7",mean > median,FALSE,TRUE,2017
+06_treatment,planted mean exceeds planted median,"18.50, 17.91",mean > median,TRUE,TRUE,2018
+06_treatment,planted mean exceeds planted median,"18.50, 17.64",mean > median,TRUE,TRUE,2019
+06_treatment,planted mean exceeds planted median,"18.50, 18.09",mean > median,TRUE,TRUE,2020
+06_treatment,planted quartiles (reported),"11.03, 17.96, 24.33",report only,TRUE,TRUE,2001
+06_treatment,planted quartiles (reported),"11.44, 17.81, 25.07",report only,TRUE,TRUE,2002
+06_treatment,planted quartiles (reported),"11.47, 18.38, 24.90",report only,TRUE,TRUE,2003
+06_treatment,planted quartiles (reported),"11.28, 18.39, 25.01",report only,TRUE,TRUE,2004
+06_treatment,planted quartiles (reported),"11.55, 18.56, 25.35",report only,TRUE,TRUE,2005
+06_treatment,planted quartiles (reported),"11.21, 17.78, 24.63",report only,TRUE,TRUE,2006
+06_treatment,planted quartiles (reported),"12.14, 18.11, 24.72",report only,TRUE,TRUE,2007
+06_treatment,planted quartiles (reported),"11.41, 18.52, 25.51",report only,TRUE,TRUE,2008
+06_treatment,planted quartiles (reported),"11.59, 17.79, 24.55",report only,TRUE,TRUE,2009
+06_treatment,planted quartiles (reported),"10.97, 18.20, 24.78",report only,TRUE,TRUE,2010
+06_treatment,planted quartiles (reported),"10.73, 17.58, 25.63",report only,TRUE,TRUE,2011
+06_treatment,planted quartiles (reported),"11.55, 17.48, 25.31",report only,TRUE,TRUE,2012
+06_treatment,planted quartiles (reported),"11.66, 18.04, 24.15",report only,TRUE,TRUE,2013
+06_treatment,planted quartiles (reported),"10.00, 18.36, 26.11",report only,TRUE,TRUE,2014
+06_treatment,planted quartiles (reported),"10.24, 19.23, 25.97",report only,TRUE,TRUE,2015
+06_treatment,planted quartiles (reported),"10.67, 17.46, 25.32",report only,TRUE,TRUE,2016
+06_treatment,planted quartiles (reported),"12.00, 18.70, 24.06",report only,TRUE,TRUE,2017
+06_treatment,planted quartiles (reported),"11.80, 17.91, 24.89",report only,TRUE,TRUE,2018
+06_treatment,planted quartiles (reported),"12.31, 17.64, 24.13",report only,TRUE,TRUE,2019
+06_treatment,planted quartiles (reported),"11.47, 18.09, 24.70",report only,TRUE,TRUE,2020
+06_treatment,planted share above 60 gal/sqft/yr,"0.0049500, 0.0001253, 0.0272700","band [0.005, 0.035] overlaps 95% binomial interval (n = 202)",TRUE,TRUE,2001
+06_treatment,planted share above 60 gal/sqft/yr,"0.00000, 0.00000, 0.01855","band [0.005, 0.035] overlaps 95% binomial interval (n = 197)",TRUE,TRUE,2002
+06_treatment,planted share above 60 gal/sqft/yr,"0.00000, 0.00000, 0.01766","band [0.005, 0.035] overlaps 95% binomial interval (n = 207)",TRUE,TRUE,2003
+06_treatment,planted share above 60 gal/sqft/yr,"0.0048080, 0.0001217, 0.0264900","band [0.005, 0.035] overlaps 95% binomial interval (n = 208)",TRUE,TRUE,2004
+06_treatment,planted share above 60 gal/sqft/yr,"0.0051550, 0.0001305, 0.0283800","band [0.005, 0.035] overlaps 95% binomial interval (n = 194)",TRUE,TRUE,2005
+06_treatment,planted share above 60 gal/sqft/yr,"0.0051020, 0.0001292, 0.0281000","band [0.005, 0.035] overlaps 95% binomial interval (n = 196)",TRUE,TRUE,2006
+06_treatment,planted share above 60 gal/sqft/yr,"0.00000, 0.00000, 0.01846","band [0.005, 0.035] overlaps 95% binomial interval (n = 198)",TRUE,TRUE,2007
+06_treatment,planted share above 60 gal/sqft/yr,"0.00000, 0.00000, 0.01893","band [0.005, 0.035] overlaps 95% binomial interval (n = 193)",TRUE,TRUE,2008
+06_treatment,planted share above 60 gal/sqft/yr,"0.00000, 0.00000, 0.01801","band [0.005, 0.035] overlaps 95% binomial interval (n = 203)",TRUE,TRUE,2009
+06_treatment,planted share above 60 gal/sqft/yr,"0.0047850, 0.0001211, 0.0263700","band [0.005, 0.035] overlaps 95% binomial interval (n = 209)",TRUE,TRUE,2010
+06_treatment,planted share above 60 gal/sqft/yr,"0.0050000, 0.0001266, 0.0275400","band [0.005, 0.035] overlaps 95% binomial interval (n = 200)",TRUE,TRUE,2011
+06_treatment,planted share above 60 gal/sqft/yr,"0.0050760, 0.0001285, 0.0279600","band [0.005, 0.035] overlaps 95% binomial interval (n = 197)",TRUE,TRUE,2012
+06_treatment,planted share above 60 gal/sqft/yr,"0.00000, 0.00000, 0.01733","band [0.005, 0.035] overlaps 95% binomial interval (n = 211)",TRUE,TRUE,2013
+06_treatment,planted share above 60 gal/sqft/yr,"0.00000, 0.00000, 0.01783","band [0.005, 0.035] overlaps 95% binomial interval (n = 205)",TRUE,TRUE,2014
+06_treatment,planted share above 60 gal/sqft/yr,"0.00000, 0.00000, 0.01766","band [0.005, 0.035] overlaps 95% binomial interval (n = 207)",TRUE,TRUE,2015
+06_treatment,planted share above 60 gal/sqft/yr,"0.0047850, 0.0001211, 0.0263700","band [0.005, 0.035] overlaps 95% binomial interval (n = 209)",TRUE,TRUE,2016
+06_treatment,planted share above 60 gal/sqft/yr,"0.0050000, 0.0001266, 0.0275400","band [0.005, 0.035] overlaps 95% binomial interval (n = 200)",TRUE,TRUE,2017
+06_treatment,planted share above 60 gal/sqft/yr,"0.00000, 0.00000, 0.01758","band [0.005, 0.035] overlaps 95% binomial interval (n = 208)",TRUE,TRUE,2018
+06_treatment,planted share above 60 gal/sqft/yr,"0.00000, 0.00000, 0.01837","band [0.005, 0.035] overlaps 95% binomial interval (n = 199)",TRUE,TRUE,2019
+06_treatment,planted share above 60 gal/sqft/yr,"0.0049500, 0.0001253, 0.0272700","band [0.005, 0.035] overlaps 95% binomial interval (n = 202)",TRUE,TRUE,2020
+06_treatment,planted share at or below zero,"0.02970, 0.01098, 0.06353","band [0, 0.08] overlaps 95% binomial interval (n = 202)",TRUE,TRUE,2001
+06_treatment,planted share at or below zero,"0.04569, 0.02110, 0.08495","band [0, 0.08] overlaps 95% binomial interval (n = 197)",TRUE,TRUE,2002
+06_treatment,planted share at or below zero,"0.04348, 0.02007, 0.08093","band [0, 0.08] overlaps 95% binomial interval (n = 207)",TRUE,TRUE,2003
+06_treatment,planted share at or below zero,"0.03365, 0.01364, 0.06811","band [0, 0.08] overlaps 95% binomial interval (n = 208)",TRUE,TRUE,2004
+06_treatment,planted share at or below zero,"0.02577, 0.00842, 0.05912","band [0, 0.08] overlaps 95% binomial interval (n = 194)",TRUE,TRUE,2005
+06_treatment,planted share at or below zero,"0.05102, 0.02473, 0.09182","band [0, 0.08] overlaps 95% binomial interval (n = 196)",TRUE,TRUE,2006
+06_treatment,planted share at or below zero,"0.020200, 0.005531, 0.050910","band [0, 0.08] overlaps 95% binomial interval (n = 198)",TRUE,TRUE,2007
+06_treatment,planted share at or below zero,"0.025910, 0.008464, 0.059420","band [0, 0.08] overlaps 95% binomial interval (n = 193)",TRUE,TRUE,2008
+06_treatment,planted share at or below zero,"0.03448, 0.01397, 0.06975","band [0, 0.08] overlaps 95% binomial interval (n = 203)",TRUE,TRUE,2009
+06_treatment,planted share at or below zero,"0.019140, 0.005239, 0.048280","band [0, 0.08] overlaps 95% binomial interval (n = 209)",TRUE,TRUE,2010
+06_treatment,planted share at or below zero,"0.04500, 0.02078, 0.08370","band [0, 0.08] overlaps 95% binomial interval (n = 200)",TRUE,TRUE,2011
+06_treatment,planted share at or below zero,"0.03046, 0.01126, 0.06511","band [0, 0.08] overlaps 95% binomial interval (n = 197)",TRUE,TRUE,2012
+06_treatment,planted share at or below zero,"0.018960, 0.005189, 0.047820","band [0, 0.08] overlaps 95% binomial interval (n = 211)",TRUE,TRUE,2013
+06_treatment,planted share at or below zero,"0.03902, 0.01700, 0.07544","band [0, 0.08] overlaps 95% binomial interval (n = 205)",TRUE,TRUE,2014
+06_treatment,planted share at or below zero,"0.03382, 0.01370, 0.06843","band [0, 0.08] overlaps 95% binomial interval (n = 207)",TRUE,TRUE,2015
+06_treatment,planted share at or below zero,"0.019140, 0.005239, 0.048280","band [0, 0.08] overlaps 95% binomial interval (n = 209)",TRUE,TRUE,2016
+06_treatment,planted share at or below zero,"0.025000, 0.008166, 0.057370","band [0, 0.08] overlaps 95% binomial interval (n = 200)",TRUE,TRUE,2017
+06_treatment,planted share at or below zero,"0.019230, 0.005264, 0.048500","band [0, 0.08] overlaps 95% binomial interval (n = 208)",TRUE,TRUE,2018
+06_treatment,planted share at or below zero,"0.010050, 0.001219, 0.035830","band [0, 0.08] overlaps 95% binomial interval (n = 199)",TRUE,TRUE,2019
+06_treatment,planted share at or below zero,"0.03465, 0.01404, 0.07009","band [0, 0.08] overlaps 95% binomial interval (n = 202)",TRUE,TRUE,2020
+06_treatment,share of treated household-months where the cap binds (reported),0.0827,report only,TRUE,TRUE,2001
+06_treatment,share of treated household-months where the cap binds (reported),0.04782,report only,TRUE,TRUE,2002
+06_treatment,share of treated household-months where the cap binds (reported),0.07671,report only,TRUE,TRUE,2003
+06_treatment,share of treated household-months where the cap binds (reported),0.03851,report only,TRUE,TRUE,2004
+06_treatment,share of treated household-months where the cap binds (reported),0.05077,report only,TRUE,TRUE,2005
+06_treatment,share of treated household-months where the cap binds (reported),0.04005,report only,TRUE,TRUE,2006
+06_treatment,share of treated household-months where the cap binds (reported),0.05394,report only,TRUE,TRUE,2007
+06_treatment,share of treated household-months where the cap binds (reported),0.054,report only,TRUE,TRUE,2008
+06_treatment,share of treated household-months where the cap binds (reported),0.0798,report only,TRUE,TRUE,2009
+06_treatment,share of treated household-months where the cap binds (reported),0.05761,report only,TRUE,TRUE,2010
+06_treatment,share of treated household-months where the cap binds (reported),0.04319,report only,TRUE,TRUE,2011
+06_treatment,share of treated household-months where the cap binds (reported),0.06037,report only,TRUE,TRUE,2012
+06_treatment,share of treated household-months where the cap binds (reported),0.06837,report only,TRUE,TRUE,2013
+06_treatment,share of treated household-months where the cap binds (reported),0.04514,report only,TRUE,TRUE,2014
+06_treatment,share of treated household-months where the cap binds (reported),0.04962,report only,TRUE,TRUE,2015
+06_treatment,share of treated household-months where the cap binds (reported),0.05836,report only,TRUE,TRUE,2016
+06_treatment,share of treated household-months where the cap binds (reported),0.06578,report only,TRUE,TRUE,2017
+06_treatment,share of treated household-months where the cap binds (reported),0.03942,report only,TRUE,TRUE,2018
+06_treatment,share of treated household-months where the cap binds (reported),0.06634,report only,TRUE,TRUE,2019
+06_treatment,share of treated household-months where the cap binds (reported),0.05408,report only,TRUE,TRUE,2020
+06_treatment,treated share of single family candidates,0.09052,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2001
+06_treatment,treated share of single family candidates,0.09002,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2002
+06_treatment,treated share of single family candidates,0.09237,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2003
+06_treatment,treated share of single family candidates,0.09511,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2004
+06_treatment,treated share of single family candidates,0.08458,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2005
+06_treatment,treated share of single family candidates,0.08808,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2006
+06_treatment,treated share of single family candidates,0.08908,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2007
+06_treatment,treated share of single family candidates,0.08576,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2008
+06_treatment,treated share of single family candidates,0.09052,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2009
+06_treatment,treated share of single family candidates,0.0946,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2010
+06_treatment,treated share of single family candidates,0.08797,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2011
+06_treatment,treated share of single family candidates,0.0875,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2012
+06_treatment,treated share of single family candidates,0.09445,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2013
+06_treatment,treated share of single family candidates,0.09094,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2014
+06_treatment,treated share of single family candidates,0.09248,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2015
+06_treatment,treated share of single family candidates,0.09409,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2016
+06_treatment,treated share of single family candidates,0.08697,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2017
+06_treatment,treated share of single family candidates,0.09689,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2018
+06_treatment,treated share of single family candidates,0.09105,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2019
+06_treatment,treated share of single family candidates,0.09055,about 9 to 11 percent expected (0.07 to 0.13),TRUE,TRUE,2020
+07_billing,billed usage reconciles with the monthly truth panel,0.0003094,relative difference < 0.005,TRUE,TRUE,2001
+07_billing,billed usage reconciles with the monthly truth panel,0.0002931,relative difference < 0.005,TRUE,TRUE,2002
+07_billing,billed usage reconciles with the monthly truth panel,0.0002422,relative difference < 0.005,TRUE,TRUE,2003
+07_billing,billed usage reconciles with the monthly truth panel,0.0002765,relative difference < 0.005,TRUE,TRUE,2004
+07_billing,billed usage reconciles with the monthly truth panel,0.0002357,relative difference < 0.005,TRUE,TRUE,2005
+07_billing,billed usage reconciles with the monthly truth panel,0.0002664,relative difference < 0.005,TRUE,TRUE,2006
+07_billing,billed usage reconciles with the monthly truth panel,0.0002608,relative difference < 0.005,TRUE,TRUE,2007
+07_billing,billed usage reconciles with the monthly truth panel,0.0002833,relative difference < 0.005,TRUE,TRUE,2008
+07_billing,billed usage reconciles with the monthly truth panel,0.000247,relative difference < 0.005,TRUE,TRUE,2009
+07_billing,billed usage reconciles with the monthly truth panel,0.0002519,relative difference < 0.005,TRUE,TRUE,2010
+07_billing,billed usage reconciles with the monthly truth panel,0.0002434,relative difference < 0.005,TRUE,TRUE,2011
+07_billing,billed usage reconciles with the monthly truth panel,0.0002548,relative difference < 0.005,TRUE,TRUE,2012
+07_billing,billed usage reconciles with the monthly truth panel,0.0002707,relative difference < 0.005,TRUE,TRUE,2013
+07_billing,billed usage reconciles with the monthly truth panel,0.0002426,relative difference < 0.005,TRUE,TRUE,2014
+07_billing,billed usage reconciles with the monthly truth panel,0.0002679,relative difference < 0.005,TRUE,TRUE,2015
+07_billing,billed usage reconciles with the monthly truth panel,0.0003224,relative difference < 0.005,TRUE,TRUE,2016
+07_billing,billed usage reconciles with the monthly truth panel,0.0002855,relative difference < 0.005,TRUE,TRUE,2017
+07_billing,billed usage reconciles with the monthly truth panel,0.0004087,relative difference < 0.005,TRUE,TRUE,2018
+07_billing,billed usage reconciles with the monthly truth panel,0.0002658,relative difference < 0.005,TRUE,TRUE,2019
+07_billing,billed usage reconciles with the monthly truth panel,0.000281,relative difference < 0.005,TRUE,TRUE,2020
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2001
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2002
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2003
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2004
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2005
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2006
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2007
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2008
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2009
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2010
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2011
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2012
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2013
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2014
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2015
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2016
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2017
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2018
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2019
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE,2020
+07_billing,rebate dates ordered received < post inspection < check,408,all rebates,TRUE,TRUE,2001
+07_billing,rebate dates ordered received < post inspection < check,393,all rebates,TRUE,TRUE,2002
+07_billing,rebate dates ordered received < post inspection < check,408,all rebates,TRUE,TRUE,2003
+07_billing,rebate dates ordered received < post inspection < check,404,all rebates,TRUE,TRUE,2004
+07_billing,rebate dates ordered received < post inspection < check,405,all rebates,TRUE,TRUE,2005
+07_billing,rebate dates ordered received < post inspection < check,411,all rebates,TRUE,TRUE,2006
+07_billing,rebate dates ordered received < post inspection < check,408,all rebates,TRUE,TRUE,2007
+07_billing,rebate dates ordered received < post inspection < check,403,all rebates,TRUE,TRUE,2008
+07_billing,rebate dates ordered received < post inspection < check,422,all rebates,TRUE,TRUE,2009
+07_billing,rebate dates ordered received < post inspection < check,433,all rebates,TRUE,TRUE,2010
+07_billing,rebate dates ordered received < post inspection < check,405,all rebates,TRUE,TRUE,2011
+07_billing,rebate dates ordered received < post inspection < check,386,all rebates,TRUE,TRUE,2012
+07_billing,rebate dates ordered received < post inspection < check,427,all rebates,TRUE,TRUE,2013
+07_billing,rebate dates ordered received < post inspection < check,418,all rebates,TRUE,TRUE,2014
+07_billing,rebate dates ordered received < post inspection < check,437,all rebates,TRUE,TRUE,2015
+07_billing,rebate dates ordered received < post inspection < check,419,all rebates,TRUE,TRUE,2016
+07_billing,rebate dates ordered received < post inspection < check,409,all rebates,TRUE,TRUE,2017
+07_billing,rebate dates ordered received < post inspection < check,435,all rebates,TRUE,TRUE,2018
+07_billing,rebate dates ordered received < post inspection < check,422,all rebates,TRUE,TRUE,2019
+07_billing,rebate dates ordered received < post inspection < check,432,all rebates,TRUE,TRUE,2020
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2682, 0.2300, 0.2600, 0.1826, 0.2494",report only,TRUE,TRUE,2001
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2274, 0.2141, 0.2452, 0.1552, 0.2660",report only,TRUE,TRUE,2002
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2830, 0.2575, 0.3032, 0.2360, 0.2071",report only,TRUE,TRUE,2003
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2389, 0.1993, 0.2081, 0.2288, 0.2618",report only,TRUE,TRUE,2004
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2885, 0.2957, 0.2507, 0.1832, 0.2533",report only,TRUE,TRUE,2005
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2447, 0.2612, 0.2539, 0.2034, 0.2367",report only,TRUE,TRUE,2006
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2314, 0.1868, 0.2385, 0.1838, 0.2556",report only,TRUE,TRUE,2007
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2375, 0.2759, 0.2660, 0.2157, 0.2295",report only,TRUE,TRUE,2008
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2444, 0.2158, 0.2866, 0.2544, 0.2270",report only,TRUE,TRUE,2009
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2214, 0.1514, 0.2416, 0.1877, 0.1757",report only,TRUE,TRUE,2010
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2720, 0.2431, 0.2593, 0.2435, 0.2528",report only,TRUE,TRUE,2011
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2637, 0.2824, 0.2731, 0.2300, 0.2715",report only,TRUE,TRUE,2012
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2475, 0.1969, 0.2534, 0.2713, 0.2966",report only,TRUE,TRUE,2013
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2401, 0.2301, 0.2536, 0.2163, 0.2239",report only,TRUE,TRUE,2014
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2104, 0.1643, 0.2615, 0.2184, 0.2685",report only,TRUE,TRUE,2015
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2232, 0.2688, 0.2476, 0.2633, 0.1945",report only,TRUE,TRUE,2016
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2205, 0.2546, 0.2605, 0.3030, 0.2371",report only,TRUE,TRUE,2017
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2724, 0.2226, 0.2650, 0.2428, 0.2317",report only,TRUE,TRUE,2018
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2315, 0.2299, 0.2184, 0.2531, 0.2229",report only,TRUE,TRUE,2019
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2287, 0.2346, 0.2426, 0.3103, 0.2660",report only,TRUE,TRUE,2020
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000011,relative difference < 0.005,TRUE,TRUE,2001
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000006919,relative difference < 0.005,TRUE,TRUE,2002
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000005784,relative difference < 0.005,TRUE,TRUE,2003
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000004261,relative difference < 0.005,TRUE,TRUE,2004
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000004284,relative difference < 0.005,TRUE,TRUE,2005
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000004888,relative difference < 0.005,TRUE,TRUE,2006
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000004112,relative difference < 0.005,TRUE,TRUE,2007
+07_billing,supplier production reconciles with account totals after scaling and losses,0.000001,relative difference < 0.005,TRUE,TRUE,2008
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000008227,relative difference < 0.005,TRUE,TRUE,2009
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000007368,relative difference < 0.005,TRUE,TRUE,2010
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000004445,relative difference < 0.005,TRUE,TRUE,2011
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000003004,relative difference < 0.005,TRUE,TRUE,2012
+07_billing,supplier production reconciles with account totals after scaling and losses,0.000001054,relative difference < 0.005,TRUE,TRUE,2013
+07_billing,supplier production reconciles with account totals after scaling and losses,0.000001002,relative difference < 0.005,TRUE,TRUE,2014
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000003883,relative difference < 0.005,TRUE,TRUE,2015
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000005718,relative difference < 0.005,TRUE,TRUE,2016
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000001812,relative difference < 0.005,TRUE,TRUE,2017
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000003326,relative difference < 0.005,TRUE,TRUE,2018
+07_billing,supplier production reconciles with account totals after scaling and losses,0.000001096,relative difference < 0.005,TRUE,TRUE,2019
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000004894,relative difference < 0.005,TRUE,TRUE,2020
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","125, 0, 0","detected, missed, false positives",TRUE,TRUE,2001
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","131, 0, 0","detected, missed, false positives",TRUE,TRUE,2002
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","126, 0, 0","detected, missed, false positives",TRUE,TRUE,2003
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","133, 0, 0","detected, missed, false positives",TRUE,TRUE,2004
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","137, 0, 1","detected, missed, false positives",TRUE,TRUE,2005
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","134, 0, 1","detected, missed, false positives",TRUE,TRUE,2006
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","121, 0, 0","detected, missed, false positives",TRUE,TRUE,2007
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","116, 0, 0","detected, missed, false positives",TRUE,TRUE,2008
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","133, 0, 0","detected, missed, false positives",TRUE,TRUE,2009
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","117, 0, 0","detected, missed, false positives",TRUE,TRUE,2010
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","126, 0, 0","detected, missed, false positives",TRUE,TRUE,2011
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","140, 0, 0","detected, missed, false positives",TRUE,TRUE,2012
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","133, 0, 1","detected, missed, false positives",TRUE,TRUE,2013
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","136, 0, 0","detected, missed, false positives",TRUE,TRUE,2014
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","119, 0, 1","detected, missed, false positives",TRUE,TRUE,2015
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","118, 0, 2","detected, missed, false positives",FALSE,TRUE,2016
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","113, 0, 0","detected, missed, false positives",TRUE,TRUE,2017
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","138, 0, 0","detected, missed, false positives",TRUE,TRUE,2018
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","136, 0, 1","detected, missed, false positives",TRUE,TRUE,2019
+08_observation,"bunching detection finds every defaulted area, with at most 1 percent false positives","144, 0, 2","detected, missed, false positives",FALSE,TRUE,2020
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.12520, 0.09977, 0.15440","band [0.096, 0.144] overlaps 95% binomial interval (n = 599)",TRUE,TRUE,2001
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.11630, 0.09178, 0.14460","band [0.096, 0.144] overlaps 95% binomial interval (n = 602)",TRUE,TRUE,2002
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.12300, 0.09795, 0.15170","band [0.096, 0.144] overlaps 95% binomial interval (n = 610)",TRUE,TRUE,2003
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.1309, 0.1052, 0.1603","band [0.096, 0.144] overlaps 95% binomial interval (n = 611)",TRUE,TRUE,2004
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.1271, 0.1016, 0.1562","band [0.096, 0.144] overlaps 95% binomial interval (n = 606)",TRUE,TRUE,2005
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.1295, 0.1039, 0.1588","band [0.096, 0.144] overlaps 95% binomial interval (n = 610)",TRUE,TRUE,2006
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.1258, 0.1004, 0.1549","band [0.096, 0.144] overlaps 95% binomial interval (n = 604)",TRUE,TRUE,2007
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.11660, 0.09219, 0.14480","band [0.096, 0.144] overlaps 95% binomial interval (n = 609)",TRUE,TRUE,2008
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.1277, 0.1021, 0.1570","band [0.096, 0.144] overlaps 95% binomial interval (n = 603)",TRUE,TRUE,2009
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.11400, 0.08983, 0.14210","band [0.096, 0.144] overlaps 95% binomial interval (n = 605)",TRUE,TRUE,2010
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.11550, 0.09116, 0.14370","band [0.096, 0.144] overlaps 95% binomial interval (n = 606)",TRUE,TRUE,2011
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.1324, 0.1065, 0.1618","band [0.096, 0.144] overlaps 95% binomial interval (n = 612)",TRUE,TRUE,2012
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.12460, 0.09927, 0.15370","band [0.096, 0.144] overlaps 95% binomial interval (n = 602)",TRUE,TRUE,2013
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.1287, 0.1031, 0.1580","band [0.096, 0.144] overlaps 95% binomial interval (n = 606)",TRUE,TRUE,2014
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.10760, 0.08404, 0.13510","band [0.096, 0.144] overlaps 95% binomial interval (n = 604)",TRUE,TRUE,2015
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.11400, 0.08983, 0.14210","band [0.096, 0.144] overlaps 95% binomial interval (n = 605)",TRUE,TRUE,2016
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.10150, 0.07853, 0.12850","band [0.096, 0.144] overlaps 95% binomial interval (n = 601)",TRUE,TRUE,2017
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.1407, 0.1140, 0.1710","band [0.096, 0.144] overlaps 95% binomial interval (n = 604)",TRUE,TRUE,2018
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.11520, 0.09074, 0.14350","band [0.096, 0.144] overlaps 95% binomial interval (n = 599)",TRUE,TRUE,2019
+08_observation,"defaulted irrigable area, AC (configured 0.120)","0.1504, 0.1229, 0.1814","band [0.096, 0.144] overlaps 95% binomial interval (n = 605)",TRUE,TRUE,2020
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1458, 0.1102, 0.1876","band [0.12, 0.18] overlaps 95% binomial interval (n = 343)",TRUE,TRUE,2001
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1773, 0.1384, 0.2219","band [0.12, 0.18] overlaps 95% binomial interval (n = 344)",TRUE,TRUE,2002
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1474, 0.1118, 0.1892","band [0.12, 0.18] overlaps 95% binomial interval (n = 346)",TRUE,TRUE,2003
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1545, 0.1179, 0.1972","band [0.12, 0.18] overlaps 95% binomial interval (n = 343)",TRUE,TRUE,2004
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1695, 0.1316, 0.2132","band [0.12, 0.18] overlaps 95% binomial interval (n = 348)",TRUE,TRUE,2005
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1561, 0.1195, 0.1987","band [0.12, 0.18] overlaps 95% binomial interval (n = 346)",TRUE,TRUE,2006
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.12820, 0.09507, 0.16780","band [0.12, 0.18] overlaps 95% binomial interval (n = 351)",TRUE,TRUE,2007
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.13080, 0.09704, 0.17110","band [0.12, 0.18] overlaps 95% binomial interval (n = 344)",TRUE,TRUE,2008
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1637, 0.1261, 0.2073","band [0.12, 0.18] overlaps 95% binomial interval (n = 342)",TRUE,TRUE,2009
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1404, 0.1053, 0.1817","band [0.12, 0.18] overlaps 95% binomial interval (n = 342)",TRUE,TRUE,2010
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1628, 0.1254, 0.2061","band [0.12, 0.18] overlaps 95% binomial interval (n = 344)",TRUE,TRUE,2011
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1710, 0.1328, 0.2150","band [0.12, 0.18] overlaps 95% binomial interval (n = 345)",TRUE,TRUE,2012
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1657, 0.1280, 0.2093","band [0.12, 0.18] overlaps 95% binomial interval (n = 344)",TRUE,TRUE,2013
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1676, 0.1298, 0.2112","band [0.12, 0.18] overlaps 95% binomial interval (n = 346)",TRUE,TRUE,2014
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1541, 0.1176, 0.1966","band [0.12, 0.18] overlaps 95% binomial interval (n = 344)",TRUE,TRUE,2015
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1374, 0.1028, 0.1785","band [0.12, 0.18] overlaps 95% binomial interval (n = 342)",TRUE,TRUE,2016
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1520, 0.1157, 0.1946","band [0.12, 0.18] overlaps 95% binomial interval (n = 342)",TRUE,TRUE,2017
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1545, 0.1179, 0.1972","band [0.12, 0.18] overlaps 95% binomial interval (n = 343)",TRUE,TRUE,2018
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1902, 0.1503, 0.2355","band [0.12, 0.18] overlaps 95% binomial interval (n = 347)",TRUE,TRUE,2019
+08_observation,"defaulted irrigable area, VS (configured 0.150)","0.1474, 0.1118, 0.1892","band [0.12, 0.18] overlaps 95% binomial interval (n = 346)",TRUE,TRUE,2020
+08_observation,duplicate turf rebates (configured 0.040),"0.03478, 0.01513, 0.06738","band [0.032, 0.048] overlaps 95% binomial interval (n = 230)",TRUE,TRUE,2001
+08_observation,duplicate turf rebates (configured 0.040),"0.021830, 0.007127, 0.050220","band [0.032, 0.048] overlaps 95% binomial interval (n = 229)",TRUE,TRUE,2002
+08_observation,duplicate turf rebates (configured 0.040),"0.03404, 0.01481, 0.06597","band [0.032, 0.048] overlaps 95% binomial interval (n = 235)",TRUE,TRUE,2003
+08_observation,duplicate turf rebates (configured 0.040),"0.04979, 0.02599, 0.08536","band [0.032, 0.048] overlaps 95% binomial interval (n = 241)",TRUE,TRUE,2004
+08_observation,duplicate turf rebates (configured 0.040),"0.018600, 0.005092, 0.046950","band [0.032, 0.048] overlaps 95% binomial interval (n = 215)",TRUE,TRUE,2005
+08_observation,duplicate turf rebates (configured 0.040),"0.04464, 0.02161, 0.08057","band [0.032, 0.048] overlaps 95% binomial interval (n = 224)",TRUE,TRUE,2006
+08_observation,duplicate turf rebates (configured 0.040),"0.05310, 0.02773, 0.09091","band [0.032, 0.048] overlaps 95% binomial interval (n = 226)",TRUE,TRUE,2007
+08_observation,duplicate turf rebates (configured 0.040),"0.03670, 0.01597, 0.07103","band [0.032, 0.048] overlaps 95% binomial interval (n = 218)",TRUE,TRUE,2008
+08_observation,duplicate turf rebates (configured 0.040),"0.03478, 0.01513, 0.06738","band [0.032, 0.048] overlaps 95% binomial interval (n = 230)",TRUE,TRUE,2009
+08_observation,duplicate turf rebates (configured 0.040),"0.025000, 0.009229, 0.053620","band [0.032, 0.048] overlaps 95% binomial interval (n = 240)",TRUE,TRUE,2010
+08_observation,duplicate turf rebates (configured 0.040),"0.026910, 0.009937, 0.057640","band [0.032, 0.048] overlaps 95% binomial interval (n = 223)",TRUE,TRUE,2011
+08_observation,duplicate turf rebates (configured 0.040),"0.03604, 0.01568, 0.06977","band [0.032, 0.048] overlaps 95% binomial interval (n = 222)",TRUE,TRUE,2012
+08_observation,duplicate turf rebates (configured 0.040),"0.04583, 0.02310, 0.08053","band [0.032, 0.048] overlaps 95% binomial interval (n = 240)",TRUE,TRUE,2013
+08_observation,duplicate turf rebates (configured 0.040),"0.03463, 0.01507, 0.06710","band [0.032, 0.048] overlaps 95% binomial interval (n = 231)",TRUE,TRUE,2014
+08_observation,duplicate turf rebates (configured 0.040),"0.03404, 0.01481, 0.06597","band [0.032, 0.048] overlaps 95% binomial interval (n = 235)",TRUE,TRUE,2015
+08_observation,duplicate turf rebates (configured 0.040),"0.07113, 0.04198, 0.11140","band [0.032, 0.048] overlaps 95% binomial interval (n = 239)",TRUE,TRUE,2016
+08_observation,duplicate turf rebates (configured 0.040),"0.02715, 0.01003, 0.05815","band [0.032, 0.048] overlaps 95% binomial interval (n = 221)",TRUE,TRUE,2017
+08_observation,duplicate turf rebates (configured 0.040),"0.03252, 0.01414, 0.06307","band [0.032, 0.048] overlaps 95% binomial interval (n = 246)",TRUE,TRUE,2018
+08_observation,duplicate turf rebates (configured 0.040),"0.04329, 0.02095, 0.07817","band [0.032, 0.048] overlaps 95% binomial interval (n = 231)",TRUE,TRUE,2019
+08_observation,duplicate turf rebates (configured 0.040),"0.05652, 0.03044, 0.09471","band [0.032, 0.048] overlaps 95% binomial interval (n = 230)",TRUE,TRUE,2020
+08_observation,"missing household size, AC (configured 0.100)","0.10740, 0.08769, 0.12990","band [0.08, 0.12] overlaps 95% binomial interval (n = 875)",TRUE,TRUE,2001
+08_observation,"missing household size, AC (configured 0.100)","0.09443, 0.07591, 0.11570","band [0.08, 0.12] overlaps 95% binomial interval (n = 879)",TRUE,TRUE,2002
+08_observation,"missing household size, AC (configured 0.100)","0.10710, 0.08735, 0.12960","band [0.08, 0.12] overlaps 95% binomial interval (n = 868)",TRUE,TRUE,2003
+08_observation,"missing household size, AC (configured 0.100)","0.07780, 0.06092, 0.09759","band [0.08, 0.12] overlaps 95% binomial interval (n = 874)",TRUE,TRUE,2004
+08_observation,"missing household size, AC (configured 0.100)","0.10700, 0.08711, 0.12960","band [0.08, 0.12] overlaps 95% binomial interval (n = 860)",TRUE,TRUE,2005
+08_observation,"missing household size, AC (configured 0.100)","0.09229, 0.07375, 0.11370","band [0.08, 0.12] overlaps 95% binomial interval (n = 856)",TRUE,TRUE,2006
+08_observation,"missing household size, AC (configured 0.100)","0.11570, 0.09545, 0.13860","band [0.08, 0.12] overlaps 95% binomial interval (n = 890)",TRUE,TRUE,2007
+08_observation,"missing household size, AC (configured 0.100)","0.09496, 0.07613, 0.11660","band [0.08, 0.12] overlaps 95% binomial interval (n = 853)",TRUE,TRUE,2008
+08_observation,"missing household size, AC (configured 0.100)","0.11180, 0.09156, 0.13460","band [0.08, 0.12] overlaps 95% binomial interval (n = 868)",TRUE,TRUE,2009
+08_observation,"missing household size, AC (configured 0.100)","0.09718, 0.07846, 0.11860","band [0.08, 0.12] overlaps 95% binomial interval (n = 885)",TRUE,TRUE,2010
+08_observation,"missing household size, AC (configured 0.100)","0.09112, 0.07280, 0.11230","band [0.08, 0.12] overlaps 95% binomial interval (n = 867)",TRUE,TRUE,2011
+08_observation,"missing household size, AC (configured 0.100)","0.11600, 0.09539, 0.13930","band [0.08, 0.12] overlaps 95% binomial interval (n = 862)",TRUE,TRUE,2012
+08_observation,"missing household size, AC (configured 0.100)","0.10390, 0.08423, 0.12620","band [0.08, 0.12] overlaps 95% binomial interval (n = 857)",TRUE,TRUE,2013
+08_observation,"missing household size, AC (configured 0.100)","0.10410, 0.08488, 0.12610","band [0.08, 0.12] overlaps 95% binomial interval (n = 893)",TRUE,TRUE,2014
+08_observation,"missing household size, AC (configured 0.100)","0.10010, 0.08147, 0.12140","band [0.08, 0.12] overlaps 95% binomial interval (n = 919)",TRUE,TRUE,2015
+08_observation,"missing household size, AC (configured 0.100)","0.10070, 0.08144, 0.12270","band [0.08, 0.12] overlaps 95% binomial interval (n = 864)",TRUE,TRUE,2016
+08_observation,"missing household size, AC (configured 0.100)","0.09811, 0.07890, 0.12020","band [0.08, 0.12] overlaps 95% binomial interval (n = 846)",TRUE,TRUE,2017
+08_observation,"missing household size, AC (configured 0.100)","0.11660, 0.09601, 0.13990","band [0.08, 0.12] overlaps 95% binomial interval (n = 866)",TRUE,TRUE,2018
+08_observation,"missing household size, AC (configured 0.100)","0.09733, 0.07838, 0.11910","band [0.08, 0.12] overlaps 95% binomial interval (n = 863)",TRUE,TRUE,2019
+08_observation,"missing household size, AC (configured 0.100)","0.10980, 0.08977, 0.13260","band [0.08, 0.12] overlaps 95% binomial interval (n = 865)",TRUE,TRUE,2020
+08_observation,"missing household size, VS (configured 0.100)","0.12010, 0.09246, 0.15250","band [0.08, 0.12] overlaps 95% binomial interval (n = 483)",TRUE,TRUE,2001
+08_observation,"missing household size, VS (configured 0.100)","0.10160, 0.07637, 0.13180","band [0.08, 0.12] overlaps 95% binomial interval (n = 492)",TRUE,TRUE,2002
+08_observation,"missing household size, VS (configured 0.100)","0.07229, 0.05114, 0.09868","band [0.08, 0.12] overlaps 95% binomial interval (n = 498)",TRUE,TRUE,2003
+08_observation,"missing household size, VS (configured 0.100)","0.09234, 0.06864, 0.12090","band [0.08, 0.12] overlaps 95% binomial interval (n = 509)",TRUE,TRUE,2004
+08_observation,"missing household size, VS (configured 0.100)","0.09780, 0.07323, 0.12720","band [0.08, 0.12] overlaps 95% binomial interval (n = 501)",TRUE,TRUE,2005
+08_observation,"missing household size, VS (configured 0.100)","0.12380, 0.09621, 0.15580","band [0.08, 0.12] overlaps 95% binomial interval (n = 501)",TRUE,TRUE,2006
+08_observation,"missing household size, VS (configured 0.100)","0.12700, 0.09881, 0.15990","band [0.08, 0.12] overlaps 95% binomial interval (n = 488)",TRUE,TRUE,2007
+08_observation,"missing household size, VS (configured 0.100)","0.08740, 0.06397, 0.11590","band [0.08, 0.12] overlaps 95% binomial interval (n = 492)",TRUE,TRUE,2008
+08_observation,"missing household size, VS (configured 0.100)","0.09395, 0.06935, 0.12370","band [0.08, 0.12] overlaps 95% binomial interval (n = 479)",TRUE,TRUE,2009
+08_observation,"missing household size, VS (configured 0.100)","0.10560, 0.08009, 0.13580","band [0.08, 0.12] overlaps 95% binomial interval (n = 502)",TRUE,TRUE,2010
+08_observation,"missing household size, VS (configured 0.100)","0.10400, 0.07913, 0.13360","band [0.08, 0.12] overlaps 95% binomial interval (n = 519)",TRUE,TRUE,2011
+08_observation,"missing household size, VS (configured 0.100)","0.11640, 0.08915, 0.14850","band [0.08, 0.12] overlaps 95% binomial interval (n = 481)",TRUE,TRUE,2012
+08_observation,"missing household size, VS (configured 0.100)","0.08537, 0.06222, 0.11360","band [0.08, 0.12] overlaps 95% binomial interval (n = 492)",TRUE,TRUE,2013
+08_observation,"missing household size, VS (configured 0.100)","0.11400, 0.08749, 0.14520","band [0.08, 0.12] overlaps 95% binomial interval (n = 500)",TRUE,TRUE,2014
+08_observation,"missing household size, VS (configured 0.100)","0.10530, 0.07962, 0.13570","band [0.08, 0.12] overlaps 95% binomial interval (n = 494)",TRUE,TRUE,2015
+08_observation,"missing household size, VS (configured 0.100)","0.11740, 0.08991, 0.14970","band [0.08, 0.12] overlaps 95% binomial interval (n = 477)",TRUE,TRUE,2016
+08_observation,"missing household size, VS (configured 0.100)","0.1000, 0.0744, 0.1308","band [0.08, 0.12] overlaps 95% binomial interval (n = 470)",TRUE,TRUE,2017
+08_observation,"missing household size, VS (configured 0.100)","0.09846, 0.07419, 0.12740","band [0.08, 0.12] overlaps 95% binomial interval (n = 518)",TRUE,TRUE,2018
+08_observation,"missing household size, VS (configured 0.100)","0.08349, 0.06132, 0.11050","band [0.08, 0.12] overlaps 95% binomial interval (n = 527)",TRUE,TRUE,2019
+08_observation,"missing household size, VS (configured 0.100)","0.08964, 0.06614, 0.11810","band [0.08, 0.12] overlaps 95% binomial interval (n = 502)",TRUE,TRUE,2020
+08_observation,"missing irrigable area, SS (configured 0.040)","0.02682, 0.01668, 0.04071","band [0.032, 0.048] overlaps 95% binomial interval (n = 783)",TRUE,TRUE,2001
+08_observation,"missing irrigable area, SS (configured 0.040)","0.03338, 0.02192, 0.04852","band [0.032, 0.048] overlaps 95% binomial interval (n = 779)",TRUE,TRUE,2002
+08_observation,"missing irrigable area, SS (configured 0.040)","0.04416, 0.03077, 0.06116","band [0.032, 0.048] overlaps 95% binomial interval (n = 770)",TRUE,TRUE,2003
+08_observation,"missing irrigable area, SS (configured 0.040)","0.04118, 0.02834, 0.05764","band [0.032, 0.048] overlaps 95% binomial interval (n = 777)",TRUE,TRUE,2004
+08_observation,"missing irrigable area, SS (configured 0.040)","0.04738, 0.03357, 0.06471","band [0.032, 0.048] overlaps 95% binomial interval (n = 781)",TRUE,TRUE,2005
+08_observation,"missing irrigable area, SS (configured 0.040)","0.04269, 0.02957, 0.05943","band [0.032, 0.048] overlaps 95% binomial interval (n = 773)",TRUE,TRUE,2006
+08_observation,"missing irrigable area, SS (configured 0.040)","0.05019, 0.03593, 0.06798","band [0.032, 0.048] overlaps 95% binomial interval (n = 777)",TRUE,TRUE,2007
+08_observation,"missing irrigable area, SS (configured 0.040)","0.02347, 0.01397, 0.03684","band [0.032, 0.048] overlaps 95% binomial interval (n = 767)",TRUE,TRUE,2008
+08_observation,"missing irrigable area, SS (configured 0.040)","0.03133, 0.02037, 0.04590","band [0.032, 0.048] overlaps 95% binomial interval (n = 798)",TRUE,TRUE,2009
+08_observation,"missing irrigable area, SS (configured 0.040)","0.03529, 0.02339, 0.05094","band [0.032, 0.048] overlaps 95% binomial interval (n = 765)",TRUE,TRUE,2010
+08_observation,"missing irrigable area, SS (configured 0.040)","0.02414, 0.01460, 0.03745","band [0.032, 0.048] overlaps 95% binomial interval (n = 787)",TRUE,TRUE,2011
+08_observation,"missing irrigable area, SS (configured 0.040)","0.03984, 0.02704, 0.05639","band [0.032, 0.048] overlaps 95% binomial interval (n = 753)",TRUE,TRUE,2012
+08_observation,"missing irrigable area, SS (configured 0.040)","0.04042, 0.02762, 0.05688","band [0.032, 0.048] overlaps 95% binomial interval (n = 767)",TRUE,TRUE,2013
+08_observation,"missing irrigable area, SS (configured 0.040)","0.03766, 0.02537, 0.05364","band [0.032, 0.048] overlaps 95% binomial interval (n = 770)",TRUE,TRUE,2014
+08_observation,"missing irrigable area, SS (configured 0.040)","0.03346, 0.02197, 0.04865","band [0.032, 0.048] overlaps 95% binomial interval (n = 777)",TRUE,TRUE,2015
+08_observation,"missing irrigable area, SS (configured 0.040)","0.04183, 0.02878, 0.05854","band [0.032, 0.048] overlaps 95% binomial interval (n = 765)",TRUE,TRUE,2016
+08_observation,"missing irrigable area, SS (configured 0.040)","0.03141, 0.02023, 0.04638","band [0.032, 0.048] overlaps 95% binomial interval (n = 764)",TRUE,TRUE,2017
+08_observation,"missing irrigable area, SS (configured 0.040)","0.02742, 0.01705, 0.04160","band [0.032, 0.048] overlaps 95% binomial interval (n = 766)",TRUE,TRUE,2018
+08_observation,"missing irrigable area, SS (configured 0.040)","0.04604, 0.03245, 0.06317","band [0.032, 0.048] overlaps 95% binomial interval (n = 782)",TRUE,TRUE,2019
+08_observation,"missing irrigable area, SS (configured 0.040)","0.05216, 0.03769, 0.07010","band [0.032, 0.048] overlaps 95% binomial interval (n = 786)",TRUE,TRUE,2020
+08_observation,negative errors in usage rows (configured 0.001),"0.0010090, 0.0008713, 0.0011620","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 190302)",TRUE,TRUE,2001
+08_observation,negative errors in usage rows (configured 0.001),"0.0009786, 0.0008435, 0.0011290","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 191081)",TRUE,TRUE,2002
+08_observation,negative errors in usage rows (configured 0.001),"0.0010960, 0.0009525, 0.0012560","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 189717)",TRUE,TRUE,2003
+08_observation,negative errors in usage rows (configured 0.001),"0.0008987, 0.0007691, 0.0010440","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 190280)",TRUE,TRUE,2004
+08_observation,negative errors in usage rows (configured 0.001),"0.001031, 0.000892, 0.001186","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 190050)",TRUE,TRUE,2005
+08_observation,negative errors in usage rows (configured 0.001),"0.0009625, 0.0008282, 0.0011120","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 190125)",TRUE,TRUE,2006
+08_observation,negative errors in usage rows (configured 0.001),"0.0010440, 0.0009041, 0.0012000","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 190603)",TRUE,TRUE,2007
+08_observation,negative errors in usage rows (configured 0.001),"0.0010610, 0.0009197, 0.0012180","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 190396)",TRUE,TRUE,2008
+08_observation,negative errors in usage rows (configured 0.001),"0.0008892, 0.0007606, 0.0010330","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 191184)",TRUE,TRUE,2009
+08_observation,negative errors in usage rows (configured 0.001),"0.0008863, 0.0007574, 0.0010310","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 189557)",TRUE,TRUE,2010
+08_observation,negative errors in usage rows (configured 0.001),"0.001038, 0.000898, 0.001193","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 189825)",TRUE,TRUE,2011
+08_observation,negative errors in usage rows (configured 0.001),"0.0010430, 0.0009024, 0.0011990","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 188897)",TRUE,TRUE,2012
+08_observation,negative errors in usage rows (configured 0.001),"0.0010340, 0.0008943, 0.0011890","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 189559)",TRUE,TRUE,2013
+08_observation,negative errors in usage rows (configured 0.001),"0.0008404, 0.0007153, 0.0009811","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 190389)",TRUE,TRUE,2014
+08_observation,negative errors in usage rows (configured 0.001),"0.0009828, 0.0008471, 0.0011340","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 190264)",TRUE,TRUE,2015
+08_observation,negative errors in usage rows (configured 0.001),"0.0009764, 0.0008408, 0.0011280","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 189471)",TRUE,TRUE,2016
+08_observation,negative errors in usage rows (configured 0.001),"0.001188, 0.001038, 0.001354","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 189372)",TRUE,TRUE,2017
+08_observation,negative errors in usage rows (configured 0.001),"0.0009704, 0.0008353, 0.0011210","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 189618)",TRUE,TRUE,2018
+08_observation,negative errors in usage rows (configured 0.001),"0.0009251, 0.0007935, 0.0010720","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 190254)",TRUE,TRUE,2019
+08_observation,negative errors in usage rows (configured 0.001),"0.0011420, 0.0009959, 0.0013040","band [0.0008, 0.0012] overlaps 95% binomial interval (n = 191749)",TRUE,TRUE,2020
+08_observation,share of billing rows missing (reported),0.0188,report only,TRUE,TRUE,2001
+08_observation,share of billing rows missing (reported),0.01926,report only,TRUE,TRUE,2002
+08_observation,share of billing rows missing (reported),0.01846,report only,TRUE,TRUE,2003
+08_observation,share of billing rows missing (reported),0.01871,report only,TRUE,TRUE,2004
+08_observation,share of billing rows missing (reported),0.01993,report only,TRUE,TRUE,2005
+08_observation,share of billing rows missing (reported),0.01933,report only,TRUE,TRUE,2006
+08_observation,share of billing rows missing (reported),0.01854,report only,TRUE,TRUE,2007
+08_observation,share of billing rows missing (reported),0.01857,report only,TRUE,TRUE,2008
+08_observation,share of billing rows missing (reported),0.01841,report only,TRUE,TRUE,2009
+08_observation,share of billing rows missing (reported),0.01924,report only,TRUE,TRUE,2010
+08_observation,share of billing rows missing (reported),0.01976,report only,TRUE,TRUE,2011
+08_observation,share of billing rows missing (reported),0.01793,report only,TRUE,TRUE,2012
+08_observation,share of billing rows missing (reported),0.01925,report only,TRUE,TRUE,2013
+08_observation,share of billing rows missing (reported),0.01843,report only,TRUE,TRUE,2014
+08_observation,share of billing rows missing (reported),0.01957,report only,TRUE,TRUE,2015
+08_observation,share of billing rows missing (reported),0.01777,report only,TRUE,TRUE,2016
+08_observation,share of billing rows missing (reported),0.01911,report only,TRUE,TRUE,2017
+08_observation,share of billing rows missing (reported),0.01944,report only,TRUE,TRUE,2018
+08_observation,share of billing rows missing (reported),0.02009,report only,TRUE,TRUE,2019
+08_observation,share of billing rows missing (reported),0.01853,report only,TRUE,TRUE,2020
+08_observation,share of locations with a feed gap (configured 0.150),"0.1428, 0.1309, 0.1554","band [0.12, 0.18] overlaps 95% binomial interval (n = 3200)",TRUE,TRUE,2001
+08_observation,share of locations with a feed gap (configured 0.150),"0.1536, 0.1413, 0.1666","band [0.12, 0.18] overlaps 95% binomial interval (n = 3209)",TRUE,TRUE,2002
+08_observation,share of locations with a feed gap (configured 0.150),"0.1465, 0.1344, 0.1592","band [0.12, 0.18] overlaps 95% binomial interval (n = 3188)",TRUE,TRUE,2003
+08_observation,share of locations with a feed gap (configured 0.150),"0.1474, 0.1353, 0.1601","band [0.12, 0.18] overlaps 95% binomial interval (n = 3223)",TRUE,TRUE,2004
+08_observation,share of locations with a feed gap (configured 0.150),"0.1573, 0.1448, 0.1703","band [0.12, 0.18] overlaps 95% binomial interval (n = 3205)",TRUE,TRUE,2005
+08_observation,share of locations with a feed gap (configured 0.150),"0.1560, 0.1436, 0.1690","band [0.12, 0.18] overlaps 95% binomial interval (n = 3205)",TRUE,TRUE,2006
+08_observation,share of locations with a feed gap (configured 0.150),"0.1424, 0.1305, 0.1549","band [0.12, 0.18] overlaps 95% binomial interval (n = 3230)",TRUE,TRUE,2007
+08_observation,share of locations with a feed gap (configured 0.150),"0.1431, 0.1311, 0.1557","band [0.12, 0.18] overlaps 95% binomial interval (n = 3201)",TRUE,TRUE,2008
+08_observation,share of locations with a feed gap (configured 0.150),"0.1443, 0.1324, 0.1569","band [0.12, 0.18] overlaps 95% binomial interval (n = 3222)",TRUE,TRUE,2009
+08_observation,share of locations with a feed gap (configured 0.150),"0.1497, 0.1375, 0.1626","band [0.12, 0.18] overlaps 95% binomial interval (n = 3192)",TRUE,TRUE,2010
+08_observation,share of locations with a feed gap (configured 0.150),"0.1575, 0.1450, 0.1705","band [0.12, 0.18] overlaps 95% binomial interval (n = 3207)",TRUE,TRUE,2011
+08_observation,share of locations with a feed gap (configured 0.150),"0.1468, 0.1347, 0.1596","band [0.12, 0.18] overlaps 95% binomial interval (n = 3174)",TRUE,TRUE,2012
+08_observation,share of locations with a feed gap (configured 0.150),"0.1489, 0.1368, 0.1618","band [0.12, 0.18] overlaps 95% binomial interval (n = 3189)",TRUE,TRUE,2013
+08_observation,share of locations with a feed gap (configured 0.150),"0.1491, 0.1369, 0.1619","band [0.12, 0.18] overlaps 95% binomial interval (n = 3200)",TRUE,TRUE,2014
+08_observation,share of locations with a feed gap (configured 0.150),"0.1557, 0.1433, 0.1687","band [0.12, 0.18] overlaps 95% binomial interval (n = 3211)",TRUE,TRUE,2015
+08_observation,share of locations with a feed gap (configured 0.150),"0.1331, 0.1215, 0.1454","band [0.12, 0.18] overlaps 95% binomial interval (n = 3186)",TRUE,TRUE,2016
+08_observation,share of locations with a feed gap (configured 0.150),"0.1485, 0.1363, 0.1614","band [0.12, 0.18] overlaps 95% binomial interval (n = 3178)",TRUE,TRUE,2017
+08_observation,share of locations with a feed gap (configured 0.150),"0.1470, 0.1349, 0.1598","band [0.12, 0.18] overlaps 95% binomial interval (n = 3184)",TRUE,TRUE,2018
+08_observation,share of locations with a feed gap (configured 0.150),"0.1635, 0.1508, 0.1768","band [0.12, 0.18] overlaps 95% binomial interval (n = 3205)",TRUE,TRUE,2019
+08_observation,share of locations with a feed gap (configured 0.150),"0.1449, 0.1330, 0.1575","band [0.12, 0.18] overlaps 95% binomial interval (n = 3236)",TRUE,TRUE,2020
+08_observation,single family control candidates in every zip code,156,>= 100 in every zip,TRUE,TRUE,2001
+08_observation,single family control candidates in every zip code,156,>= 100 in every zip,TRUE,TRUE,2002
+08_observation,single family control candidates in every zip code,151,>= 100 in every zip,TRUE,TRUE,2003
+08_observation,single family control candidates in every zip code,158,>= 100 in every zip,TRUE,TRUE,2004
+08_observation,single family control candidates in every zip code,154,>= 100 in every zip,TRUE,TRUE,2005
+08_observation,single family control candidates in every zip code,156,>= 100 in every zip,TRUE,TRUE,2006
+08_observation,single family control candidates in every zip code,149,>= 100 in every zip,TRUE,TRUE,2007
+08_observation,single family control candidates in every zip code,154,>= 100 in every zip,TRUE,TRUE,2008
+08_observation,single family control candidates in every zip code,152,>= 100 in every zip,TRUE,TRUE,2009
+08_observation,single family control candidates in every zip code,152,>= 100 in every zip,TRUE,TRUE,2010
+08_observation,single family control candidates in every zip code,159,>= 100 in every zip,TRUE,TRUE,2011
+08_observation,single family control candidates in every zip code,159,>= 100 in every zip,TRUE,TRUE,2012
+08_observation,single family control candidates in every zip code,150,>= 100 in every zip,TRUE,TRUE,2013
+08_observation,single family control candidates in every zip code,157,>= 100 in every zip,TRUE,TRUE,2014
+08_observation,single family control candidates in every zip code,149,>= 100 in every zip,TRUE,TRUE,2015
+08_observation,single family control candidates in every zip code,149,>= 100 in every zip,TRUE,TRUE,2016
+08_observation,single family control candidates in every zip code,150,>= 100 in every zip,TRUE,TRUE,2017
+08_observation,single family control candidates in every zip code,153,>= 100 in every zip,TRUE,TRUE,2018
+08_observation,single family control candidates in every zip code,160,>= 100 in every zip,TRUE,TRUE,2019
+08_observation,single family control candidates in every zip code,158,>= 100 in every zip,TRUE,TRUE,2020
+08_observation,spike errors in usage rows (configured 0.002),"0.001955, 0.001761, 0.002164","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 190302)",TRUE,TRUE,2001
+08_observation,spike errors in usage rows (configured 0.002),"0.002078, 0.001878, 0.002292","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 191081)",TRUE,TRUE,2002
+08_observation,spike errors in usage rows (configured 0.002),"0.002140, 0.001937, 0.002358","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 189717)",TRUE,TRUE,2003
+08_observation,spike errors in usage rows (configured 0.002),"0.001871, 0.001682, 0.002076","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 190280)",TRUE,TRUE,2004
+08_observation,spike errors in usage rows (configured 0.002),"0.001931, 0.001739, 0.002139","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 190050)",TRUE,TRUE,2005
+08_observation,spike errors in usage rows (configured 0.002),"0.002062, 0.001863, 0.002276","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 190125)",TRUE,TRUE,2006
+08_observation,spike errors in usage rows (configured 0.002),"0.001988, 0.001793, 0.002199","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 190603)",TRUE,TRUE,2007
+08_observation,spike errors in usage rows (configured 0.002),"0.001922, 0.001731, 0.002129","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 190396)",TRUE,TRUE,2008
+08_observation,spike errors in usage rows (configured 0.002),"0.001967, 0.001773, 0.002176","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 191184)",TRUE,TRUE,2009
+08_observation,spike errors in usage rows (configured 0.002),"0.001984, 0.001788, 0.002194","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 189557)",TRUE,TRUE,2010
+08_observation,spike errors in usage rows (configured 0.002),"0.002060, 0.001861, 0.002274","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 189825)",TRUE,TRUE,2011
+08_observation,spike errors in usage rows (configured 0.002),"0.001927, 0.001734, 0.002135","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 188897)",TRUE,TRUE,2012
+08_observation,spike errors in usage rows (configured 0.002),"0.002173, 0.001969, 0.002394","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 189559)",TRUE,TRUE,2013
+08_observation,spike errors in usage rows (configured 0.002),"0.002269, 0.002060, 0.002493","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 190389)",TRUE,TRUE,2014
+08_observation,spike errors in usage rows (configured 0.002),"0.001945, 0.001752, 0.002153","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 190264)",TRUE,TRUE,2015
+08_observation,spike errors in usage rows (configured 0.002),"0.001889, 0.001699, 0.002095","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 189471)",TRUE,TRUE,2016
+08_observation,spike errors in usage rows (configured 0.002),"0.002038, 0.001840, 0.002252","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 189372)",TRUE,TRUE,2017
+08_observation,spike errors in usage rows (configured 0.002),"0.001851, 0.001663, 0.002055","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 189618)",TRUE,TRUE,2018
+08_observation,spike errors in usage rows (configured 0.002),"0.001745, 0.001562, 0.001943","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 190254)",TRUE,TRUE,2019
+08_observation,spike errors in usage rows (configured 0.002),"0.002154, 0.001951, 0.002372","band [0.0016, 0.0024] overlaps 95% binomial interval (n = 191749)",TRUE,TRUE,2020
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2001
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2002
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2003
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2004
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2005
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2006
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2007
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2008
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2009
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2010
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2011
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2012
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2013
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2014
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2015
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2016
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2017
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2018
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2019
+08_observation,treated households passing the analysis filters,175,150 to 200,TRUE,TRUE,2020
+09_estimate_savings,estimated 25th percentile,-9.366,4 to 12,FALSE,FALSE,2001
+09_estimate_savings,estimated 25th percentile,-4.7,4 to 12,FALSE,FALSE,2002
+09_estimate_savings,estimated 25th percentile,-10.65,4 to 12,FALSE,FALSE,2003
+09_estimate_savings,estimated 25th percentile,-9.613,4 to 12,FALSE,FALSE,2004
+09_estimate_savings,estimated 25th percentile,-4.861,4 to 12,FALSE,FALSE,2005
+09_estimate_savings,estimated 25th percentile,-4.402,4 to 12,FALSE,FALSE,2006
+09_estimate_savings,estimated 25th percentile,3.026,4 to 12,FALSE,FALSE,2007
+09_estimate_savings,estimated 25th percentile,-7.394,4 to 12,FALSE,FALSE,2008
+09_estimate_savings,estimated 25th percentile,-1.859,4 to 12,FALSE,FALSE,2009
+09_estimate_savings,estimated 25th percentile,-10.19,4 to 12,FALSE,FALSE,2010
+09_estimate_savings,estimated 25th percentile,-15.08,4 to 12,FALSE,FALSE,2011
+09_estimate_savings,estimated 25th percentile,-4.175,4 to 12,FALSE,FALSE,2012
+09_estimate_savings,estimated 25th percentile,-5.831,4 to 12,FALSE,FALSE,2013
+09_estimate_savings,estimated 25th percentile,-11.49,4 to 12,FALSE,FALSE,2014
+09_estimate_savings,estimated 25th percentile,-6.776,4 to 12,FALSE,FALSE,2015
+09_estimate_savings,estimated 25th percentile,-8.728,4 to 12,FALSE,FALSE,2016
+09_estimate_savings,estimated 25th percentile,-10.59,4 to 12,FALSE,FALSE,2017
+09_estimate_savings,estimated 25th percentile,-12.58,4 to 12,FALSE,FALSE,2018
+09_estimate_savings,estimated 25th percentile,-7.959,4 to 12,FALSE,FALSE,2019
+09_estimate_savings,estimated 25th percentile,-3.916,4 to 12,FALSE,FALSE,2020
+09_estimate_savings,estimated 75th percentile,37.83,26 to 40,TRUE,FALSE,2001
+09_estimate_savings,estimated 75th percentile,44.08,26 to 40,FALSE,FALSE,2002
+09_estimate_savings,estimated 75th percentile,37,26 to 40,TRUE,FALSE,2003
+09_estimate_savings,estimated 75th percentile,55.03,26 to 40,FALSE,FALSE,2004
+09_estimate_savings,estimated 75th percentile,48.57,26 to 40,FALSE,FALSE,2005
+09_estimate_savings,estimated 75th percentile,37.58,26 to 40,TRUE,FALSE,2006
+09_estimate_savings,estimated 75th percentile,44.2,26 to 40,FALSE,FALSE,2007
+09_estimate_savings,estimated 75th percentile,57.7,26 to 40,FALSE,FALSE,2008
+09_estimate_savings,estimated 75th percentile,50.54,26 to 40,FALSE,FALSE,2009
+09_estimate_savings,estimated 75th percentile,37.18,26 to 40,TRUE,FALSE,2010
+09_estimate_savings,estimated 75th percentile,50.3,26 to 40,FALSE,FALSE,2011
+09_estimate_savings,estimated 75th percentile,34.8,26 to 40,TRUE,FALSE,2012
+09_estimate_savings,estimated 75th percentile,48.76,26 to 40,FALSE,FALSE,2013
+09_estimate_savings,estimated 75th percentile,45.12,26 to 40,FALSE,FALSE,2014
+09_estimate_savings,estimated 75th percentile,42.13,26 to 40,FALSE,FALSE,2015
+09_estimate_savings,estimated 75th percentile,33.07,26 to 40,TRUE,FALSE,2016
+09_estimate_savings,estimated 75th percentile,31.72,26 to 40,TRUE,FALSE,2017
+09_estimate_savings,estimated 75th percentile,36.13,26 to 40,TRUE,FALSE,2018
+09_estimate_savings,estimated 75th percentile,40.02,26 to 40,FALSE,FALSE,2019
+09_estimate_savings,estimated 75th percentile,40.17,26 to 40,FALSE,FALSE,2020
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.143,1.2 to 1.8,FALSE,FALSE,2001
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.303,1.2 to 1.8,TRUE,FALSE,2002
+09_estimate_savings,estimated January-March mean (gal/sqft/month),0.439,1.2 to 1.8,FALSE,FALSE,2003
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.734,1.2 to 1.8,TRUE,FALSE,2004
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.658,1.2 to 1.8,TRUE,FALSE,2005
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.575,1.2 to 1.8,TRUE,FALSE,2006
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.931,1.2 to 1.8,FALSE,FALSE,2007
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.827,1.2 to 1.8,FALSE,FALSE,2008
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.667,1.2 to 1.8,TRUE,FALSE,2009
+09_estimate_savings,estimated January-March mean (gal/sqft/month),0.7737,1.2 to 1.8,FALSE,FALSE,2010
+09_estimate_savings,estimated January-March mean (gal/sqft/month),2.535,1.2 to 1.8,FALSE,FALSE,2011
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.556,1.2 to 1.8,TRUE,FALSE,2012
+09_estimate_savings,estimated January-March mean (gal/sqft/month),2.032,1.2 to 1.8,FALSE,FALSE,2013
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.778,1.2 to 1.8,TRUE,FALSE,2014
+09_estimate_savings,estimated January-March mean (gal/sqft/month),0.569,1.2 to 1.8,FALSE,FALSE,2015
+09_estimate_savings,estimated January-March mean (gal/sqft/month),0.781,1.2 to 1.8,FALSE,FALSE,2016
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.201,1.2 to 1.8,TRUE,FALSE,2017
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.458,1.2 to 1.8,TRUE,FALSE,2018
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.668,1.2 to 1.8,TRUE,FALSE,2019
+09_estimate_savings,estimated January-March mean (gal/sqft/month),1.838,1.2 to 1.8,FALSE,FALSE,2020
+09_estimate_savings,estimated July-September mean (gal/sqft/month),1.357,2.4 to 3,FALSE,FALSE,2001
+09_estimate_savings,estimated July-September mean (gal/sqft/month),2.899,2.4 to 3,TRUE,FALSE,2002
+09_estimate_savings,estimated July-September mean (gal/sqft/month),1.313,2.4 to 3,FALSE,FALSE,2003
+09_estimate_savings,estimated July-September mean (gal/sqft/month),2.918,2.4 to 3,TRUE,FALSE,2004
+09_estimate_savings,estimated July-September mean (gal/sqft/month),2.704,2.4 to 3,TRUE,FALSE,2005
+09_estimate_savings,estimated July-September mean (gal/sqft/month),1.987,2.4 to 3,FALSE,FALSE,2006
+09_estimate_savings,estimated July-September mean (gal/sqft/month),2.858,2.4 to 3,TRUE,FALSE,2007
+09_estimate_savings,estimated July-September mean (gal/sqft/month),3.276,2.4 to 3,FALSE,FALSE,2008
+09_estimate_savings,estimated July-September mean (gal/sqft/month),3.62,2.4 to 3,FALSE,FALSE,2009
+09_estimate_savings,estimated July-September mean (gal/sqft/month),2.101,2.4 to 3,FALSE,FALSE,2010
+09_estimate_savings,estimated July-September mean (gal/sqft/month),3.016,2.4 to 3,FALSE,FALSE,2011
+09_estimate_savings,estimated July-September mean (gal/sqft/month),1.716,2.4 to 3,FALSE,FALSE,2012
+09_estimate_savings,estimated July-September mean (gal/sqft/month),2.906,2.4 to 3,TRUE,FALSE,2013
+09_estimate_savings,estimated July-September mean (gal/sqft/month),1.534,2.4 to 3,FALSE,FALSE,2014
+09_estimate_savings,estimated July-September mean (gal/sqft/month),3.414,2.4 to 3,FALSE,FALSE,2015
+09_estimate_savings,estimated July-September mean (gal/sqft/month),0.7933,2.4 to 3,FALSE,FALSE,2016
+09_estimate_savings,estimated July-September mean (gal/sqft/month),0.3891,2.4 to 3,FALSE,FALSE,2017
+09_estimate_savings,estimated July-September mean (gal/sqft/month),1.537,2.4 to 3,FALSE,FALSE,2018
+09_estimate_savings,estimated July-September mean (gal/sqft/month),1.832,2.4 to 3,FALSE,FALSE,2019
+09_estimate_savings,estimated July-September mean (gal/sqft/month),2.17,2.4 to 3,FALSE,FALSE,2020
+09_estimate_savings,estimated annual mean (gal/sqft/yr),14.56,20 to 25,FALSE,FALSE,2001
+09_estimate_savings,estimated annual mean (gal/sqft/yr),28.04,20 to 25,FALSE,FALSE,2002
+09_estimate_savings,estimated annual mean (gal/sqft/yr),10.32,20 to 25,FALSE,FALSE,2003
+09_estimate_savings,estimated annual mean (gal/sqft/yr),27.67,20 to 25,FALSE,FALSE,2004
+09_estimate_savings,estimated annual mean (gal/sqft/yr),26.16,20 to 25,FALSE,FALSE,2005
+09_estimate_savings,estimated annual mean (gal/sqft/yr),21.67,20 to 25,TRUE,FALSE,2006
+09_estimate_savings,estimated annual mean (gal/sqft/yr),28.59,20 to 25,FALSE,FALSE,2007
+09_estimate_savings,estimated annual mean (gal/sqft/yr),30.12,20 to 25,FALSE,FALSE,2008
+09_estimate_savings,estimated annual mean (gal/sqft/yr),31.77,20 to 25,FALSE,FALSE,2009
+09_estimate_savings,estimated annual mean (gal/sqft/yr),17.6,20 to 25,FALSE,FALSE,2010
+09_estimate_savings,estimated annual mean (gal/sqft/yr),33.29,20 to 25,FALSE,FALSE,2011
+09_estimate_savings,estimated annual mean (gal/sqft/yr),19.11,20 to 25,FALSE,FALSE,2012
+09_estimate_savings,estimated annual mean (gal/sqft/yr),29.35,20 to 25,FALSE,FALSE,2013
+09_estimate_savings,estimated annual mean (gal/sqft/yr),19.4,20 to 25,FALSE,FALSE,2014
+09_estimate_savings,estimated annual mean (gal/sqft/yr),23.43,20 to 25,TRUE,FALSE,2015
+09_estimate_savings,estimated annual mean (gal/sqft/yr),9.55,20 to 25,FALSE,FALSE,2016
+09_estimate_savings,estimated annual mean (gal/sqft/yr),9.698,20 to 25,FALSE,FALSE,2017
+09_estimate_savings,estimated annual mean (gal/sqft/yr),16.34,20 to 25,FALSE,FALSE,2018
+09_estimate_savings,estimated annual mean (gal/sqft/yr),20.99,20 to 25,TRUE,FALSE,2019
+09_estimate_savings,estimated annual mean (gal/sqft/yr),24.54,20 to 25,TRUE,FALSE,2020
+09_estimate_savings,estimated median,13.93,10 to 24,TRUE,FALSE,2001
+09_estimate_savings,estimated median,16.37,10 to 24,TRUE,FALSE,2002
+09_estimate_savings,estimated median,14.06,10 to 24,TRUE,FALSE,2003
+09_estimate_savings,estimated median,15.1,10 to 24,TRUE,FALSE,2004
+09_estimate_savings,estimated median,17.67,10 to 24,TRUE,FALSE,2005
+09_estimate_savings,estimated median,13.16,10 to 24,TRUE,FALSE,2006
+09_estimate_savings,estimated median,20.53,10 to 24,TRUE,FALSE,2007
+09_estimate_savings,estimated median,14.97,10 to 24,TRUE,FALSE,2008
+09_estimate_savings,estimated median,19.14,10 to 24,TRUE,FALSE,2009
+09_estimate_savings,estimated median,12.6,10 to 24,TRUE,FALSE,2010
+09_estimate_savings,estimated median,15.25,10 to 24,TRUE,FALSE,2011
+09_estimate_savings,estimated median,14.03,10 to 24,TRUE,FALSE,2012
+09_estimate_savings,estimated median,19.98,10 to 24,TRUE,FALSE,2013
+09_estimate_savings,estimated median,15.14,10 to 24,TRUE,FALSE,2014
+09_estimate_savings,estimated median,13.63,10 to 24,TRUE,FALSE,2015
+09_estimate_savings,estimated median,15.66,10 to 24,TRUE,FALSE,2016
+09_estimate_savings,estimated median,10.18,10 to 24,TRUE,FALSE,2017
+09_estimate_savings,estimated median,15.16,10 to 24,TRUE,FALSE,2018
+09_estimate_savings,estimated median,17.24,10 to 24,TRUE,FALSE,2019
+09_estimate_savings,estimated median,14.94,10 to 24,TRUE,FALSE,2020
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.1543, 0.1042, 0.2165","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2001
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.1886, 0.1335, 0.2545","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2002
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.12570, 0.08049, 0.18410","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2003
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.2400, 0.1788, 0.3102","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2004
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.1943, 0.1385, 0.2608","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2005
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.14290, 0.09463, 0.20360","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2006
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.14290, 0.09463, 0.20360","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2007
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.2400, 0.1788, 0.3102","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2008
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.2114, 0.1534, 0.2795","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2009
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.13710, 0.08989, 0.19720","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2010
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.2229, 0.1635, 0.2918","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2011
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.14290, 0.09463, 0.20360","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2012
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.2114, 0.1534, 0.2795","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2013
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.1657, 0.1139, 0.2292","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2014
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.2000, 0.1434, 0.2670","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2015
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.10860, 0.06665, 0.16430","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2016
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.12570, 0.08049, 0.18410","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2017
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.1600, 0.1090, 0.2229","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2018
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.1486, 0.0994, 0.2101","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2019
+09_estimate_savings,estimated share above 60 gal/sqft/yr,"0.1657, 0.1139, 0.2292","band [0.005, 0.04] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2020
+09_estimate_savings,estimated share at or below zero,"0.3543, 0.2836, 0.4300","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2001
+09_estimate_savings,estimated share at or below zero,"0.3086, 0.2411, 0.3827","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2002
+09_estimate_savings,estimated share at or below zero,"0.3429, 0.2729, 0.4183","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2003
+09_estimate_savings,estimated share at or below zero,"0.3543, 0.2836, 0.4300","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2004
+09_estimate_savings,estimated share at or below zero,"0.2914, 0.2253, 0.3648","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2005
+09_estimate_savings,estimated share at or below zero,"0.3029, 0.2358, 0.3767","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2006
+09_estimate_savings,estimated share at or below zero,"0.2171, 0.1585, 0.2856","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2007
+09_estimate_savings,estimated share at or below zero,"0.3200, 0.2516, 0.3946","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2008
+09_estimate_savings,estimated share at or below zero,"0.2743, 0.2097, 0.3467","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2009
+09_estimate_savings,estimated share at or below zero,"0.3543, 0.2836, 0.4300","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2010
+09_estimate_savings,estimated share at or below zero,"0.3486, 0.2782, 0.4241","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2011
+09_estimate_savings,estimated share at or below zero,"0.3029, 0.2358, 0.3767","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2012
+09_estimate_savings,estimated share at or below zero,"0.3257, 0.2569, 0.4005","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2013
+09_estimate_savings,estimated share at or below zero,"0.3314, 0.2622, 0.4064","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2014
+09_estimate_savings,estimated share at or below zero,"0.3200, 0.2516, 0.3946","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2015
+09_estimate_savings,estimated share at or below zero,"0.3314, 0.2622, 0.4064","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2016
+09_estimate_savings,estimated share at or below zero,"0.3429, 0.2729, 0.4183","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2017
+09_estimate_savings,estimated share at or below zero,"0.3429, 0.2729, 0.4183","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2018
+09_estimate_savings,estimated share at or below zero,"0.3257, 0.2569, 0.4005","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2019
+09_estimate_savings,estimated share at or below zero,"0.2971, 0.2305, 0.3708","band [0, 0.12] overlaps 95% binomial interval (n = 175)",FALSE,FALSE,2020
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2001
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2002
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2003
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2004
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2005
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2006
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2007
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2008
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2009
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2010
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2011
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2012
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2013
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2014
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2015
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2016
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2017
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2018
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2019
+09_estimate_savings,households estimated (reported),"175, 175","estimated, cohort",TRUE,TRUE,2020
+09_estimate_savings,placebo estimates centered on zero,"-4.818, 67.950, 712.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2001
+09_estimate_savings,placebo estimates centered on zero,"-1.834, 74.480, 669.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2002
+09_estimate_savings,placebo estimates centered on zero,"1.575, 69.640, 744.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2003
+09_estimate_savings,placebo estimates centered on zero,"-0.6754, 73.3100, 652.0000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2004
+09_estimate_savings,placebo estimates centered on zero,"-0.9759, 74.3300, 700.0000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2005
+09_estimate_savings,placebo estimates centered on zero,"0.7178, 62.9900, 707.0000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2006
+09_estimate_savings,placebo estimates centered on zero,"-1.048, 54.210, 693.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2007
+09_estimate_savings,placebo estimates centered on zero,"-0.4986, 74.2600, 684.0000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2008
+09_estimate_savings,placebo estimates centered on zero,"-0.1771, 54.0600, 664.0000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2009
+09_estimate_savings,placebo estimates centered on zero,"0.3534, 75.1800, 690.0000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2010
+09_estimate_savings,placebo estimates centered on zero,"-0.185, 97.560, 712.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2011
+09_estimate_savings,placebo estimates centered on zero,"-5.358, 67.810, 689.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2012
+09_estimate_savings,placebo estimates centered on zero,"0.5476, 69.7300, 709.0000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2013
+09_estimate_savings,placebo estimates centered on zero,"-2.517, 85.360, 698.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2014
+09_estimate_savings,placebo estimates centered on zero,"-4.759, 81.230, 677.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2015
+09_estimate_savings,placebo estimates centered on zero,"1.009, 57.640, 699.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2016
+09_estimate_savings,placebo estimates centered on zero,"-2.384, 57.730, 703.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2017
+09_estimate_savings,placebo estimates centered on zero,"4.609, 92.270, 698.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2018
+09_estimate_savings,placebo estimates centered on zero,"-4.695, 71.040, 691.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2019
+09_estimate_savings,placebo estimates centered on zero,"-2.631, 69.510, 698.000",|mean| < 2 SE + 1 gal/sqft/yr,TRUE,TRUE,2020

@@ -1,0 +1,6 @@
+stage,check,value,threshold,pass,blocking
+07_billing,every bill recomputed from usage and the published OWRS files matches to the cent,1,share matching = 1,TRUE,TRUE
+07_billing,supplier production reconciles with account totals after scaling and losses,0.0000003607,relative difference < 0.005,TRUE,TRUE
+07_billing,billed usage reconciles with the monthly truth panel,0.0002549,relative difference < 0.005,TRUE,TRUE
+07_billing,rebate dates ordered received < post inspection < check,408,all rebates,TRUE,TRUE
+07_billing,supplier percent reduction vs 2013 in June-December 2015 (reported),"0.2443, 0.2796, 0.2340, 0.2676, 0.2366",report only,TRUE,TRUE

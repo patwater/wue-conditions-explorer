@@ -1,0 +1,19 @@
+{
+  "name": "wue-conditions-explorer-dashboard",
+  "private": true,
+  "description": "Static dashboard for the synthetic SCUBA data. THE DATA IS SIMULATED.",
+  "scripts": {
+    "vendor": "cp node_modules/d3/dist/d3.min.js node_modules/@observablehq/plot/dist/plot.umd.min.js app/vendor/",
+    "serve": "node tests/serve.mjs",
+    "test": "playwright test --config tests/playwright.config.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@observablehq/plot": "0.6.17",
+    "d3": "7.9.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "wrangler": "4.40.0"
+  }
+}

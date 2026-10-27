@@ -1,0 +1,801 @@
+stage,check,value,threshold,pass,seed
+01_geography,"block group average household size within [2, 4]","2.41, 3.62",all inside,TRUE,1001
+01_geography,"block group average household size within [2, 4]","2.21, 3.40",all inside,TRUE,1002
+01_geography,"block group average household size within [2, 4]","2.00, 3.42",all inside,TRUE,1003
+01_geography,"block group average household size within [2, 4]","2.20, 3.61",all inside,TRUE,1004
+01_geography,"block group average household size within [2, 4]","2.00, 3.42",all inside,TRUE,1005
+01_geography,"block group average household size within [2, 4]","2.35, 3.85",all inside,TRUE,1006
+01_geography,"block group average household size within [2, 4]","2.24, 3.50",all inside,TRUE,1007
+01_geography,"block group average household size within [2, 4]","2.35, 3.70",all inside,TRUE,1008
+01_geography,"block group average household size within [2, 4]","2.34, 3.84",all inside,TRUE,1009
+01_geography,"block group average household size within [2, 4]","2.39, 3.68",all inside,TRUE,1010
+01_geography,"block group average household size within [2, 4]","2.1, 3.5",all inside,TRUE,1011
+01_geography,"block group average household size within [2, 4]","2.26, 3.55",all inside,TRUE,1012
+01_geography,"block group average household size within [2, 4]","2.24, 3.58",all inside,TRUE,1013
+01_geography,"block group average household size within [2, 4]","2.13, 3.73",all inside,TRUE,1014
+01_geography,"block group average household size within [2, 4]","2.00, 3.57",all inside,TRUE,1015
+01_geography,"block group average household size within [2, 4]","2.36, 3.54",all inside,TRUE,1016
+01_geography,"block group average household size within [2, 4]","2.29, 3.74",all inside,TRUE,1017
+01_geography,"block group average household size within [2, 4]","2.08, 3.51",all inside,TRUE,1018
+01_geography,"block group average household size within [2, 4]","2.22, 3.55",all inside,TRUE,1019
+01_geography,"block group average household size within [2, 4]","2.32, 3.71",all inside,TRUE,1020
+01_geography,"block group median income within [25,000, 250,000]","38700, 190600",all inside,TRUE,1001
+01_geography,"block group median income within [25,000, 250,000]","41500, 235100",all inside,TRUE,1002
+01_geography,"block group median income within [25,000, 250,000]","41700, 191100",all inside,TRUE,1003
+01_geography,"block group median income within [25,000, 250,000]","31500, 250000",all inside,TRUE,1004
+01_geography,"block group median income within [25,000, 250,000]","46000, 200800",all inside,TRUE,1005
+01_geography,"block group median income within [25,000, 250,000]","28800, 186300",all inside,TRUE,1006
+01_geography,"block group median income within [25,000, 250,000]","35600, 209200",all inside,TRUE,1007
+01_geography,"block group median income within [25,000, 250,000]","39500, 221600",all inside,TRUE,1008
+01_geography,"block group median income within [25,000, 250,000]","40300, 207800",all inside,TRUE,1009
+01_geography,"block group median income within [25,000, 250,000]","36300, 197300",all inside,TRUE,1010
+01_geography,"block group median income within [25,000, 250,000]","30500, 217100",all inside,TRUE,1011
+01_geography,"block group median income within [25,000, 250,000]","41300, 166300",all inside,TRUE,1012
+01_geography,"block group median income within [25,000, 250,000]","41400, 204900",all inside,TRUE,1013
+01_geography,"block group median income within [25,000, 250,000]","33700, 219800",all inside,TRUE,1014
+01_geography,"block group median income within [25,000, 250,000]","25000, 227900",all inside,TRUE,1015
+01_geography,"block group median income within [25,000, 250,000]","37800, 190400",all inside,TRUE,1016
+01_geography,"block group median income within [25,000, 250,000]","29800, 214300",all inside,TRUE,1017
+01_geography,"block group median income within [25,000, 250,000]","34400, 176200",all inside,TRUE,1018
+01_geography,"block group median income within [25,000, 250,000]","41600, 158000",all inside,TRUE,1019
+01_geography,"block group median income within [25,000, 250,000]","27100, 217600",all inside,TRUE,1020
+01_geography,"block group median year built within [1940, 2010]","1957, 2010",all inside,TRUE,1001
+01_geography,"block group median year built within [1940, 2010]","1959, 2005",all inside,TRUE,1002
+01_geography,"block group median year built within [1940, 2010]","1957, 2010",all inside,TRUE,1003
+01_geography,"block group median year built within [1940, 2010]","1957, 2010",all inside,TRUE,1004
+01_geography,"block group median year built within [1940, 2010]","1955, 2010",all inside,TRUE,1005
+01_geography,"block group median year built within [1940, 2010]","1960, 2010",all inside,TRUE,1006
+01_geography,"block group median year built within [1940, 2010]","1959, 2010",all inside,TRUE,1007
+01_geography,"block group median year built within [1940, 2010]","1954, 2006",all inside,TRUE,1008
+01_geography,"block group median year built within [1940, 2010]","1955, 2010",all inside,TRUE,1009
+01_geography,"block group median year built within [1940, 2010]","1958, 2002",all inside,TRUE,1010
+01_geography,"block group median year built within [1940, 2010]","1960, 2009",all inside,TRUE,1011
+01_geography,"block group median year built within [1940, 2010]","1955, 2006",all inside,TRUE,1012
+01_geography,"block group median year built within [1940, 2010]","1958, 2006",all inside,TRUE,1013
+01_geography,"block group median year built within [1940, 2010]","1961, 2006",all inside,TRUE,1014
+01_geography,"block group median year built within [1940, 2010]","1959, 2010",all inside,TRUE,1015
+01_geography,"block group median year built within [1940, 2010]","1960, 2005",all inside,TRUE,1016
+01_geography,"block group median year built within [1940, 2010]","1955, 2007",all inside,TRUE,1017
+01_geography,"block group median year built within [1940, 2010]","1959, 2005",all inside,TRUE,1018
+01_geography,"block group median year built within [1940, 2010]","1956, 2004",all inside,TRUE,1019
+01_geography,"block group median year built within [1940, 2010]","1953, 2009",all inside,TRUE,1020
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1001
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1002
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1003
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1004
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1005
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1006
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1007
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1008
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1009
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1010
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1011
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1012
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1013
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1014
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1015
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1016
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1017
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1018
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1019
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,1020
+02_accounts,"account year built within [1900, 2009]","1925, 2009",all inside,TRUE,1001
+02_accounts,"account year built within [1900, 2009]","1922, 2009",all inside,TRUE,1002
+02_accounts,"account year built within [1900, 2009]","1923, 2009",all inside,TRUE,1003
+02_accounts,"account year built within [1900, 2009]","1924, 2009",all inside,TRUE,1004
+02_accounts,"account year built within [1900, 2009]","1923, 2009",all inside,TRUE,1005
+02_accounts,"account year built within [1900, 2009]","1926, 2009",all inside,TRUE,1006
+02_accounts,"account year built within [1900, 2009]","1918, 2009",all inside,TRUE,1007
+02_accounts,"account year built within [1900, 2009]","1919, 2009",all inside,TRUE,1008
+02_accounts,"account year built within [1900, 2009]","1920, 2009",all inside,TRUE,1009
+02_accounts,"account year built within [1900, 2009]","1928, 2009",all inside,TRUE,1010
+02_accounts,"account year built within [1900, 2009]","1923, 2009",all inside,TRUE,1011
+02_accounts,"account year built within [1900, 2009]","1925, 2009",all inside,TRUE,1012
+02_accounts,"account year built within [1900, 2009]","1928, 2009",all inside,TRUE,1013
+02_accounts,"account year built within [1900, 2009]","1928, 2009",all inside,TRUE,1014
+02_accounts,"account year built within [1900, 2009]","1922, 2009",all inside,TRUE,1015
+02_accounts,"account year built within [1900, 2009]","1916, 2009",all inside,TRUE,1016
+02_accounts,"account year built within [1900, 2009]","1928, 2009",all inside,TRUE,1017
+02_accounts,"account year built within [1900, 2009]","1925, 2009",all inside,TRUE,1018
+02_accounts,"account year built within [1900, 2009]","1925, 2009",all inside,TRUE,1019
+02_accounts,"account year built within [1900, 2009]","1927, 2009",all inside,TRUE,1020
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1001
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1002
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1003
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1004
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1005
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1006
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1007
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1008
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1009
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1010
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1011
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1012
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1013
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1014
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1015
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1016
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1017
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1018
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1019
+02_accounts,class shares within 1 percentage point of configuration,0.0003333,max abs diff <= 0.01,TRUE,1020
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2647, 4351, 3765, 7896, 4916",IE and VS > SC,TRUE,1001
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2572, 4161, 4101, 7350, 4932",IE and VS > SC,TRUE,1002
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2728, 4026, 3860, 7684, 5028",IE and VS > SC,TRUE,1003
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2934, 4364, 4078, 7884, 4717",IE and VS > SC,TRUE,1004
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2944, 4226, 3716, 7644, 4864",IE and VS > SC,TRUE,1005
+02_accounts,inland and valley median irrigable area exceeds Surf City,"3036, 4483, 3902, 7222, 4870",IE and VS > SC,TRUE,1006
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2884, 4342, 3929, 7679, 4894",IE and VS > SC,TRUE,1007
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2890, 4008, 3996, 7580, 4818",IE and VS > SC,TRUE,1008
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2973, 4512, 3942, 7540, 4654",IE and VS > SC,TRUE,1009
+02_accounts,inland and valley median irrigable area exceeds Surf City,"3029, 3786, 3996, 8283, 4802",IE and VS > SC,TRUE,1010
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2756, 4107, 4002, 7584, 4862",IE and VS > SC,TRUE,1011
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2789, 4297, 3970, 7311, 5415",IE and VS > SC,TRUE,1012
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2813, 4292, 4052, 7074, 5101",IE and VS > SC,TRUE,1013
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2483, 4404, 3822, 7736, 4978",IE and VS > SC,TRUE,1014
+02_accounts,inland and valley median irrigable area exceeds Surf City,"3026, 4294, 3977, 7740, 4568",IE and VS > SC,TRUE,1015
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2882, 4230, 3844, 7692, 5378",IE and VS > SC,TRUE,1016
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2917, 3972, 3840, 8170, 4838",IE and VS > SC,TRUE,1017
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2530, 4104, 3982, 7284, 4979",IE and VS > SC,TRUE,1018
+02_accounts,inland and valley median irrigable area exceeds Surf City,"2823, 3976, 4246, 7124, 5150",IE and VS > SC,TRUE,1019
+02_accounts,inland and valley median irrigable area exceeds Surf City,"3024, 4262, 4087, 7463, 4784",IE and VS > SC,TRUE,1020
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 105700",all inside,TRUE,1001
+02_accounts,"irrigation account area within [5,000, 200,000]","5349, 200000",all inside,TRUE,1002
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 126900",all inside,TRUE,1003
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 200000",all inside,TRUE,1004
+02_accounts,"irrigation account area within [5,000, 200,000]","5326, 118600",all inside,TRUE,1005
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 126600",all inside,TRUE,1006
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 172400",all inside,TRUE,1007
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 171700",all inside,TRUE,1008
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 122800",all inside,TRUE,1009
+02_accounts,"irrigation account area within [5,000, 200,000]","5765, 137300",all inside,TRUE,1010
+02_accounts,"irrigation account area within [5,000, 200,000]","5122, 138100",all inside,TRUE,1011
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 128300",all inside,TRUE,1012
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 186000",all inside,TRUE,1013
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 91270",all inside,TRUE,1014
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 169900",all inside,TRUE,1015
+02_accounts,"irrigation account area within [5,000, 200,000]","5032, 176800",all inside,TRUE,1016
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 143600",all inside,TRUE,1017
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 156000",all inside,TRUE,1018
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 117600",all inside,TRUE,1019
+02_accounts,"irrigation account area within [5,000, 200,000]","5000, 200000",all inside,TRUE,1020
+02_accounts,"single family irrigable area within [500, 40,000]","762, 25460",all inside,TRUE,1001
+02_accounts,"single family irrigable area within [500, 40,000]","790, 30460",all inside,TRUE,1002
+02_accounts,"single family irrigable area within [500, 40,000]","592, 32310",all inside,TRUE,1003
+02_accounts,"single family irrigable area within [500, 40,000]","500, 37630",all inside,TRUE,1004
+02_accounts,"single family irrigable area within [500, 40,000]","948, 26600",all inside,TRUE,1005
+02_accounts,"single family irrigable area within [500, 40,000]","859, 39480",all inside,TRUE,1006
+02_accounts,"single family irrigable area within [500, 40,000]","787, 30100",all inside,TRUE,1007
+02_accounts,"single family irrigable area within [500, 40,000]","742, 27460",all inside,TRUE,1008
+02_accounts,"single family irrigable area within [500, 40,000]","690, 27940",all inside,TRUE,1009
+02_accounts,"single family irrigable area within [500, 40,000]","830, 30070",all inside,TRUE,1010
+02_accounts,"single family irrigable area within [500, 40,000]","797, 33790",all inside,TRUE,1011
+02_accounts,"single family irrigable area within [500, 40,000]","613, 24930",all inside,TRUE,1012
+02_accounts,"single family irrigable area within [500, 40,000]","870, 29480",all inside,TRUE,1013
+02_accounts,"single family irrigable area within [500, 40,000]","577, 24520",all inside,TRUE,1014
+02_accounts,"single family irrigable area within [500, 40,000]","869, 32370",all inside,TRUE,1015
+02_accounts,"single family irrigable area within [500, 40,000]","632, 32520",all inside,TRUE,1016
+02_accounts,"single family irrigable area within [500, 40,000]","613, 25930",all inside,TRUE,1017
+02_accounts,"single family irrigable area within [500, 40,000]","500, 39350",all inside,TRUE,1018
+02_accounts,"single family irrigable area within [500, 40,000]","580, 24140",all inside,TRUE,1019
+02_accounts,"single family irrigable area within [500, 40,000]","764, 29880",all inside,TRUE,1020
+03_occupancy,closures are rare,0.007463,share of locations closed < 0.02,TRUE,1001
+03_occupancy,closures are rare,0.007199,share of locations closed < 0.02,TRUE,1002
+03_occupancy,closures are rare,0.006571,share of locations closed < 0.02,TRUE,1003
+03_occupancy,closures are rare,0.00686,share of locations closed < 0.02,TRUE,1004
+03_occupancy,closures are rare,0.005334,share of locations closed < 0.02,TRUE,1005
+03_occupancy,closures are rare,0.007147,share of locations closed < 0.02,TRUE,1006
+03_occupancy,closures are rare,0.004385,share of locations closed < 0.02,TRUE,1007
+03_occupancy,closures are rare,0.006577,share of locations closed < 0.02,TRUE,1008
+03_occupancy,closures are rare,0.006903,share of locations closed < 0.02,TRUE,1009
+03_occupancy,closures are rare,0.004355,share of locations closed < 0.02,TRUE,1010
+03_occupancy,closures are rare,0.005646,share of locations closed < 0.02,TRUE,1011
+03_occupancy,closures are rare,0.004663,share of locations closed < 0.02,TRUE,1012
+03_occupancy,closures are rare,0.006575,share of locations closed < 0.02,TRUE,1013
+03_occupancy,closures are rare,0.005954,share of locations closed < 0.02,TRUE,1014
+03_occupancy,closures are rare,0.005643,share of locations closed < 0.02,TRUE,1015
+03_occupancy,closures are rare,0.006579,share of locations closed < 0.02,TRUE,1016
+03_occupancy,closures are rare,0.007183,share of locations closed < 0.02,TRUE,1017
+03_occupancy,closures are rare,0.006231,share of locations closed < 0.02,TRUE,1018
+03_occupancy,closures are rare,0.007188,share of locations closed < 0.02,TRUE,1019
+03_occupancy,closures are rare,0.004663,share of locations closed < 0.02,TRUE,1020
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8935,share > 0.6,TRUE,1001
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8718,share > 0.6,TRUE,1002
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8469,share > 0.6,TRUE,1003
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.9034,share > 0.6,TRUE,1004
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8717,share > 0.6,TRUE,1005
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8807,share > 0.6,TRUE,1006
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8705,share > 0.6,TRUE,1007
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8756,share > 0.6,TRUE,1008
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8396,share > 0.6,TRUE,1009
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8884,share > 0.6,TRUE,1010
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.9149,share > 0.6,TRUE,1011
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8894,share > 0.6,TRUE,1012
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8763,share > 0.6,TRUE,1013
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8796,share > 0.6,TRUE,1014
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8632,share > 0.6,TRUE,1015
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8802,share > 0.6,TRUE,1016
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8515,share > 0.6,TRUE,1017
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8857,share > 0.6,TRUE,1018
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.89,share > 0.6,TRUE,1019
+03_occupancy,new construction concentrated in So Cal Suburb and Inland Enclave,0.8802,share > 0.6,TRUE,1020
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01152,between 0.006 and 0.016,TRUE,1001
+03_occupancy,new construction rate near 1 percent of accounts per year,0.0104,between 0.006 and 0.016,TRUE,1002
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01045,between 0.006 and 0.016,TRUE,1003
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01104,between 0.006 and 0.016,TRUE,1004
+03_occupancy,new construction rate near 1 percent of accounts per year,0.009973,between 0.006 and 0.016,TRUE,1005
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01163,between 0.006 and 0.016,TRUE,1006
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01029,between 0.006 and 0.016,TRUE,1007
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01029,between 0.006 and 0.016,TRUE,1008
+03_occupancy,new construction rate near 1 percent of accounts per year,0.009973,between 0.006 and 0.016,TRUE,1009
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01147,between 0.006 and 0.016,TRUE,1010
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01003,between 0.006 and 0.016,TRUE,1011
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01157,between 0.006 and 0.016,TRUE,1012
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01035,between 0.006 and 0.016,TRUE,1013
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01019,between 0.006 and 0.016,TRUE,1014
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01013,between 0.006 and 0.016,TRUE,1015
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01024,between 0.006 and 0.016,TRUE,1016
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01077,between 0.006 and 0.016,TRUE,1017
+03_occupancy,new construction rate near 1 percent of accounts per year,0.0112,between 0.006 and 0.016,TRUE,1018
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01067,between 0.006 and 0.016,TRUE,1019
+03_occupancy,new construction rate near 1 percent of accounts per year,0.01157,between 0.006 and 0.016,TRUE,1020
+03_occupancy,new construction year built equals first billing year,216,all,TRUE,1001
+03_occupancy,new construction year built equals first billing year,195,all,TRUE,1002
+03_occupancy,new construction year built equals first billing year,196,all,TRUE,1003
+03_occupancy,new construction year built equals first billing year,207,all,TRUE,1004
+03_occupancy,new construction year built equals first billing year,187,all,TRUE,1005
+03_occupancy,new construction year built equals first billing year,218,all,TRUE,1006
+03_occupancy,new construction year built equals first billing year,193,all,TRUE,1007
+03_occupancy,new construction year built equals first billing year,193,all,TRUE,1008
+03_occupancy,new construction year built equals first billing year,187,all,TRUE,1009
+03_occupancy,new construction year built equals first billing year,215,all,TRUE,1010
+03_occupancy,new construction year built equals first billing year,188,all,TRUE,1011
+03_occupancy,new construction year built equals first billing year,217,all,TRUE,1012
+03_occupancy,new construction year built equals first billing year,194,all,TRUE,1013
+03_occupancy,new construction year built equals first billing year,191,all,TRUE,1014
+03_occupancy,new construction year built equals first billing year,190,all,TRUE,1015
+03_occupancy,new construction year built equals first billing year,192,all,TRUE,1016
+03_occupancy,new construction year built equals first billing year,202,all,TRUE,1017
+03_occupancy,new construction year built equals first billing year,210,all,TRUE,1018
+03_occupancy,new construction year built equals first billing year,200,all,TRUE,1019
+03_occupancy,new construction year built equals first billing year,217,all,TRUE,1020
+03_occupancy,realized single family turnover rate per year,0.07568,between 0.06 and 0.08,TRUE,1001
+03_occupancy,realized single family turnover rate per year,0.07258,between 0.06 and 0.08,TRUE,1002
+03_occupancy,realized single family turnover rate per year,0.07015,between 0.06 and 0.08,TRUE,1003
+03_occupancy,realized single family turnover rate per year,0.07189,between 0.06 and 0.08,TRUE,1004
+03_occupancy,realized single family turnover rate per year,0.0712,between 0.06 and 0.08,TRUE,1005
+03_occupancy,realized single family turnover rate per year,0.07861,between 0.06 and 0.08,TRUE,1006
+03_occupancy,realized single family turnover rate per year,0.07346,between 0.06 and 0.08,TRUE,1007
+03_occupancy,realized single family turnover rate per year,0.06881,between 0.06 and 0.08,TRUE,1008
+03_occupancy,realized single family turnover rate per year,0.07201,between 0.06 and 0.08,TRUE,1009
+03_occupancy,realized single family turnover rate per year,0.07242,between 0.06 and 0.08,TRUE,1010
+03_occupancy,realized single family turnover rate per year,0.07447,between 0.06 and 0.08,TRUE,1011
+03_occupancy,realized single family turnover rate per year,0.07109,between 0.06 and 0.08,TRUE,1012
+03_occupancy,realized single family turnover rate per year,0.07563,between 0.06 and 0.08,TRUE,1013
+03_occupancy,realized single family turnover rate per year,0.07451,between 0.06 and 0.08,TRUE,1014
+03_occupancy,realized single family turnover rate per year,0.07462,between 0.06 and 0.08,TRUE,1015
+03_occupancy,realized single family turnover rate per year,0.07178,between 0.06 and 0.08,TRUE,1016
+03_occupancy,realized single family turnover rate per year,0.07511,between 0.06 and 0.08,TRUE,1017
+03_occupancy,realized single family turnover rate per year,0.07369,between 0.06 and 0.08,TRUE,1018
+03_occupancy,realized single family turnover rate per year,0.07666,between 0.06 and 0.08,TRUE,1019
+03_occupancy,realized single family turnover rate per year,0.07385,between 0.06 and 0.08,TRUE,1020
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1001
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1002
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1003
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1004
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1005
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1006
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1007
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1008
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1009
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1010
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1011
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1012
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1013
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1014
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1015
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1016
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1017
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1018
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1019
+03_occupancy,vacancy gaps between 0 and 3 months,"0, 3",all inside,TRUE,1020
+04_climate,drought water years drier than baseline in every retailer,"0.5786, 0.5300, 0.9239, 0.7244, 0.4694",ratio < 1,TRUE,1001
+04_climate,drought water years drier than baseline in every retailer,"0.5812, 0.6207, 0.7172, 0.7448, 0.6690",ratio < 1,TRUE,1002
+04_climate,drought water years drier than baseline in every retailer,"0.6408, 0.7248, 0.7868, 0.6126, 0.6705",ratio < 1,TRUE,1003
+04_climate,drought water years drier than baseline in every retailer,"0.5089, 0.4538, 0.5563, 0.3733, 0.4688",ratio < 1,TRUE,1004
+04_climate,drought water years drier than baseline in every retailer,"0.5398, 0.5360, 0.5824, 0.4921, 0.6330",ratio < 1,TRUE,1005
+04_climate,drought water years drier than baseline in every retailer,"0.9378, 0.9526, 0.6488, 0.9395, 1.1260",ratio < 1,FALSE,1006
+04_climate,drought water years drier than baseline in every retailer,"1.2710, 0.8386, 0.9016, 0.6010, 0.9642",ratio < 1,FALSE,1007
+04_climate,drought water years drier than baseline in every retailer,"0.5805, 0.5770, 0.3576, 0.3879, 0.6323",ratio < 1,TRUE,1008
+04_climate,drought water years drier than baseline in every retailer,"0.5211, 0.6857, 0.6360, 0.5457, 0.6690",ratio < 1,TRUE,1009
+04_climate,drought water years drier than baseline in every retailer,"0.5981, 0.7709, 0.8335, 0.6835, 0.6640",ratio < 1,TRUE,1010
+04_climate,drought water years drier than baseline in every retailer,"0.5122, 0.4316, 0.5848, 0.6016, 0.4883",ratio < 1,TRUE,1011
+04_climate,drought water years drier than baseline in every retailer,"0.4824, 0.5151, 0.6607, 0.7543, 0.6178",ratio < 1,TRUE,1012
+04_climate,drought water years drier than baseline in every retailer,"0.6244, 0.5243, 0.6042, 0.7057, 0.6300",ratio < 1,TRUE,1013
+04_climate,drought water years drier than baseline in every retailer,"0.5356, 0.9719, 0.5396, 0.6065, 0.6759",ratio < 1,TRUE,1014
+04_climate,drought water years drier than baseline in every retailer,"0.6428, 0.5486, 0.4265, 0.6384, 0.8092",ratio < 1,TRUE,1015
+04_climate,drought water years drier than baseline in every retailer,"0.5141, 0.4592, 0.5120, 0.5829, 0.8452",ratio < 1,TRUE,1016
+04_climate,drought water years drier than baseline in every retailer,"0.4890, 0.4985, 0.4792, 0.6280, 0.4211",ratio < 1,TRUE,1017
+04_climate,drought water years drier than baseline in every retailer,"0.4771, 0.6832, 0.7264, 0.6707, 0.4971",ratio < 1,TRUE,1018
+04_climate,drought water years drier than baseline in every retailer,"0.6579, 0.7367, 0.4329, 0.5219, 0.4852",ratio < 1,TRUE,1019
+04_climate,drought water years drier than baseline in every retailer,"0.7514, 0.7208, 0.5242, 0.5668, 0.6178",ratio < 1,TRUE,1020
+04_climate,drought water years slightly higher in ET0 than baseline,"1.059, 1.047, 1.039, 1.044, 1.034",1 < ratio < 1.1,TRUE,1001
+04_climate,drought water years slightly higher in ET0 than baseline,"1.036, 1.036, 1.037, 1.026, 1.038",1 < ratio < 1.1,TRUE,1002
+04_climate,drought water years slightly higher in ET0 than baseline,"1.028, 1.048, 1.031, 1.040, 1.042",1 < ratio < 1.1,TRUE,1003
+04_climate,drought water years slightly higher in ET0 than baseline,"1.046, 1.032, 1.034, 1.049, 1.029",1 < ratio < 1.1,TRUE,1004
+04_climate,drought water years slightly higher in ET0 than baseline,"1.024, 1.039, 1.024, 1.043, 1.045",1 < ratio < 1.1,TRUE,1005
+04_climate,drought water years slightly higher in ET0 than baseline,"1.033, 1.040, 1.036, 1.035, 1.053",1 < ratio < 1.1,TRUE,1006
+04_climate,drought water years slightly higher in ET0 than baseline,"1.034, 1.033, 1.037, 1.037, 1.043",1 < ratio < 1.1,TRUE,1007
+04_climate,drought water years slightly higher in ET0 than baseline,"1.019, 1.033, 1.035, 1.032, 1.018",1 < ratio < 1.1,TRUE,1008
+04_climate,drought water years slightly higher in ET0 than baseline,"1.062, 1.070, 1.056, 1.056, 1.045",1 < ratio < 1.1,TRUE,1009
+04_climate,drought water years slightly higher in ET0 than baseline,"1.028, 1.041, 1.042, 1.030, 1.040",1 < ratio < 1.1,TRUE,1010
+04_climate,drought water years slightly higher in ET0 than baseline,"1.042, 1.030, 1.035, 1.037, 1.041",1 < ratio < 1.1,TRUE,1011
+04_climate,drought water years slightly higher in ET0 than baseline,"1.008, 1.025, 1.030, 1.034, 1.023",1 < ratio < 1.1,TRUE,1012
+04_climate,drought water years slightly higher in ET0 than baseline,"1.028, 1.013, 1.028, 1.032, 1.028",1 < ratio < 1.1,TRUE,1013
+04_climate,drought water years slightly higher in ET0 than baseline,"1.047, 1.051, 1.056, 1.052, 1.036",1 < ratio < 1.1,TRUE,1014
+04_climate,drought water years slightly higher in ET0 than baseline,"1.011, 1.022, 1.023, 1.012, 1.003",1 < ratio < 1.1,TRUE,1015
+04_climate,drought water years slightly higher in ET0 than baseline,"1.030, 1.035, 1.034, 1.039, 1.032",1 < ratio < 1.1,TRUE,1016
+04_climate,drought water years slightly higher in ET0 than baseline,"1.044, 1.053, 1.042, 1.034, 1.055",1 < ratio < 1.1,TRUE,1017
+04_climate,drought water years slightly higher in ET0 than baseline,"1.032, 1.031, 1.036, 1.043, 1.026",1 < ratio < 1.1,TRUE,1018
+04_climate,drought water years slightly higher in ET0 than baseline,"1.051, 1.071, 1.062, 1.041, 1.071",1 < ratio < 1.1,TRUE,1019
+04_climate,drought water years slightly higher in ET0 than baseline,"1.051, 1.064, 1.059, 1.053, 1.064",1 < ratio < 1.1,TRUE,1020
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.031, 3.739, 2.916, 2.815, 10.050",IE and VS > SC,TRUE,1001
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.992, 3.886, 3.118, 2.936, 10.440",IE and VS > SC,TRUE,1002
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.031, 3.973, 2.958, 3.048, 10.300",IE and VS > SC,TRUE,1003
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.955, 4.009, 3.167, 3.080, 10.230",IE and VS > SC,TRUE,1004
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.017, 4.054, 3.135, 2.896, 10.070",IE and VS > SC,TRUE,1005
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.956, 3.901, 3.003, 2.947, 10.350",IE and VS > SC,TRUE,1006
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.897, 3.992, 3.059, 3.030, 10.350",IE and VS > SC,TRUE,1007
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.764, 4.065, 2.993, 2.931, 10.130",IE and VS > SC,TRUE,1008
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.000, 4.021, 3.142, 2.932, 10.110",IE and VS > SC,TRUE,1009
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.030, 4.023, 2.925, 3.013, 9.945",IE and VS > SC,TRUE,1010
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.023, 3.896, 2.979, 3.037, 10.210",IE and VS > SC,TRUE,1011
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.938, 4.067, 3.030, 2.844, 10.540",IE and VS > SC,TRUE,1012
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.928, 3.926, 3.032, 2.961, 10.430",IE and VS > SC,TRUE,1013
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.891, 3.984, 3.042, 2.908, 10.170",IE and VS > SC,TRUE,1014
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.091, 4.019, 2.825, 2.952, 10.160",IE and VS > SC,TRUE,1015
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.048, 3.946, 2.993, 3.115, 10.160",IE and VS > SC,TRUE,1016
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.898, 4.120, 3.017, 3.115, 10.340",IE and VS > SC,TRUE,1017
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.084, 3.801, 2.956, 3.025, 10.280",IE and VS > SC,TRUE,1018
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"4.127, 3.878, 2.940, 2.956, 10.370",IE and VS > SC,TRUE,1019
+04_climate,inland and valley July/January ET0 ratio exceeds Surf City,"3.830, 4.015, 3.024, 2.915, 10.110",IE and VS > SC,TRUE,1020
+04_climate,precipitation concentrated November through March,"0.8241, 0.8476, 0.8390, 0.8236, 0.8367",share > 0.7,TRUE,1001
+04_climate,precipitation concentrated November through March,"0.8386, 0.8223, 0.8617, 0.8572, 0.8670",share > 0.7,TRUE,1002
+04_climate,precipitation concentrated November through March,"0.9143, 0.8106, 0.8760, 0.8828, 0.8533",share > 0.7,TRUE,1003
+04_climate,precipitation concentrated November through March,"0.8189, 0.8641, 0.8640, 0.8526, 0.8667",share > 0.7,TRUE,1004
+04_climate,precipitation concentrated November through March,"0.8120, 0.8576, 0.8497, 0.8475, 0.8406",share > 0.7,TRUE,1005
+04_climate,precipitation concentrated November through March,"0.8521, 0.9095, 0.8896, 0.8209, 0.9047",share > 0.7,TRUE,1006
+04_climate,precipitation concentrated November through March,"0.8724, 0.8323, 0.8117, 0.8589, 0.8642",share > 0.7,TRUE,1007
+04_climate,precipitation concentrated November through March,"0.8856, 0.8735, 0.8367, 0.8469, 0.8416",share > 0.7,TRUE,1008
+04_climate,precipitation concentrated November through March,"0.8188, 0.8889, 0.8618, 0.8352, 0.8484",share > 0.7,TRUE,1009
+04_climate,precipitation concentrated November through March,"0.8763, 0.8925, 0.8721, 0.8110, 0.8378",share > 0.7,TRUE,1010
+04_climate,precipitation concentrated November through March,"0.8198, 0.8454, 0.8705, 0.8684, 0.8399",share > 0.7,TRUE,1011
+04_climate,precipitation concentrated November through March,"0.8585, 0.8393, 0.8326, 0.8256, 0.8574",share > 0.7,TRUE,1012
+04_climate,precipitation concentrated November through March,"0.8755, 0.8797, 0.8336, 0.8540, 0.8330",share > 0.7,TRUE,1013
+04_climate,precipitation concentrated November through March,"0.8565, 0.8322, 0.8512, 0.8937, 0.8368",share > 0.7,TRUE,1014
+04_climate,precipitation concentrated November through March,"0.8484, 0.7894, 0.8854, 0.8331, 0.8627",share > 0.7,TRUE,1015
+04_climate,precipitation concentrated November through March,"0.8658, 0.8534, 0.8222, 0.8609, 0.8801",share > 0.7,TRUE,1016
+04_climate,precipitation concentrated November through March,"0.8539, 0.8575, 0.8626, 0.8333, 0.7850",share > 0.7,TRUE,1017
+04_climate,precipitation concentrated November through March,"0.8462, 0.8772, 0.8592, 0.8230, 0.8393",share > 0.7,TRUE,1018
+04_climate,precipitation concentrated November through March,"0.8592, 0.8352, 0.8724, 0.8407, 0.8779",share > 0.7,TRUE,1019
+04_climate,precipitation concentrated November through March,"0.8449, 0.8748, 0.8418, 0.8754, 0.8131",share > 0.7,TRUE,1020
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.847, 3.299, 2.146, 2.402, 4.587",IE and VS > SC,TRUE,1001
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.786, 3.880, 2.195, 2.427, 5.230",IE and VS > SC,TRUE,1002
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.912, 3.725, 2.181, 2.488, 5.370",IE and VS > SC,TRUE,1003
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.893, 3.392, 2.291, 2.291, 4.723",IE and VS > SC,TRUE,1004
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.873, 3.764, 2.142, 2.512, 4.722",IE and VS > SC,TRUE,1005
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"3.035, 3.429, 2.282, 2.479, 4.901",IE and VS > SC,TRUE,1006
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"3.060, 3.694, 2.309, 2.604, 4.830",IE and VS > SC,TRUE,1007
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.651, 3.529, 2.138, 2.272, 4.696",IE and VS > SC,TRUE,1008
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.951, 3.558, 2.131, 2.458, 4.450",IE and VS > SC,TRUE,1009
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"3.062, 3.628, 2.244, 2.525, 4.615",IE and VS > SC,TRUE,1010
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.847, 3.298, 2.242, 2.471, 4.690",IE and VS > SC,TRUE,1011
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.874, 3.525, 2.367, 2.349, 5.008",IE and VS > SC,TRUE,1012
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.790, 3.561, 2.094, 2.592, 4.777",IE and VS > SC,TRUE,1013
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.645, 3.594, 2.151, 2.462, 4.892",IE and VS > SC,TRUE,1014
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.743, 3.756, 2.047, 2.392, 4.487",IE and VS > SC,TRUE,1015
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.839, 3.539, 2.083, 2.593, 4.828",IE and VS > SC,TRUE,1016
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"2.721, 3.468, 2.063, 2.462, 4.571",IE and VS > SC,TRUE,1017
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"3.070, 3.361, 2.005, 2.431, 4.696",IE and VS > SC,TRUE,1018
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"3.036, 3.936, 2.197, 2.428, 4.934",IE and VS > SC,TRUE,1019
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"3.004, 3.796, 2.235, 2.238, 4.740",IE and VS > SC,TRUE,1020
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2457,between -0.30 and -0.15,TRUE,1001
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2164,between -0.30 and -0.15,TRUE,1002
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2211,between -0.30 and -0.15,TRUE,1003
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2139,between -0.30 and -0.15,TRUE,1004
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2719,between -0.30 and -0.15,TRUE,1005
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2794,between -0.30 and -0.15,TRUE,1006
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2392,between -0.30 and -0.15,TRUE,1007
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2433,between -0.30 and -0.15,TRUE,1008
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2378,between -0.30 and -0.15,TRUE,1009
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2822,between -0.30 and -0.15,TRUE,1010
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2922,between -0.30 and -0.15,TRUE,1011
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2051,between -0.30 and -0.15,TRUE,1012
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2379,between -0.30 and -0.15,TRUE,1013
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2753,between -0.30 and -0.15,TRUE,1014
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2498,between -0.30 and -0.15,TRUE,1015
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2208,between -0.30 and -0.15,TRUE,1016
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2274,between -0.30 and -0.15,TRUE,1017
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2596,between -0.30 and -0.15,TRUE,1018
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2398,between -0.30 and -0.15,TRUE,1019
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2322,between -0.30 and -0.15,TRUE,1020
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9913,>= 0.90,TRUE,1001
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9844,>= 0.90,TRUE,1002
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9848,>= 0.90,TRUE,1003
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9886,>= 0.90,TRUE,1004
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9862,>= 0.90,TRUE,1005
+05_usage,occupied single family account-months between 0 and 100 CCF,0.986,>= 0.90,TRUE,1006
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9877,>= 0.90,TRUE,1007
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9896,>= 0.90,TRUE,1008
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9877,>= 0.90,TRUE,1009
+05_usage,occupied single family account-months between 0 and 100 CCF,0.982,>= 0.90,TRUE,1010
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9891,>= 0.90,TRUE,1011
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9819,>= 0.90,TRUE,1012
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9898,>= 0.90,TRUE,1013
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9839,>= 0.90,TRUE,1014
+05_usage,occupied single family account-months between 0 and 100 CCF,0.988,>= 0.90,TRUE,1015
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9872,>= 0.90,TRUE,1016
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9852,>= 0.90,TRUE,1017
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9911,>= 0.90,TRUE,1018
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9884,>= 0.90,TRUE,1019
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9871,>= 0.90,TRUE,1020
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6501, 0.8128, 0.5858, 0.7018, 0.7274",IE and VS > SC,TRUE,1001
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6846, 0.8214, 0.5796, 0.6786, 0.7285",IE and VS > SC,TRUE,1002
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6717, 0.8253, 0.5965, 0.6909, 0.7545",IE and VS > SC,TRUE,1003
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6763, 0.8205, 0.6251, 0.7081, 0.7371",IE and VS > SC,TRUE,1004
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6684, 0.8172, 0.6121, 0.7003, 0.7248",IE and VS > SC,TRUE,1005
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6652, 0.8091, 0.6110, 0.6944, 0.7171",IE and VS > SC,TRUE,1006
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6659, 0.8046, 0.6036, 0.6913, 0.7223",IE and VS > SC,TRUE,1007
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6733, 0.8134, 0.5972, 0.6882, 0.7140",IE and VS > SC,TRUE,1008
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6757, 0.8164, 0.6018, 0.7037, 0.7128",IE and VS > SC,TRUE,1009
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6829, 0.8148, 0.5958, 0.6782, 0.7201",IE and VS > SC,TRUE,1010
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6643, 0.8159, 0.6371, 0.7057, 0.7295",IE and VS > SC,TRUE,1011
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6612, 0.8178, 0.6184, 0.6822, 0.7395",IE and VS > SC,TRUE,1012
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6718, 0.7968, 0.5838, 0.6919, 0.7261",IE and VS > SC,TRUE,1013
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6530, 0.8158, 0.6163, 0.7137, 0.7267",IE and VS > SC,TRUE,1014
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6475, 0.8172, 0.6036, 0.6826, 0.7008",IE and VS > SC,TRUE,1015
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6399, 0.8220, 0.5982, 0.7102, 0.7462",IE and VS > SC,TRUE,1016
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6669, 0.8180, 0.6206, 0.6821, 0.7050",IE and VS > SC,TRUE,1017
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6689, 0.7990, 0.6007, 0.6921, 0.7442",IE and VS > SC,TRUE,1018
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6779, 0.8243, 0.6229, 0.6765, 0.7373",IE and VS > SC,TRUE,1019
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6648, 0.8137, 0.6083, 0.7002, 0.7304",IE and VS > SC,TRUE,1020
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2465,between -0.30 and -0.15,TRUE,1001
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2281,between -0.30 and -0.15,TRUE,1002
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2278,between -0.30 and -0.15,TRUE,1003
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2246,between -0.30 and -0.15,TRUE,1004
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2568,between -0.30 and -0.15,TRUE,1005
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2598,between -0.30 and -0.15,TRUE,1006
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2608,between -0.30 and -0.15,TRUE,1007
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2429,between -0.30 and -0.15,TRUE,1008
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2463,between -0.30 and -0.15,TRUE,1009
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2193,between -0.30 and -0.15,TRUE,1010
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2539,between -0.30 and -0.15,TRUE,1011
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2357,between -0.30 and -0.15,TRUE,1012
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.203,between -0.30 and -0.15,TRUE,1013
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2463,between -0.30 and -0.15,TRUE,1014
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2436,between -0.30 and -0.15,TRUE,1015
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2138,between -0.30 and -0.15,TRUE,1016
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2198,between -0.30 and -0.15,TRUE,1017
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.256,between -0.30 and -0.15,TRUE,1018
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2222,between -0.30 and -0.15,TRUE,1019
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2402,between -0.30 and -0.15,TRUE,1020
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9851, 0.8528",>= 0.90 and >= 0.80,TRUE,1001
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9831, 0.8511",>= 0.90 and >= 0.80,TRUE,1002
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9835, 0.8461",>= 0.90 and >= 0.80,TRUE,1003
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9822, 0.8461",>= 0.90 and >= 0.80,TRUE,1004
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9798, 0.8206",>= 0.90 and >= 0.80,TRUE,1005
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9853, 0.8794",>= 0.90 and >= 0.80,TRUE,1006
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9833, 0.8661",>= 0.90 and >= 0.80,TRUE,1007
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9855, 0.8689",>= 0.90 and >= 0.80,TRUE,1008
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9870, 0.8528",>= 0.90 and >= 0.80,TRUE,1009
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9853, 0.8644",>= 0.90 and >= 0.80,TRUE,1010
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9805, 0.8617",>= 0.90 and >= 0.80,TRUE,1011
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9800, 0.8372",>= 0.90 and >= 0.80,TRUE,1012
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9838, 0.8486",>= 0.90 and >= 0.80,TRUE,1013
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9867, 0.8725",>= 0.90 and >= 0.80,TRUE,1014
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9858, 0.8644",>= 0.90 and >= 0.80,TRUE,1015
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9807, 0.8367",>= 0.90 and >= 0.80,TRUE,1016
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9814, 0.8425",>= 0.90 and >= 0.80,TRUE,1017
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9842, 0.8278",>= 0.90 and >= 0.80,TRUE,1018
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9842, 0.8697",>= 0.90 and >= 0.80,TRUE,1019
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9862, 0.8681",>= 0.90 and >= 0.80,TRUE,1020
+05_usage,prior predictive: share of draws meeting both thresholds,0.825,>= 0.5 of draws,TRUE,1001
+05_usage,prior predictive: share of draws meeting both thresholds,0.85,>= 0.5 of draws,TRUE,1002
+05_usage,prior predictive: share of draws meeting both thresholds,0.825,>= 0.5 of draws,TRUE,1003
+05_usage,prior predictive: share of draws meeting both thresholds,0.8,>= 0.5 of draws,TRUE,1004
+05_usage,prior predictive: share of draws meeting both thresholds,0.6,>= 0.5 of draws,TRUE,1005
+05_usage,prior predictive: share of draws meeting both thresholds,0.85,>= 0.5 of draws,TRUE,1006
+05_usage,prior predictive: share of draws meeting both thresholds,0.75,>= 0.5 of draws,TRUE,1007
+05_usage,prior predictive: share of draws meeting both thresholds,0.825,>= 0.5 of draws,TRUE,1008
+05_usage,prior predictive: share of draws meeting both thresholds,0.775,>= 0.5 of draws,TRUE,1009
+05_usage,prior predictive: share of draws meeting both thresholds,0.825,>= 0.5 of draws,TRUE,1010
+05_usage,prior predictive: share of draws meeting both thresholds,0.75,>= 0.5 of draws,TRUE,1011
+05_usage,prior predictive: share of draws meeting both thresholds,0.85,>= 0.5 of draws,TRUE,1012
+05_usage,prior predictive: share of draws meeting both thresholds,0.775,>= 0.5 of draws,TRUE,1013
+05_usage,prior predictive: share of draws meeting both thresholds,0.8,>= 0.5 of draws,TRUE,1014
+05_usage,prior predictive: share of draws meeting both thresholds,0.925,>= 0.5 of draws,TRUE,1015
+05_usage,prior predictive: share of draws meeting both thresholds,0.65,>= 0.5 of draws,TRUE,1016
+05_usage,prior predictive: share of draws meeting both thresholds,0.725,>= 0.5 of draws,TRUE,1017
+05_usage,prior predictive: share of draws meeting both thresholds,0.725,>= 0.5 of draws,TRUE,1018
+05_usage,prior predictive: share of draws meeting both thresholds,0.775,>= 0.5 of draws,TRUE,1019
+05_usage,prior predictive: share of draws meeting both thresholds,0.8,>= 0.5 of draws,TRUE,1020
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1001
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1002
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1003
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1004
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1005
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1006
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1007
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1008
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1009
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1010
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1011
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1012
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1013
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1014
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1015
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1016
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1017
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1018
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1019
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,1020
+05_usage,single family annual totals between 100 and 600 CCF,0.9029,>= 0.80,TRUE,1001
+05_usage,single family annual totals between 100 and 600 CCF,0.8496,>= 0.80,TRUE,1002
+05_usage,single family annual totals between 100 and 600 CCF,0.8781,>= 0.80,TRUE,1003
+05_usage,single family annual totals between 100 and 600 CCF,0.8745,>= 0.80,TRUE,1004
+05_usage,single family annual totals between 100 and 600 CCF,0.8521,>= 0.80,TRUE,1005
+05_usage,single family annual totals between 100 and 600 CCF,0.874,>= 0.80,TRUE,1006
+05_usage,single family annual totals between 100 and 600 CCF,0.8761,>= 0.80,TRUE,1007
+05_usage,single family annual totals between 100 and 600 CCF,0.88,>= 0.80,TRUE,1008
+05_usage,single family annual totals between 100 and 600 CCF,0.8675,>= 0.80,TRUE,1009
+05_usage,single family annual totals between 100 and 600 CCF,0.8347,>= 0.80,TRUE,1010
+05_usage,single family annual totals between 100 and 600 CCF,0.8673,>= 0.80,TRUE,1011
+05_usage,single family annual totals between 100 and 600 CCF,0.8611,>= 0.80,TRUE,1012
+05_usage,single family annual totals between 100 and 600 CCF,0.8758,>= 0.80,TRUE,1013
+05_usage,single family annual totals between 100 and 600 CCF,0.8636,>= 0.80,TRUE,1014
+05_usage,single family annual totals between 100 and 600 CCF,0.8818,>= 0.80,TRUE,1015
+05_usage,single family annual totals between 100 and 600 CCF,0.8671,>= 0.80,TRUE,1016
+05_usage,single family annual totals between 100 and 600 CCF,0.8436,>= 0.80,TRUE,1017
+05_usage,single family annual totals between 100 and 600 CCF,0.8822,>= 0.80,TRUE,1018
+05_usage,single family annual totals between 100 and 600 CCF,0.8748,>= 0.80,TRUE,1019
+05_usage,single family annual totals between 100 and 600 CCF,0.8728,>= 0.80,TRUE,1020
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1001
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1002
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1003
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1004
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1005
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1006
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1007
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1008
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1009
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1010
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1011
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1012
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1013
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1014
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1015
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1016
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1017
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1018
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1019
+06_treatment,feasibility: monthly savings never exceed untreated outdoor demand,1,100 percent,TRUE,1020
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1001
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1002
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1003
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1004
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1005
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1006
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1007
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1008
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1009
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1010
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1011
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1012
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1013
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1014
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1015
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1016
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1017
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1018
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1019
+06_treatment,feasibility: treated usage never below indoor demand,1,100 percent,TRUE,1020
+06_treatment,logistic regression recovers the selection coefficient signs,"0.6999, 0.5760, 0.7201, 0.5978",all signs as configured,TRUE,1001
+06_treatment,logistic regression recovers the selection coefficient signs,"0.4528, 0.6402, 0.1713, 0.7335",all signs as configured,TRUE,1002
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5392, 0.6535, 0.8347, 0.7643",all signs as configured,TRUE,1003
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5678, 0.4049, 0.8025, 0.6835",all signs as configured,TRUE,1004
+06_treatment,logistic regression recovers the selection coefficient signs,"0.6584, 0.3760, 0.5768, 0.6159",all signs as configured,TRUE,1005
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5996, 0.5852, 0.8264, 0.7544",all signs as configured,TRUE,1006
+06_treatment,logistic regression recovers the selection coefficient signs,"0.4312, 0.7021, 0.9822, 0.7129",all signs as configured,TRUE,1007
+06_treatment,logistic regression recovers the selection coefficient signs,"0.4226, 0.5653, 0.7838, 0.6853",all signs as configured,TRUE,1008
+06_treatment,logistic regression recovers the selection coefficient signs,"0.3581, 0.5478, 1.0690, 0.8579",all signs as configured,TRUE,1009
+06_treatment,logistic regression recovers the selection coefficient signs,"0.3409, 0.8207, 0.8004, 0.8214",all signs as configured,TRUE,1010
+06_treatment,logistic regression recovers the selection coefficient signs,"0.4998, 0.7161, 0.6928, 0.7139",all signs as configured,TRUE,1011
+06_treatment,logistic regression recovers the selection coefficient signs,"0.7686, 0.8025, 0.7672, 0.7192",all signs as configured,TRUE,1012
+06_treatment,logistic regression recovers the selection coefficient signs,"0.3169, 0.5406, 0.2396, 0.5759",all signs as configured,TRUE,1013
+06_treatment,logistic regression recovers the selection coefficient signs,"0.3771, 0.5512, 0.8757, 0.6340",all signs as configured,TRUE,1014
+06_treatment,logistic regression recovers the selection coefficient signs,"0.2685, 0.6918, 0.9806, 0.7033",all signs as configured,TRUE,1015
+06_treatment,logistic regression recovers the selection coefficient signs,"0.5797, 0.6332, 0.8828, 0.7123",all signs as configured,TRUE,1016
+06_treatment,logistic regression recovers the selection coefficient signs,"0.4381, 0.6291, 0.8689, 0.8024",all signs as configured,TRUE,1017
+06_treatment,logistic regression recovers the selection coefficient signs,"0.2286, 0.5371, 0.5010, 0.6490",all signs as configured,TRUE,1018
+06_treatment,logistic regression recovers the selection coefficient signs,"0.4804, 0.4362, 0.6247, 0.7246",all signs as configured,TRUE,1019
+06_treatment,logistic regression recovers the selection coefficient signs,"0.3391, 0.6845, 1.0780, 0.6813",all signs as configured,TRUE,1020
+06_treatment,planted January-March monthly mean,1.232,1 to 2.1,TRUE,1001
+06_treatment,planted January-March monthly mean,1.213,1 to 2.1,TRUE,1002
+06_treatment,planted January-March monthly mean,1.245,1 to 2.1,TRUE,1003
+06_treatment,planted January-March monthly mean,1.231,1 to 2.1,TRUE,1004
+06_treatment,planted January-March monthly mean,1.256,1 to 2.1,TRUE,1005
+06_treatment,planted January-March monthly mean,1.256,1 to 2.1,TRUE,1006
+06_treatment,planted January-March monthly mean,1.233,1 to 2.1,TRUE,1007
+06_treatment,planted January-March monthly mean,1.259,1 to 2.1,TRUE,1008
+06_treatment,planted January-March monthly mean,1.243,1 to 2.1,TRUE,1009
+06_treatment,planted January-March monthly mean,1.245,1 to 2.1,TRUE,1010
+06_treatment,planted January-March monthly mean,1.256,1 to 2.1,TRUE,1011
+06_treatment,planted January-March monthly mean,1.266,1 to 2.1,TRUE,1012
+06_treatment,planted January-March monthly mean,1.222,1 to 2.1,TRUE,1013
+06_treatment,planted January-March monthly mean,1.266,1 to 2.1,TRUE,1014
+06_treatment,planted January-March monthly mean,1.269,1 to 2.1,TRUE,1015
+06_treatment,planted January-March monthly mean,1.254,1 to 2.1,TRUE,1016
+06_treatment,planted January-March monthly mean,1.25,1 to 2.1,TRUE,1017
+06_treatment,planted January-March monthly mean,1.253,1 to 2.1,TRUE,1018
+06_treatment,planted January-March monthly mean,1.239,1 to 2.1,TRUE,1019
+06_treatment,planted January-March monthly mean,1.262,1 to 2.1,TRUE,1020
+06_treatment,planted July-September monthly mean,2.507,2 to 3.4,TRUE,1001
+06_treatment,planted July-September monthly mean,2.536,2 to 3.4,TRUE,1002
+06_treatment,planted July-September monthly mean,2.495,2 to 3.4,TRUE,1003
+06_treatment,planted July-September monthly mean,2.481,2 to 3.4,TRUE,1004
+06_treatment,planted July-September monthly mean,2.447,2 to 3.4,TRUE,1005
+06_treatment,planted July-September monthly mean,2.492,2 to 3.4,TRUE,1006
+06_treatment,planted July-September monthly mean,2.504,2 to 3.4,TRUE,1007
+06_treatment,planted July-September monthly mean,2.459,2 to 3.4,TRUE,1008
+06_treatment,planted July-September monthly mean,2.476,2 to 3.4,TRUE,1009
+06_treatment,planted July-September monthly mean,2.469,2 to 3.4,TRUE,1010
+06_treatment,planted July-September monthly mean,2.461,2 to 3.4,TRUE,1011
+06_treatment,planted July-September monthly mean,2.454,2 to 3.4,TRUE,1012
+06_treatment,planted July-September monthly mean,2.526,2 to 3.4,TRUE,1013
+06_treatment,planted July-September monthly mean,2.443,2 to 3.4,TRUE,1014
+06_treatment,planted July-September monthly mean,2.481,2 to 3.4,TRUE,1015
+06_treatment,planted July-September monthly mean,2.478,2 to 3.4,TRUE,1016
+06_treatment,planted July-September monthly mean,2.465,2 to 3.4,TRUE,1017
+06_treatment,planted July-September monthly mean,2.478,2 to 3.4,TRUE,1018
+06_treatment,planted July-September monthly mean,2.489,2 to 3.4,TRUE,1019
+06_treatment,planted July-September monthly mean,2.486,2 to 3.4,TRUE,1020
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1001
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1002
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1003
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1004
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1005
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1006
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1007
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1008
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1009
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1010
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1011
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1012
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1013
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1014
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1015
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1016
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1017
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1018
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1019
+06_treatment,"planted capped annual mean, first 12 post-months (gal/sqft/yr)",22,18 to 28,TRUE,1020
+06_treatment,planted mean exceeds planted median,"22.0, 20.3",mean > median,TRUE,1001
+06_treatment,planted mean exceeds planted median,"22.00, 20.88",mean > median,TRUE,1002
+06_treatment,planted mean exceeds planted median,"22.00, 19.96",mean > median,TRUE,1003
+06_treatment,planted mean exceeds planted median,"22.00, 20.62",mean > median,TRUE,1004
+06_treatment,planted mean exceeds planted median,"22.00, 18.08",mean > median,TRUE,1005
+06_treatment,planted mean exceeds planted median,"22.00, 20.62",mean > median,TRUE,1006
+06_treatment,planted mean exceeds planted median,"22.00, 20.48",mean > median,TRUE,1007
+06_treatment,planted mean exceeds planted median,"22.00, 20.59",mean > median,TRUE,1008
+06_treatment,planted mean exceeds planted median,"22.00, 20.99",mean > median,TRUE,1009
+06_treatment,planted mean exceeds planted median,"22.00, 20.74",mean > median,TRUE,1010
+06_treatment,planted mean exceeds planted median,"22.00, 18.79",mean > median,TRUE,1011
+06_treatment,planted mean exceeds planted median,"22.0, 21.4",mean > median,TRUE,1012
+06_treatment,planted mean exceeds planted median,"22.00, 20.34",mean > median,TRUE,1013
+06_treatment,planted mean exceeds planted median,"22.00, 20.64",mean > median,TRUE,1014
+06_treatment,planted mean exceeds planted median,"22.00, 21.35",mean > median,TRUE,1015
+06_treatment,planted mean exceeds planted median,"22.00, 21.35",mean > median,TRUE,1016
+06_treatment,planted mean exceeds planted median,"22.00, 20.86",mean > median,TRUE,1017
+06_treatment,planted mean exceeds planted median,"22.00, 20.47",mean > median,TRUE,1018
+06_treatment,planted mean exceeds planted median,"22.00, 21.74",mean > median,TRUE,1019
+06_treatment,planted mean exceeds planted median,"22.00, 19.96",mean > median,TRUE,1020
+06_treatment,planted quartiles (reported),"11.80, 20.30, 31.76",report only,TRUE,1001
+06_treatment,planted quartiles (reported),"11.58, 20.88, 31.38",report only,TRUE,1002
+06_treatment,planted quartiles (reported),"12.79, 19.96, 30.34",report only,TRUE,1003
+06_treatment,planted quartiles (reported),"10.74, 20.62, 31.52",report only,TRUE,1004
+06_treatment,planted quartiles (reported),"10.66, 18.08, 31.71",report only,TRUE,1005
+06_treatment,planted quartiles (reported),"11.05, 20.62, 30.66",report only,TRUE,1006
+06_treatment,planted quartiles (reported),"12.13, 20.48, 33.12",report only,TRUE,1007
+06_treatment,planted quartiles (reported),"12.44, 20.59, 30.36",report only,TRUE,1008
+06_treatment,planted quartiles (reported),"9.891, 20.990, 33.010",report only,TRUE,1009
+06_treatment,planted quartiles (reported),"11.60, 20.74, 29.84",report only,TRUE,1010
+06_treatment,planted quartiles (reported),"11.73, 18.79, 31.07",report only,TRUE,1011
+06_treatment,planted quartiles (reported),"10.69, 21.40, 31.71",report only,TRUE,1012
+06_treatment,planted quartiles (reported),"11.15, 20.34, 31.37",report only,TRUE,1013
+06_treatment,planted quartiles (reported),"11.21, 20.64, 31.23",report only,TRUE,1014
+06_treatment,planted quartiles (reported),"10.59, 21.35, 32.89",report only,TRUE,1015
+06_treatment,planted quartiles (reported),"11.40, 21.35, 32.43",report only,TRUE,1016
+06_treatment,planted quartiles (reported),"12.85, 20.86, 27.91",report only,TRUE,1017
+06_treatment,planted quartiles (reported),"12.41, 20.47, 30.55",report only,TRUE,1018
+06_treatment,planted quartiles (reported),"11.21, 21.74, 29.88",report only,TRUE,1019
+06_treatment,planted quartiles (reported),"11.33, 19.96, 31.18",report only,TRUE,1020
+06_treatment,planted share above 60 gal/sqft/yr,"0.010310, 0.001251, 0.036740","band [0.005, 0.035] overlaps 95% binomial interval (n = 194)",TRUE,1001
+06_treatment,planted share above 60 gal/sqft/yr,"0.020510, 0.005617, 0.051690","band [0.005, 0.035] overlaps 95% binomial interval (n = 195)",TRUE,1002
+06_treatment,planted share above 60 gal/sqft/yr,"0.019050, 0.005214, 0.048050","band [0.005, 0.035] overlaps 95% binomial interval (n = 210)",TRUE,1003
+06_treatment,planted share above 60 gal/sqft/yr,"0.020200, 0.005531, 0.050910","band [0.005, 0.035] overlaps 95% binomial interval (n = 198)",TRUE,1004
+06_treatment,planted share above 60 gal/sqft/yr,"0.025000, 0.008166, 0.057370","band [0.005, 0.035] overlaps 95% binomial interval (n = 200)",TRUE,1005
+06_treatment,planted share above 60 gal/sqft/yr,"0.025510, 0.008334, 0.058530","band [0.005, 0.035] overlaps 95% binomial interval (n = 196)",TRUE,1006
+06_treatment,planted share above 60 gal/sqft/yr,"0.009852, 0.001195, 0.035130","band [0.005, 0.035] overlaps 95% binomial interval (n = 203)",TRUE,1007
+06_treatment,planted share above 60 gal/sqft/yr,"0.010050, 0.001219, 0.035830","band [0.005, 0.035] overlaps 95% binomial interval (n = 199)",TRUE,1008
+06_treatment,planted share above 60 gal/sqft/yr,"0.018870, 0.005164, 0.047600","band [0.005, 0.035] overlaps 95% binomial interval (n = 212)",TRUE,1009
+06_treatment,planted share above 60 gal/sqft/yr,"0.014850, 0.003073, 0.042790","band [0.005, 0.035] overlaps 95% binomial interval (n = 202)",TRUE,1010
+06_treatment,planted share above 60 gal/sqft/yr,"0.025130, 0.008207, 0.057660","band [0.005, 0.035] overlaps 95% binomial interval (n = 199)",TRUE,1011
+06_treatment,planted share above 60 gal/sqft/yr,"0.019140, 0.005239, 0.048280","band [0.005, 0.035] overlaps 95% binomial interval (n = 209)",TRUE,1012
+06_treatment,planted share above 60 gal/sqft/yr,"0.019510, 0.005341, 0.049200","band [0.005, 0.035] overlaps 95% binomial interval (n = 205)",TRUE,1013
+06_treatment,planted share above 60 gal/sqft/yr,"0.009901, 0.001201, 0.035310","band [0.005, 0.035] overlaps 95% binomial interval (n = 202)",TRUE,1014
+06_treatment,planted share above 60 gal/sqft/yr,"0.014710, 0.003043, 0.042370","band [0.005, 0.035] overlaps 95% binomial interval (n = 204)",TRUE,1015
+06_treatment,planted share above 60 gal/sqft/yr,"0.014780, 0.003058, 0.042580","band [0.005, 0.035] overlaps 95% binomial interval (n = 203)",TRUE,1016
+06_treatment,planted share above 60 gal/sqft/yr,"0.015710, 0.003251, 0.045210","band [0.005, 0.035] overlaps 95% binomial interval (n = 191)",TRUE,1017
+06_treatment,planted share above 60 gal/sqft/yr,"0.019800, 0.005421, 0.049920","band [0.005, 0.035] overlaps 95% binomial interval (n = 202)",TRUE,1018
+06_treatment,planted share above 60 gal/sqft/yr,"0.019610, 0.005368, 0.049440","band [0.005, 0.035] overlaps 95% binomial interval (n = 204)",TRUE,1019
+06_treatment,planted share above 60 gal/sqft/yr,"0.020300, 0.005559, 0.051170","band [0.005, 0.035] overlaps 95% binomial interval (n = 197)",TRUE,1020
+06_treatment,planted share at or below zero,"0.04124, 0.01797, 0.07963","band [0, 0.08] overlaps 95% binomial interval (n = 194)",TRUE,1001
+06_treatment,planted share at or below zero,"0.05128, 0.02486, 0.09229","band [0, 0.08] overlaps 95% binomial interval (n = 195)",TRUE,1002
+06_treatment,planted share at or below zero,"0.06667, 0.03692, 0.10930","band [0, 0.08] overlaps 95% binomial interval (n = 210)",TRUE,1003
+06_treatment,planted share at or below zero,"0.06061, 0.03170, 0.10350","band [0, 0.08] overlaps 95% binomial interval (n = 198)",TRUE,1004
+06_treatment,planted share at or below zero,"0.05500, 0.02777, 0.09628","band [0, 0.08] overlaps 95% binomial interval (n = 200)",TRUE,1005
+06_treatment,planted share at or below zero,"0.07653, 0.04346, 0.12310","band [0, 0.08] overlaps 95% binomial interval (n = 196)",TRUE,1006
+06_treatment,planted share at or below zero,"0.06897, 0.03821, 0.11300","band [0, 0.08] overlaps 95% binomial interval (n = 203)",TRUE,1007
+06_treatment,planted share at or below zero,"0.05025, 0.02436, 0.09047","band [0, 0.08] overlaps 95% binomial interval (n = 199)",TRUE,1008
+06_treatment,planted share at or below zero,"0.07547, 0.04375, 0.11970","band [0, 0.08] overlaps 95% binomial interval (n = 212)",TRUE,1009
+06_treatment,planted share at or below zero,"0.06931, 0.03841, 0.11360","band [0, 0.08] overlaps 95% binomial interval (n = 202)",TRUE,1010
+06_treatment,planted share at or below zero,"0.05528, 0.02791, 0.09675","band [0, 0.08] overlaps 95% binomial interval (n = 199)",TRUE,1011
+06_treatment,planted share at or below zero,"0.08134, 0.04810, 0.12700","band [0, 0.08] overlaps 95% binomial interval (n = 209)",TRUE,1012
+06_treatment,planted share at or below zero,"0.05854, 0.03061, 0.10000","band [0, 0.08] overlaps 95% binomial interval (n = 205)",TRUE,1013
+06_treatment,planted share at or below zero,"0.06931, 0.03841, 0.11360","band [0, 0.08] overlaps 95% binomial interval (n = 202)",TRUE,1014
+06_treatment,planted share at or below zero,"0.08333, 0.04929, 0.13010","band [0, 0.08] overlaps 95% binomial interval (n = 204)",TRUE,1015
+06_treatment,planted share at or below zero,"0.07389, 0.04194, 0.11890","band [0, 0.08] overlaps 95% binomial interval (n = 203)",TRUE,1016
+06_treatment,planted share at or below zero,"0.06806, 0.03674, 0.11360","band [0, 0.08] overlaps 95% binomial interval (n = 191)",TRUE,1017
+06_treatment,planted share at or below zero,"0.08416, 0.04979, 0.13130","band [0, 0.08] overlaps 95% binomial interval (n = 202)",TRUE,1018
+06_treatment,planted share at or below zero,"0.04902, 0.02375, 0.08830","band [0, 0.08] overlaps 95% binomial interval (n = 204)",TRUE,1019
+06_treatment,planted share at or below zero,"0.05584, 0.02820, 0.09771","band [0, 0.08] overlaps 95% binomial interval (n = 197)",TRUE,1020
+06_treatment,share of treated household-months where the cap binds (reported),0.0933,report only,TRUE,1001
+06_treatment,share of treated household-months where the cap binds (reported),0.1196,report only,TRUE,1002
+06_treatment,share of treated household-months where the cap binds (reported),0.09298,report only,TRUE,1003
+06_treatment,share of treated household-months where the cap binds (reported),0.08059,report only,TRUE,1004
+06_treatment,share of treated household-months where the cap binds (reported),0.06353,report only,TRUE,1005
+06_treatment,share of treated household-months where the cap binds (reported),0.0957,report only,TRUE,1006
+06_treatment,share of treated household-months where the cap binds (reported),0.1075,report only,TRUE,1007
+06_treatment,share of treated household-months where the cap binds (reported),0.08478,report only,TRUE,1008
+06_treatment,share of treated household-months where the cap binds (reported),0.07017,report only,TRUE,1009
+06_treatment,share of treated household-months where the cap binds (reported),0.08388,report only,TRUE,1010
+06_treatment,share of treated household-months where the cap binds (reported),0.07172,report only,TRUE,1011
+06_treatment,share of treated household-months where the cap binds (reported),0.0663,report only,TRUE,1012
+06_treatment,share of treated household-months where the cap binds (reported),0.1139,report only,TRUE,1013
+06_treatment,share of treated household-months where the cap binds (reported),0.05824,report only,TRUE,1014
+06_treatment,share of treated household-months where the cap binds (reported),0.08371,report only,TRUE,1015
+06_treatment,share of treated household-months where the cap binds (reported),0.08837,report only,TRUE,1016
+06_treatment,share of treated household-months where the cap binds (reported),0.07078,report only,TRUE,1017
+06_treatment,share of treated household-months where the cap binds (reported),0.08524,report only,TRUE,1018
+06_treatment,share of treated household-months where the cap binds (reported),0.09293,report only,TRUE,1019
+06_treatment,share of treated household-months where the cap binds (reported),0.09148,report only,TRUE,1020
+06_treatment,treated share of single family candidates,0.08865,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1001
+06_treatment,treated share of single family candidates,0.08445,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1002
+06_treatment,treated share of single family candidates,0.09306,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1003
+06_treatment,treated share of single family candidates,0.09098,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1004
+06_treatment,treated share of single family candidates,0.09087,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1005
+06_treatment,treated share of single family candidates,0.09048,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1006
+06_treatment,treated share of single family candidates,0.09355,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1007
+06_treatment,treated share of single family candidates,0.08851,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1008
+06_treatment,treated share of single family candidates,0.09724,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1009
+06_treatment,treated share of single family candidates,0.08969,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1010
+06_treatment,treated share of single family candidates,0.08969,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1011
+06_treatment,treated share of single family candidates,0.09094,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1012
+06_treatment,treated share of single family candidates,0.09127,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1013
+06_treatment,treated share of single family candidates,0.09284,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1014
+06_treatment,treated share of single family candidates,0.0893,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1015
+06_treatment,treated share of single family candidates,0.09148,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1016
+06_treatment,treated share of single family candidates,0.08636,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1017
+06_treatment,treated share of single family candidates,0.09062,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1018
+06_treatment,treated share of single family candidates,0.09098,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1019
+06_treatment,treated share of single family candidates,0.09141,about 9 to 11 percent expected (0.07 to 0.13),TRUE,1020

@@ -1,0 +1,5 @@
+stage,check,value,threshold,pass,blocking
+01_geography,"block group median income within [25,000, 250,000]","29000, 206800",all inside,TRUE,TRUE
+01_geography,"block group median year built within [1940, 2010]","1957, 1999",all inside,TRUE,TRUE
+01_geography,"block group average household size within [2, 4]","2.18, 3.54",all inside,TRUE,TRUE
+01_geography,zip and block group counts,"12, 41",about 12 zips and 40 block groups in the default profile,TRUE,TRUE

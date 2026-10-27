@@ -1,0 +1,10 @@
+stage,check,value,threshold,pass,blocking
+05_usage,occupied single family account-months between 0 and 100 CCF,0.9816,>= 0.90,TRUE,TRUE
+05_usage,single family annual totals between 100 and 600 CCF,0.8608,>= 0.80,TRUE,TRUE
+05_usage,median July/January usage ratio larger for Inland Enclave and Valley Small Town than Surf City,"3.074, 3.696, 2.215, 2.595, 4.537",IE and VS > SC,TRUE,TRUE
+05_usage,median single family usage June-December 2015 vs same months of 2013,-0.2559,between -0.30 and -0.15,TRUE,TRUE
+05_usage,outdoor share larger inland and in the valley than in Surf City,"0.6733, 0.8111, 0.6012, 0.6944, 0.7176",IE and VS > SC,TRUE,TRUE
+05_usage,prior predictive: median draw meets the 0-100 CCF and 100-600 CCF thresholds,"0.9809, 0.8294",>= 0.90 and >= 0.80,TRUE,TRUE
+05_usage,prior predictive: share of draws meeting both thresholds,0.65,>= 0.5 of draws,TRUE,TRUE
+05_usage,prior predictive: share of draws with inland/valley seasonal ratio above Surf City,1,>= 0.75 of draws,TRUE,TRUE
+05_usage,prior predictive: median 2015 vs 2013 drop across draws,-0.2344,between -0.30 and -0.15,TRUE,TRUE

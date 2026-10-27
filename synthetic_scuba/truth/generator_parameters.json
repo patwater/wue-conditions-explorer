@@ -1,0 +1,64 @@
+{
+  "usage": {
+    "sigma_retailer": 0.1,
+    "sigma_bg": 0.08,
+    "sigma_hh": 0.2,
+    "beta_attitude": -0.1,
+    "ar_phi": 0.6,
+    "ar_sigma": 0.15,
+    "sigma_shock": 0.04,
+    "attitude_trend": 0,
+    "noise_scale": 1,
+    "voluntary_effect": -0.09,
+    "mandatory_effect": -0.165,
+    "realized_retailer_effects": {
+      "SC": 0.126632322534774,
+      "SS": -0.0254170250460879,
+      "AC": 0.0498361487331075,
+      "IE": 0.0989081786886231,
+      "VS": -0.0226768017310941
+    },
+    "realized_retailer_slopes": {
+      "SC": -0.00619305567881139,
+      "SS": -0.00354829331060575,
+      "AC": -0.00746990475110247,
+      "IE": -0.0038845754867734,
+      "VS": -0.00911892756060699
+    }
+  },
+  "treatment": {
+    "selection_intercept": -2.73226558442516,
+    "selection_coefs": {
+      "log_income": 0.4,
+      "log_area": 0.6,
+      "efficiency": 0.8,
+      "attitude": 0.7
+    },
+    "structural_savings_intercept": 14.9210911867157,
+    "savings_coefs": {
+      "efficiency": 8,
+      "log_quantity": -4,
+      "log_area_ratio": -3,
+      "log_income": -6,
+      "et": 0.1
+    },
+    "seasonal": {
+      "amplitude": 0.22,
+      "peak_month": 8
+    },
+    "structural_skew": {
+      "sd_lower": 9.5,
+      "sd_upper": 18,
+      "scale": 0.5
+    },
+    "behavioral_sd": 6,
+    "savings_decay_per_year": 0,
+    "extreme_savers": {
+      "share": 0.006,
+      "range": [55, 85]
+    },
+    "turnover_behavioral_corr": 0.5,
+    "cohort_target": 175,
+    "treated_share_of_candidates": 0.0870421425758172
+  }
+}

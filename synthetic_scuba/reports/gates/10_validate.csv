@@ -1,0 +1,9 @@
+stage,check,value,threshold,pass,blocking
+10_validate,absolute bias of matched DiD against the planted effect (gal/sqft/yr),-1.691,|bias| < 3,TRUE,FALSE
+10_validate,90 percent interval coverage of the planted effect (reported),0.4171,nominal 0.90,TRUE,TRUE
+10_validate,variance decomposition: estimated SD vs sqrt(planted^2 + placebo^2) (reported),"94.44, 81.67",ratio near 1,TRUE,TRUE
+10_validate,meta-regression signs match the planted regression (reported),3 of 5,report only,TRUE,TRUE
+10_validate,edge cases are all present in the data,"1716, 3669, 43, 9, 21, 49, 8, 9, 24",each > 0,TRUE,TRUE
+10_validate,no two stage-unit RNG keys share a seed integer,"33510, 33510",all distinct,TRUE,TRUE
+10_validate,data and truth files identical across core counts,"70, 70",all files identical,TRUE,TRUE
+10_validate,scenario runs completed,7,6 scenarios plus base,TRUE,TRUE
