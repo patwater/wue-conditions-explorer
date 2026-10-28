@@ -13,6 +13,8 @@ OUT <- file.path(root, "dashboard", "app", "data")
 dir.create(OUT, recursive = TRUE, showWarnings = FALSE)
 MIN_CELL <- 10L
 MDAYS <- 30.4375
+LIFE_YEARS <- 10          # assumed useful life of a rebate measure, for dollars per acre-foot (undiscounted)
+GAL_PER_CCF <- 748.052
 rd <- function(f) { f <- file.path(S, f); if (grepl("parquet$", f)) as.data.table(read_parquet(f)) else fread(f, na.strings = "") }
 put <- function(x, name) write_json(x, file.path(OUT, name), auto_unbox = TRUE, digits = 4, na = "null", dataframe = "rows", pretty = FALSE)
 supp <- function(v, n) fifelse(n >= MIN_CELL, v, NA_real_)
@@ -110,6 +112,54 @@ savings <- list(
                           n = n_households, estimate = converted_estimate, lo90 = converted_lo90, hi90 = converted_hi90, unit = converted_unit,
                           seasonal_p = seasonal_pval, summer_minus_winter_ccf, summer_minus_winter_se)])
 
+# ---- Cost-effectiveness and water saved ----------------------------------------------------------------------
+# Dollars per acre-foot = rebate payment / (annual savings per unit x LIFE_YEARS / gallons per acre-foot), using the
+# matched DiD estimates; the 90% range carries the savings interval through (an interval that reaches zero leaves the
+# cost unbounded). Duplicate rebate records are counted once per location and type, as in the analysis.
+GAL_AF <- params$units$gallons_per_af$value
+first_rb <- rb[order(rebate_instance_post_date)][, .SD[1], by = .(location_id_from_utility, rebate_instance_type)]
+prog_lab <- c(turf = "Turf removal", "high efficiency clothes washer" = "Clothes washer", "weather based irrigation controller" = "Irrigation controller")
+ccf_gal_yr <- function(x) x * 12 * GAL_PER_CCF
+turf_pooled <- pooled[model == "stacked_did_fixest"]
+oth_ix <- setNames(seq_len(nrow(oth)), fifelse(oth$type == "hecw", "high efficiency clothes washer", "weather based irrigation controller"))
+annual <- rbind(
+  data.table(type = "turf", unit = "square foot of turf removed", gal_yr = turf_pooled$estimate,
+             gal_yr_lo = turf_pooled$estimate - 1.645 * turf_pooled$se, gal_yr_hi = turf_pooled$estimate + 1.645 * turf_pooled$se,
+             basis = "stacked matched DiD, first 12 post-months"),
+  rbindlist(lapply(names(oth_ix), function(ty) { o <- oth[oth_ix[[ty]]]
+    data.table(type = ty, unit = "rebate", gal_yr = ccf_gal_yr(o$pooled_saving_ccf_per_month),
+               gal_yr_lo = ccf_gal_yr(o$pooled_saving_ccf_per_month - 1.645 * o$pooled_se_ccf),
+               gal_yr_hi = ccf_gal_yr(o$pooled_saving_ccf_per_month + 1.645 * o$pooled_se_ccf),
+               basis = "stacked matched DiD, first 12 post-months") })))
+pay <- first_rb[, .(rebates = .N, units = sum(rebate_instance_quantity), paid = sum(rebate_instance_payment)), by = .(type = rebate_instance_type)]
+ce <- merge(annual, pay, by = "type")
+ce[, payment_per_unit := paid / units]
+ce[, `:=`(af_life_per_unit = gal_yr * LIFE_YEARS / GAL_AF)]
+dpa <- function(pay, gal) fifelse(gal > 0, pay / (gal * LIFE_YEARS / GAL_AF), NA_real_)
+ce[, `:=`(dollars_per_af = dpa(payment_per_unit, gal_yr), dollars_per_af_low = dpa(payment_per_unit, gal_yr_hi),
+          dollars_per_af_high = dpa(payment_per_unit, gal_yr_lo), af_life_total = units * gal_yr * LIFE_YEARS / GAL_AF,
+          af_life_total_lo = units * gal_yr_lo * LIFE_YEARS / GAL_AF, af_life_total_hi = units * gal_yr_hi * LIFE_YEARS / GAL_AF,
+          program = prog_lab[type])]
+ce <- ce[match(names(prog_lab), type)]
+# Annual water saved by rebates installed by each year end (acre-feet per year), by program and retailer.
+first_rb <- merge(first_rb, loc[, .(location_id_from_utility = location_id, utility_name_loc = utility_name)], by = "location_id_from_utility")
+ends <- data.table(period = c(as.character(2010:2015), "2016 (Apr)"), end = as.IDate(c(sprintf("%d-12-31", 2010:2015), "2016-04-30")))
+inst <- rbindlist(lapply(seq_len(nrow(ends)), function(i) {
+  x <- first_rb[rebate_instance_post_date <= ends$end[i]]
+  rbind(x[, .(utility_name = "All retailers", rebates = .N, units = sum(rebate_instance_quantity)), by = .(type = rebate_instance_type)],
+        x[, .(rebates = .N, units = sum(rebate_instance_quantity)), by = .(utility_name = utility_name_loc, type = rebate_instance_type)])[
+    , period := ends$period[i]]
+}))
+inst <- merge(inst, annual[, .(type, gal_yr, gal_yr_lo, gal_yr_hi)], by = "type")
+inst[, `:=`(af_per_year = units * gal_yr / GAL_AF, af_per_year_lo = units * gal_yr_lo / GAL_AF, af_per_year_hi = units * gal_yr_hi / GAL_AF,
+            program = prog_lab[type])]
+for (c in c("af_per_year", "af_per_year_lo", "af_per_year_hi")) set(inst, j = c, value = supp(inst[[c]], inst$rebates))
+inst[, rebates := fifelse(rebates >= MIN_CELL, rebates, NA_integer_)]
+water_saved <- list(life_years = LIFE_YEARS, gallons_per_af = GAL_AF,
+  cost_effectiveness = ce[, .(type, program, unit, basis, rebates, units, paid, payment_per_unit, gal_yr, gal_yr_lo, gal_yr_hi,
+                              af_life_per_unit, dollars_per_af, dollars_per_af_low, dollars_per_af_high, af_life_total, af_life_total_lo, af_life_total_hi)],
+  installed = inst[, .(utility_name, period, type, program, rebates, af_per_year, af_per_year_lo, af_per_year_hi)][order(utility_name, period, type)])
+
 # ---- Data quality ------------------------------------------------------------------------------------------------
 cov <- usage[, .(location_id = location_id_from_utility, utility_name, s = usage_start_date, e = usage_end_date)]
 span <- cov[, .(first = min(s), last = max(e)), by = .(location_id, utility_name)]
@@ -131,12 +181,12 @@ zero <- usage[, .(zero_usage_share = mean(usage_ccf == 0)), by = utility_name]
 quality <- Reduce(function(a, b) merge(a, b, by = "utility_name"), list(qual, hh, turn, zero, cleaning))
 quality <- list(by_retailer = quality, coverage = coverage, duplicate_turf_locations = dup)
 
-meta <- list(generated = as.character(Sys.Date()), profile = "default", root_seed = params$seed$root_seed$value,
+meta <- list(generated = as.character(Sys.Date()), profile = "default", root_seed = params$seed$root_seed$value, life_years = LIFE_YEARS,
              retailers = ret_cfg$name, min_cell = MIN_CELL,
              note = "All data is simulated. Planted effects are assumptions written into the generator, not knowledge about real households.")
 put(meta, "meta.json"); put(overview, "retailers.json"); put(um, "usage_monthly.json"); put(cl, "climate_monthly.json")
 put(sup, "supplier_monthly.json"); put(list(by_year = rb_year, by_retailer = rb_ret, by_retailer_year = rb_ret_year), "rebates.json"); put(savings, "savings.json")
-put(quality, "quality.json")
+put(quality, "quality.json"); put(water_saved, "water_saved.json")
 
 # ---- Answer key (planted effects known only to the generator) ---------------------------------------------------
 R <- function(f) fread(file.path(S, "reports", f))
@@ -158,5 +208,17 @@ answer_key <- list(
   other_rebates = data.table(type = c("High efficiency clothes washer", "Weather based irrigation controller"),
                              planted = c(params$treatment$other_rebates$value$hecw$gal_per_day, params$treatment$other_rebates$value$wbic$outdoor_frac)),
   scenarios = scen)
+# Planted cost-effectiveness: turf uses the planted mean over the same headline windows as the estimate; washers and
+# controllers use the mean planted monthly saving among holders after installation, from the clean panel.
+clean <- rd("truth/clean_panel.parquet")[, .(location_id, t, planted_hecw_saving_ccf, planted_wbic_saving_ccf)]
+po <- rd("truth/planted_other_rebate_effects.csv")
+pm <- function(col, tcol) { h <- po[!is.na(get(tcol)), .(location_id, ti = get(tcol))]
+  x <- merge(clean, h, by = "location_id")[t > ti]; mean(x[[col]]) }
+pl_gal <- c(turf = answer_key$planted_mean,
+            "high efficiency clothes washer" = ccf_gal_yr(pm("planted_hecw_saving_ccf", "t_install_hecw")),
+            "weather based irrigation controller" = ccf_gal_yr(pm("planted_wbic_saving_ccf", "t_install_wbic")))
+answer_key$cost_effectiveness <- ce[, .(type, program, planted_gal_yr = pl_gal[type],
+                                        planted_dollars_per_af = dpa(payment_per_unit, pl_gal[type]),
+                                        planted_af_life_total = units * pl_gal[type] * LIFE_YEARS / GAL_AF)]
 put(answer_key, "answer_key.json")
 message("Prepared ", length(list.files(OUT)), " files in ", OUT)

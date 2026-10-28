@@ -10,6 +10,16 @@ row (retailer and the answer key toggle), neutral styling in light and dark them
 chart. Answer key mode is off by default; `app/data/answer_key.json` is fetched only when a viewer turns it on. No value
 is built from fewer than 10 accounts or households, and no individual account is shown.
 
+## Dollars per acre-foot and water saved
+
+The overview reports rebate dollars per acre-foot of water saved for turf removal, clothes washers and irrigation
+controllers, and a chart of the water saved each year by the rebates installed to date. Both use the matched DiD
+estimates from the first 12 post-months and assume each measure keeps saving at that rate for 10 years
+(`LIFE_YEARS` in `prep/prepare_data.R`), undiscounted. Costs are the rebate payments only (duplicate rebate records are
+counted once), not program administration or the customer's own spending. The 90 percent range carries the savings
+interval through; when that interval reaches zero, as it does for clothes washers, the cost has no upper bound and the
+page says so. Answer key mode adds the same figures computed with the planted savings.
+
 ## Updating the data
 
 ```

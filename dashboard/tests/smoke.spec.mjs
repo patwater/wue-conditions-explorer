@@ -44,3 +44,13 @@ test("retailer filter scopes the usage view", async ({ page }) => {
   await page.locator("#chart-usage .table-toggle").click();
   await expect(page.locator("#chart-usage th").nth(1)).toHaveText("Valley Small Town");
 });
+
+test("overview shows dollars per acre-foot and the water saved chart", async ({ page }) => {
+  await page.goto("/#overview");
+  const tiles = page.locator("#cost-tiles .tile");
+  await expect(tiles).toHaveCount(3);
+  await expect(tiles.first()).toContainText("/ AF");
+  await expect(page.locator("#cost-tiles .tile.hero")).toHaveCount(1);
+  await expect(page.locator("#chart-water-saved .plot svg").first()).toBeVisible();
+  await expect(page.locator("#chart-water-saved .table-toggle")).toHaveCount(1);
+});
