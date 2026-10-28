@@ -50,4 +50,15 @@ check("answer key planted mean", js("answer_key.json")$planted_mean, mean(pv$pla
 # 6. Minimum cell size: no usage aggregate built from fewer than 10 accounts is shown.
 check("no usage cell below the minimum size is shown", sum(!is.na(um$median_ccf) & um$n < 10), 0, 0)
 
+# 7. Dollars per acre-foot for turf: payment per sq ft / (pooled gal per sq ft per yr x 10 years / gallons per AF),
+#    with duplicate rebate records counted once per location.
+ws <- js("water_saved.json")
+tr <- rb[rebate_instance_type == "turf"][order(rebate_instance_post_date)][, .SD[1], by = location_id_from_utility]
+want <- (sum(tr$rebate_instance_payment) / sum(tr$rebate_instance_quantity)) / (pe[model == "stacked_did_fixest", estimate] * ws$life_years / 325851)
+check("turf rebate dollars per acre-foot (10-year life)", as.data.table(ws$cost_effectiveness)[type == "turf", dollars_per_af], want)
+
+# 8. Water saved per year by the end of the panel, all retailers: units installed x annual savings per unit.
+inst <- as.data.table(ws$installed)[utility_name == "All retailers" & period == "2016 (Apr)" & type == "turf"]
+check("turf acre-feet per year saved by April 2016", inst$af_per_year, sum(tr$rebate_instance_quantity) * pe[model == "stacked_did_fixest", estimate] / 325851)
+
 if (fails > 0) { cat(fails, "check(s) failed\n"); quit(status = 1) } else cat("All reconciliation checks passed\n")

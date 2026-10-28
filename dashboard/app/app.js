@@ -7,7 +7,7 @@ const state = { view: "overview", retailer: "All retailers", answerKey: false, d
 const ALL = "All retailers";
 const FONT = 'system-ui, -apple-system, "Segoe UI", sans-serif';
 const fmt0 = d3.format(",.0f"), fmt1 = d3.format(",.1f"), fmt2 = d3.format(",.2f");
-const fmtPct = d3.format(".0%"), fmtSignedPct = d3.format("+.0%");
+const fmtPct = d3.format(".0%"), fmtSignedPct = d3.format("+.0%"), fmtUSD = d3.format("$,.0f");
 const parseMonth = d3.utcParse("%Y-%m");
 const monthName = d3.utcFormat("%b %Y");
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -36,7 +36,7 @@ async function loadJSON(name) {
   return r.json();
 }
 async function loadAll() {
-  const names = ["meta", "retailers", "usage_monthly", "climate_monthly", "supplier_monthly", "rebates", "savings", "quality"];
+  const names = ["meta", "retailers", "usage_monthly", "climate_monthly", "supplier_monthly", "rebates", "savings", "quality", "water_saved"];
   const parts = await Promise.all(names.map((n) => loadJSON(`${n}.json`)));
   names.forEach((n, i) => (state.data[n] = parts[i]));
   for (const d of state.data.usage_monthly) d.date = parseMonth(d.month);
@@ -250,6 +250,8 @@ function renderOverview() {
   if (state.answerKey && state.key) tiles.append(tile("Planted savings mean (answer key)", `${fmt1(state.key.planted_mean)} gal/sq ft/yr`,
     "over the same windows; known only because the data is simulated", "planted"));
 
+  renderCostAndWater();
+
   const cards = document.getElementById("retailer-cards");
   cards.replaceChildren(...D.retailers.map((r) => {
     const key = el("span", { class: "key" }); key.style.background = colorFor(r.name);
@@ -283,6 +285,66 @@ function renderOverview() {
     })); },
     table: { columns: ["Retailer", "Median irrigable area (sq ft)", "Median income", "Accounts"],
       rows: rows.map((r) => [r.name, fmt0(r.median_irrigable_area_sf), `$${fmt0(r.median_income)}`, fmt0(r.accounts_jan2010)]) },
+  });
+}
+
+// Dollars per acre-foot saved and the headline chart of water saved by rebates installed to date.
+const PROGRAMS = ["turf", "high efficiency clothes washer", "weather based irrigation controller"];
+const programColor = (t) => css(`--series-${PROGRAMS.indexOf(t) + 1}`);
+function renderCostAndWater() {
+  const W = state.data.water_saved, K = state.answerKey ? state.key : null;
+  const life = W.life_years;
+  document.getElementById("cost-lede").textContent =
+    `Rebate dollars per acre-foot of water saved, if each measure keeps saving at its estimated rate for ${life} years (undiscounted). ` +
+    "Costs are the rebate payments only, not program administration or the customer's own spending. Savings come from the matched DiD estimates, and the range carries their 90 percent interval through.";
+  const kce = K ? new Map(K.cost_effectiveness.map((d) => [d.type, d])) : null;
+  const range = (d) => `90% range ${fmtUSD(d.dollars_per_af_low)} to ${d.dollars_per_af_high == null ? "not bounded (savings could be zero)" : fmtUSD(d.dollars_per_af_high)}`;
+  const tiles = document.getElementById("cost-tiles");
+  tiles.replaceChildren(...W.cost_effectiveness.map((d, i) => {
+    const unit = d.type === "turf" ? `$${fmt2(d.payment_per_unit)} per sq ft` : `${fmtUSD(d.payment_per_unit)} per rebate`;
+    const planted = kce ? ` Answer key: ${fmtUSD(kce.get(d.type).planted_dollars_per_af)} per AF with the planted savings.` : "";
+    return tile(`${d.program}: rebate dollars per acre-foot saved`, `${fmtUSD(d.dollars_per_af)} / AF`,
+      `${range(d)}. Pays ${unit}; ${fmt0(d.rebates)} rebates in the data.${planted}`, i === 0 ? "hero" : "");
+  }));
+
+  const R = state.retailer;
+  const rows = W.installed.filter((d) => d.utility_name === R);
+  const periods = Array.from(new Set(W.installed.map((d) => d.period))).sort();
+  const drawn = rows.filter((d) => d.af_per_year != null);
+  const totals = periods.map((p) => {
+    const r = rows.filter((d) => d.period === p);
+    const ok = r.length === PROGRAMS.length && r.every((d) => d.af_per_year != null);
+    return { period: p, total: ok ? d3.sum(r, (d) => d.af_per_year) : null,
+             lo: ok ? d3.sum(r, (d) => d.af_per_year_lo) : null, hi: ok ? d3.sum(r, (d) => d.af_per_year_hi) : null };
+  });
+  const suppressed = rows.filter((d) => d.af_per_year == null).length;
+  const last = totals[totals.length - 1];
+  const lifeTotal = d3.sum(W.cost_effectiveness, (d) => d.af_life_total);
+  chartCard(document.getElementById("chart-water-saved"), {
+    title: `Water saved each year by rebates installed to date (${R})`,
+    subtitle: "Acre-feet per year at each year end, by program. Each rebate is credited with its program's estimated annual savings; the thin rule marks the 90% range of the total.",
+    legend: PROGRAMS.map((t) => ({ label: W.cost_effectiveness.find((d) => d.type === t).program, color: programColor(t), shape: "box" })),
+    height: 320,
+    note: (suppressed ? `${suppressed} program-year cells with fewer than 10 rebates are suppressed, so their totals are not shown. ` : "") +
+      (R === ALL ? `Over ${life} years, all rebates in the data would save about ${fmt0(lifeTotal)} acre-feet at the estimated rates.` : "") +
+      " The range is wide because household savings are hard to estimate; see Rebates and savings.",
+    render: (w, h) => Plot.plot(baseOptions(w, h, {
+      x: { label: null, domain: periods, padding: 0.35,
+           tickFormat: (p) => (w >= NARROW ? p : p.startsWith("2016") ? "Apr '16" : `'${p.slice(2)}`) },
+      y: { label: "Acre-feet per year", grid: false, domain: [0, 1.15 * (d3.max(totals, (d) => d.hi) ?? d3.max(drawn, (d) => d.af_per_year_hi) ?? 1)] },
+      color: { domain: PROGRAMS, range: PROGRAMS.map(programColor) },
+      marks: [gridY(), Plot.ruleY([0], { stroke: css("--axis") }),
+        Plot.barY(drawn, Plot.stackY({ x: "period", y: "af_per_year", fill: "type", order: PROGRAMS, stroke: css("--surface"), strokeWidth: 2 })),
+        Plot.ruleX(totals.filter((d) => d.total != null), { x: "period", y1: (d) => Math.max(0, d.lo), y2: "hi", stroke: css("--text-2"), strokeWidth: 1.5 }),
+        Plot.text(totals.filter((d) => d.total != null && d.period === last.period), { x: "period", y: "hi", text: (d) => `${fmt1(d.total)} AF/yr`, dy: -10, fill: css("--text") }),
+        tipMark(drawn, Plot.stackY({ x: "period", y: "af_per_year", z: "type", order: PROGRAMS,
+          title: (d) => `${d.program}, end of ${d.period}\n${fmt2(d.af_per_year)} AF/yr from ${fmt0(d.rebates)} rebates\n90% ${fmt2(d.af_per_year_lo)} to ${fmt2(d.af_per_year_hi)}` }))],
+    })),
+    table: {
+      columns: ["Year end", ...PROGRAMS.map((t) => `${W.cost_effectiveness.find((d) => d.type === t).program} (AF/yr)`), "Total (AF/yr)", "Total 90% low", "Total 90% high"],
+      rows: periods.map((p, i) => [p, ...PROGRAMS.map((t) => { const v = rows.find((d) => d.period === p && d.type === t)?.af_per_year; return v == null ? null : fmt2(v); }),
+        totals[i].total == null ? null : fmt1(totals[i].total), totals[i].lo == null ? null : fmt1(totals[i].lo), totals[i].hi == null ? null : fmt1(totals[i].hi)]),
+    },
   });
 }
 
